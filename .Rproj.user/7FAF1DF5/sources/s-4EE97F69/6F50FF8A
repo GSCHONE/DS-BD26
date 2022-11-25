@@ -3,7 +3,7 @@
     "path": "~/GitHub/DS-BD26/test.R",
     "project_path": "test.R",
     "type": "r_source",
-    "hash": "261768982",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1669384103101.0,
@@ -15,11 +15,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1669384135,
+    "lastKnownWriteTime": 1669384783,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1669384135662,
+    "last_content_update": 1669384783,
     "read_only": false,
     "read_only_alternatives": []
 }
