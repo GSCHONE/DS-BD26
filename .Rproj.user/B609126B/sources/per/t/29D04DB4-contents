@@ -3,8 +3,11 @@
   +  +#PROJECT SOURCES
 library(readxl)
 library(tidyverse)
-
-#1 DONNEES PUBLIQUES, MIS 12/06/2022 VARIABLE Y : https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/
+library(lubridate)
+  library(json)
+  library(httr)
+library(rjson)
+  #1 DONNEES PUBLIQUES, MIS 12/06/2022 VARIABLE Y : https://www.data.gouv.fr/fr/datasets/films-ayant-realise-plus-dun-million-dentrees/
 COL_NAME=c("titre",
       "nationalit?",
       "sortie",
@@ -36,7 +39,7 @@ DATA %>%
   rename(NAT=nationalité) %>% 
   arrange(desc(Y))->DATA
 
-
+as.Date(as.POSIXct("2013-01-01 07:00", 'GMT'))
 
 ###ATTENTION ECARTS AVEC LES VRAIS DATA --> ON VA ALLER REQUETER LES NOMS DES FILMS LISTES 
 
@@ -46,12 +49,12 @@ DATA %>% filter(!is.na(titre))->DATA
 
 DATA %>% 
      group_by(titre,sortie) %>%
-     summarise(totY=sum(Y),.groups = 'drop') %>%
+     summarise(Y=sum(Y),.groups = 'drop') %>%
      rename(TITRE=titre)->TOT_TITRE
 
 #WARNING PROBLEME DE DOUBLON DANS LES TITRES 
 
-unique(REF_TITRE$titre)
+
 TOT_TITRE %>% group_by(TITRE) %>% summarise(n=n()) %>% filter(n>1) %>% arrange(desc(n))->DOUBLON
 TOT_TITRE %>% filter(TITRE %in% DOUBLON$TITRE)
 data %>% filter(titre %in% DOUBLON$TITRE)
@@ -60,3 +63,18 @@ data %>% filter(titre %in% DOUBLON$TITRE)
 
 write.csv(TOT_TITRE,"./DATA_CLEAN/FILMS_1MILLIONS.csv")
 
+TOT_TITRE %>% 
+     mutate(ifelse(TI))
+
+for (k in 1:nrow(TOT_TITRE)){
+     nom=paste(TOT_TITRE[k,"TITRE"],year(as.Date(TOT_TITRE[k,"sortie"]$sortie)))
+     print(nom)
+     URL=paste0("https://imdb-api.com/en/API/SearchMovie/k_04ykrtva/",nom)
+     result=GET(URL)
+     result_jon=fromJSON(rawToChar(result$content))
+     if(is.null(dim(result_jon$results))){
+          TOT_TITRE$id="INCONNU"
+     }else{
+          TOT_TITRE$id=result_jon$results[[1]]$id
+     }
+}
