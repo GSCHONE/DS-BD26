@@ -24,7 +24,9 @@ for (k in 2003:2021){
   names(ENTREES)[1]="rang"
  
  data=rbind(data,ENTREES)
- k=k+1
+ k=k+1C sur les films à plus de 1 millions depuis 2003 -> 876 films
+MAJ fiche START 
+Script R d'importation
 }
 
 
@@ -50,5 +52,11 @@ REF_TITRE %>% left_join(TOT_TITRE)-> DATA_OK
 unique(DATA_OK$NAT) #852 noms différents
 
 
+unique(DATA_OK$TITRE)
 
-
+DATA_OK %>% filter(is.na(TITRE))
+summary(TOT_TITRE$totY)
+dim(TOT_TITRE)
+DATA_OK %>% filter(is.na(totY))
+data %>% filter(is.na(Y))
+DATA_
