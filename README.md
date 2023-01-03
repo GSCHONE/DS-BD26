@@ -10,4 +10,5 @@ Prévisions des scores des matchs de foot en fonction de plusieurs variables :
 Données sources : 
 - webscrapping sur l'affluence des stades 
 - https://www.kaggle.com/datasets/technika148/football-database
+- https://www.kaggle.com/datasets/hugomathien/soccer
 - 
