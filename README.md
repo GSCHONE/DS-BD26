@@ -16,8 +16,11 @@ Données sources :
 
 
 TODO : 
+
 Pour la source (2) travailler les champs stats qui ne fonctionnent pas 
-pour le scrapping généraliser et faire un lien entre le match_id_api et le scrap.J'ai créé une liste des matchs de première ligue dans le dossier DATA (à partir du script DATA.R)
+
+pour le scrapping généraliser et faire un lien entre le match_id_api et le scrap.J'ai créé une liste des matchs de première ligue dans le dossier DATA (à partir du script DATA.R) format RDS ou csv.
+
 Choisir la modélisation : 
  - modéliser comme les paris sportifs : victoire domicile, nul, victoire exterieure
  - modéliser le score des deux equipes en fonctions de toutes les autres variables pour en déduire l'issue du match 

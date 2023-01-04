@@ -1,0 +1,3041 @@
+id,date,home_team_long_name,away_team_long_name
+1729,2008-08-17,Manchester United,Newcastle United
+1730,2008-08-16,Arsenal,West Bromwich Albion
+1731,2008-08-16,Sunderland,Liverpool
+1732,2008-08-16,West Ham United,Wigan Athletic
+1733,2008-08-17,Aston Villa,Manchester City
+1734,2008-08-16,Everton,Blackburn Rovers
+1735,2008-08-16,Middlesbrough,Tottenham Hotspur
+1736,2008-08-16,Bolton Wanderers,Stoke City
+1737,2008-08-16,Hull City,Fulham
+1738,2008-08-17,Chelsea,Portsmouth
+1739,2008-10-29,Manchester United,West Ham United
+1740,2008-10-29,Arsenal,Tottenham Hotspur
+1741,2008-10-29,Middlesbrough,Manchester City
+1742,2008-10-29,Bolton Wanderers,Everton
+1743,2008-10-29,Hull City,Chelsea
+1744,2008-10-29,Stoke City,Sunderland
+1745,2008-10-29,Liverpool,Portsmouth
+1746,2008-10-29,Aston Villa,Blackburn Rovers
+1747,2008-10-28,Newcastle United,West Bromwich Albion
+1748,2008-10-29,Fulham,Wigan Athletic
+1749,2008-11-01,Manchester United,Hull City
+1750,2008-11-01,Tottenham Hotspur,Liverpool
+1751,2008-11-01,Everton,Fulham
+1752,2008-11-01,Middlesbrough,West Ham United
+1753,2008-11-03,Newcastle United,Aston Villa
+1754,2008-11-02,Bolton Wanderers,Manchester City
+1755,2008-11-01,West Bromwich Albion,Blackburn Rovers
+1756,2008-11-01,Portsmouth,Wigan Athletic
+1757,2008-11-01,Stoke City,Arsenal
+1758,2008-11-01,Chelsea,Sunderland
+1759,2008-11-08,Arsenal,Manchester United
+1760,2008-11-08,Liverpool,West Bromwich Albion
+1761,2008-11-08,Sunderland,Portsmouth
+1762,2008-11-08,West Ham United,Everton
+1763,2008-11-09,Aston Villa,Middlesbrough
+1764,2008-11-09,Manchester City,Tottenham Hotspur
+1765,2008-11-09,Blackburn Rovers,Chelsea
+1766,2008-11-09,Fulham,Newcastle United
+1767,2008-11-08,Hull City,Bolton Wanderers
+1768,2008-11-08,Wigan Athletic,Stoke City
+1769,2008-11-15,Manchester United,Stoke City
+1770,2008-11-15,Arsenal,Aston Villa
+1771,2008-11-15,West Ham United,Portsmouth
+1772,2008-11-16,Everton,Middlesbrough
+1773,2008-11-15,Newcastle United,Wigan Athletic
+1774,2008-11-15,Blackburn Rovers,Sunderland
+1775,2008-11-15,Fulham,Tottenham Hotspur
+1776,2008-11-15,Bolton Wanderers,Liverpool
+1777,2008-11-15,West Bromwich Albion,Chelsea
+1778,2008-11-16,Hull City,Manchester City
+1779,2008-11-22,Liverpool,Fulham
+1780,2008-11-23,Sunderland,West Ham United
+1781,2008-11-23,Tottenham Hotspur,Blackburn Rovers
+1782,2008-11-22,Aston Villa,Manchester United
+1783,2008-11-22,Middlesbrough,Bolton Wanderers
+1784,2008-11-22,Manchester City,Arsenal
+1785,2008-11-22,Portsmouth,Hull City
+1786,2008-11-22,Stoke City,West Bromwich Albion
+1787,2008-11-24,Wigan Athletic,Everton
+1788,2008-11-22,Chelsea,Newcastle United
+1789,2008-12-01,Liverpool,West Ham United
+1790,2008-11-29,Sunderland,Bolton Wanderers
+1791,2008-11-30,Tottenham Hotspur,Everton
+1792,2008-11-29,Aston Villa,Fulham
+1793,2008-11-29,Middlesbrough,Newcastle United
+1794,2008-11-30,Manchester City,Manchester United
+1795,2008-11-30,Portsmouth,Blackburn Rovers
+1796,2008-11-29,Stoke City,Hull City
+1797,2008-11-29,Wigan Athletic,West Bromwich Albion
+1798,2008-11-30,Chelsea,Arsenal
+1799,2008-12-06,Manchester United,Sunderland
+1800,2008-12-06,Arsenal,Wigan Athletic
+1801,2008-12-08,West Ham United,Tottenham Hotspur
+1802,2008-12-07,Everton,Aston Villa
+1803,2008-12-06,Newcastle United,Stoke City
+1804,2008-12-06,Blackburn Rovers,Liverpool
+1805,2008-12-06,Fulham,Manchester City
+1806,2008-12-06,Bolton Wanderers,Chelsea
+1807,2008-12-07,West Bromwich Albion,Portsmouth
+1808,2008-12-06,Hull City,Middlesbrough
+1809,2008-12-13,Liverpool,Hull City
+1810,2008-12-13,Sunderland,West Bromwich Albion
+1811,2008-12-13,Tottenham Hotspur,Manchester United
+1812,2008-12-13,Aston Villa,Bolton Wanderers
+1813,2008-12-13,Middlesbrough,Arsenal
+1814,2008-12-13,Manchester City,Everton
+1815,2008-12-14,Portsmouth,Newcastle United
+1816,2008-12-13,Stoke City,Fulham
+1817,2008-12-13,Wigan Athletic,Blackburn Rovers
+1818,2008-12-14,Chelsea,West Ham United
+1819,2009-01-14,Manchester United,Wigan Athletic
+1820,2008-12-21,Arsenal,Liverpool
+1821,2008-12-20,West Ham United,Aston Villa
+1822,2008-12-22,Everton,Chelsea
+1823,2008-12-21,Newcastle United,Tottenham Hotspur
+1824,2008-12-20,Blackburn Rovers,Stoke City
+1825,2008-12-20,Fulham,Middlesbrough
+1826,2008-12-20,Bolton Wanderers,Portsmouth
+1827,2008-12-21,West Bromwich Albion,Manchester City
+1828,2008-12-20,Hull City,Sunderland
+1829,2008-12-26,Liverpool,Bolton Wanderers
+1830,2008-12-26,Sunderland,Blackburn Rovers
+1831,2008-12-26,Tottenham Hotspur,Fulham
+1832,2008-12-26,Aston Villa,Arsenal
+1833,2008-12-26,Middlesbrough,Everton
+1834,2008-12-26,Manchester City,Hull City
+1835,2008-12-26,Portsmouth,West Ham United
+1836,2008-12-26,Stoke City,Manchester United
+1837,2008-12-26,Wigan Athletic,Newcastle United
+1838,2008-12-26,Chelsea,West Bromwich Albion
+1839,2008-08-23,Liverpool,Middlesbrough
+1840,2008-08-23,Tottenham Hotspur,Sunderland
+1841,2008-08-23,Newcastle United,Bolton Wanderers
+1842,2008-08-24,Manchester City,West Ham United
+1843,2008-08-23,Blackburn Rovers,Hull City
+1844,2008-08-23,Fulham,Arsenal
+1845,2008-08-23,West Bromwich Albion,Everton
+1846,2008-08-25,Portsmouth,Manchester United
+1847,2008-08-23,Stoke City,Aston Villa
+1848,2008-08-24,Wigan Athletic,Chelsea
+1849,2008-12-29,Manchester United,Middlesbrough
+1850,2008-12-28,Arsenal,Portsmouth
+1851,2008-12-28,West Ham United,Stoke City
+1852,2008-12-28,Everton,Sunderland
+1853,2008-12-28,Newcastle United,Liverpool
+1854,2008-12-28,Blackburn Rovers,Manchester City
+1855,2008-12-28,Fulham,Chelsea
+1856,2008-12-28,Bolton Wanderers,Wigan Athletic
+1857,2008-12-28,West Bromwich Albion,Tottenham Hotspur
+1858,2008-12-30,Hull City,Aston Villa
+1859,2009-01-11,Manchester United,Chelsea
+1860,2009-01-10,Arsenal,Bolton Wanderers
+1861,2009-01-10,Aston Villa,West Bromwich Albion
+1862,2009-01-10,Everton,Hull City
+1863,2009-01-10,Middlesbrough,Sunderland
+1864,2009-01-10,Newcastle United,West Ham United
+1865,2009-03-11,Fulham,Blackburn Rovers
+1866,2009-02-14,Portsmouth,Manchester City
+1867,2009-01-10,Stoke City,Liverpool
+1868,2009-01-11,Wigan Athletic,Tottenham Hotspur
+1869,2009-01-19,Liverpool,Everton
+1870,2009-01-17,Sunderland,Aston Villa
+1871,2009-01-18,Tottenham Hotspur,Portsmouth
+1872,2009-01-18,West Ham United,Fulham
+1873,2009-01-17,Manchester City,Wigan Athletic
+1874,2009-01-17,Blackburn Rovers,Newcastle United
+1875,2009-01-17,Bolton Wanderers,Manchester United
+1876,2009-01-17,West Bromwich Albion,Middlesbrough
+1877,2009-01-17,Hull City,Arsenal
+1878,2009-01-17,Chelsea,Stoke City
+1879,2009-01-27,Sunderland,Fulham
+1880,2009-01-27,Tottenham Hotspur,Stoke City
+1881,2009-01-28,West Ham United,Hull City
+1882,2009-01-27,West Bromwich Albion,Manchester United
+1883,2009-01-27,Portsmouth,Aston Villa
+1884,2009-01-28,Wigan Athletic,Liverpool
+1885,2009-01-28,Everton,Arsenal
+1886,2009-01-28,Manchester City,Newcastle United
+1887,2009-01-28,Blackburn Rovers,Bolton Wanderers
+1888,2009-01-28,Chelsea,Middlesbrough
+1889,2009-01-31,Manchester United,Everton
+1890,2009-01-31,Arsenal,West Ham United
+1891,2009-02-01,Liverpool,Chelsea
+1892,2009-01-31,Aston Villa,Wigan Athletic
+1893,2009-01-31,Middlesbrough,Blackburn Rovers
+1894,2009-02-01,Newcastle United,Sunderland
+1895,2009-01-31,Fulham,Portsmouth
+1896,2009-01-31,Bolton Wanderers,Tottenham Hotspur
+1897,2009-01-31,Hull City,West Bromwich Albion
+1898,2009-01-31,Stoke City,Manchester City
+1899,2009-02-07,Sunderland,Stoke City
+1900,2009-02-08,Tottenham Hotspur,Arsenal
+1901,2009-02-08,West Ham United,Manchester United
+1902,2009-02-07,Everton,Bolton Wanderers
+1903,2009-02-07,Manchester City,Middlesbrough
+1904,2009-02-07,Blackburn Rovers,Aston Villa
+1905,2009-02-07,West Bromwich Albion,Newcastle United
+1906,2009-02-07,Portsmouth,Liverpool
+1907,2009-02-07,Wigan Athletic,Fulham
+1908,2009-02-07,Chelsea,Hull City
+1909,2009-02-21,Manchester United,Blackburn Rovers
+1910,2009-02-21,Arsenal,Sunderland
+1911,2009-02-22,Liverpool,Manchester City
+1912,2009-02-21,Aston Villa,Chelsea
+1913,2009-02-21,Middlesbrough,Wigan Athletic
+1914,2009-02-22,Newcastle United,Everton
+1915,2009-02-22,Fulham,West Bromwich Albion
+1916,2009-02-21,Bolton Wanderers,West Ham United
+1917,2009-02-23,Hull City,Tottenham Hotspur
+1918,2009-02-21,Stoke City,Portsmouth
+1919,2009-04-22,Manchester United,Portsmouth
+1920,2009-02-28,Arsenal,Fulham
+1921,2009-03-07,Sunderland,Tottenham Hotspur
+1922,2009-03-01,West Ham United,Manchester City
+1923,2009-03-01,Aston Villa,Stoke City
+1924,2009-02-28,Everton,West Bromwich Albion
+1925,2009-02-28,Middlesbrough,Liverpool
+1926,2009-03-01,Bolton Wanderers,Newcastle United
+1927,2009-03-01,Hull City,Blackburn Rovers
+1928,2009-02-28,Chelsea,Wigan Athletic
+1929,2009-03-04,Tottenham Hotspur,Middlesbrough
+1930,2009-03-03,West Bromwich Albion,Arsenal
+1931,2009-03-03,Portsmouth,Chelsea
+1932,2009-03-04,Stoke City,Bolton Wanderers
+1933,2009-03-04,Wigan Athletic,West Ham United
+1934,2009-03-03,Liverpool,Sunderland
+1935,2009-03-04,Newcastle United,Manchester United
+1936,2009-03-04,Manchester City,Aston Villa
+1937,2009-03-04,Blackburn Rovers,Everton
+1938,2009-03-04,Fulham,Hull City
+1939,2009-03-14,Manchester United,Liverpool
+1940,2009-03-14,Arsenal,Blackburn Rovers
+1941,2009-03-14,Sunderland,Wigan Athletic
+1942,2009-03-16,West Ham United,West Bromwich Albion
+1943,2009-03-15,Aston Villa,Tottenham Hotspur
+1944,2009-03-14,Everton,Stoke City
+1945,2009-03-14,Middlesbrough,Portsmouth
+1946,2009-03-14,Bolton Wanderers,Fulham
+1947,2009-03-14,Hull City,Newcastle United
+1948,2009-03-15,Chelsea,Manchester City
+1949,2009-02-18,Manchester United,Fulham
+1950,2008-08-30,Arsenal,Newcastle United
+1951,2008-08-31,Sunderland,Manchester City
+1952,2008-08-30,West Ham United,Blackburn Rovers
+1953,2008-08-31,Aston Villa,Liverpool
+1954,2008-08-30,Everton,Portsmouth
+1955,2008-08-30,Middlesbrough,Stoke City
+1956,2008-08-30,Bolton Wanderers,West Bromwich Albion
+1957,2008-08-30,Hull City,Wigan Athletic
+1958,2008-08-31,Chelsea,Tottenham Hotspur
+1959,2009-03-22,Liverpool,Aston Villa
+1960,2009-03-21,Tottenham Hotspur,Chelsea
+1961,2009-03-21,Newcastle United,Arsenal
+1962,2009-03-22,Manchester City,Sunderland
+1963,2009-03-21,Blackburn Rovers,West Ham United
+1964,2009-03-21,Fulham,Manchester United
+1965,2009-03-21,West Bromwich Albion,Bolton Wanderers
+1966,2009-03-21,Portsmouth,Everton
+1967,2009-03-21,Stoke City,Middlesbrough
+1968,2009-03-22,Wigan Athletic,Hull City
+1969,2009-04-05,Manchester United,Aston Villa
+1970,2009-04-04,Arsenal,Manchester City
+1971,2009-04-04,West Ham United,Sunderland
+1972,2009-04-05,Everton,Wigan Athletic
+1973,2009-04-04,Newcastle United,Chelsea
+1974,2009-04-04,Blackburn Rovers,Tottenham Hotspur
+1975,2009-04-04,Fulham,Liverpool
+1976,2009-04-04,Bolton Wanderers,Middlesbrough
+1977,2009-04-04,West Bromwich Albion,Stoke City
+1978,2009-04-04,Hull City,Portsmouth
+1979,2009-04-11,Liverpool,Blackburn Rovers
+1980,2009-04-11,Sunderland,Manchester United
+1981,2009-04-11,Tottenham Hotspur,West Ham United
+1982,2009-04-12,Aston Villa,Everton
+1983,2009-04-11,Middlesbrough,Hull City
+1984,2009-04-12,Manchester City,Fulham
+1985,2009-04-11,Portsmouth,West Bromwich Albion
+1986,2009-04-11,Stoke City,Newcastle United
+1987,2009-04-11,Wigan Athletic,Arsenal
+1988,2009-04-11,Chelsea,Bolton Wanderers
+1989,2009-04-21,Liverpool,Arsenal
+1990,2009-04-18,Sunderland,Hull City
+1991,2009-04-19,Tottenham Hotspur,Newcastle United
+1992,2009-04-18,Aston Villa,West Ham United
+1993,2009-04-18,Middlesbrough,Fulham
+1994,2009-04-19,Manchester City,West Bromwich Albion
+1995,2009-04-18,Portsmouth,Bolton Wanderers
+1996,2009-04-18,Stoke City,Blackburn Rovers
+1997,2009-05-13,Wigan Athletic,Manchester United
+1998,2009-04-22,Chelsea,Everton
+1999,2009-04-25,Manchester United,Tottenham Hotspur
+2000,2009-04-26,Arsenal,Middlesbrough
+2001,2009-04-25,West Ham United,Chelsea
+2002,2009-04-25,Everton,Manchester City
+2003,2009-04-27,Newcastle United,Portsmouth
+2004,2009-04-26,Blackburn Rovers,Wigan Athletic
+2005,2009-04-25,Fulham,Stoke City
+2006,2009-04-25,Bolton Wanderers,Aston Villa
+2007,2009-04-25,West Bromwich Albion,Sunderland
+2008,2009-04-25,Hull City,Liverpool
+2009,2009-05-03,Liverpool,Newcastle United
+2010,2009-05-03,Sunderland,Everton
+2011,2009-05-02,Tottenham Hotspur,West Bromwich Albion
+2012,2009-05-04,Aston Villa,Hull City
+2013,2009-05-02,Middlesbrough,Manchester United
+2014,2009-05-02,Manchester City,Blackburn Rovers
+2015,2009-05-02,Portsmouth,Arsenal
+2016,2009-05-02,Stoke City,West Ham United
+2017,2009-05-02,Wigan Athletic,Bolton Wanderers
+2018,2009-05-02,Chelsea,Fulham
+2019,2009-05-10,Manchester United,Manchester City
+2020,2009-05-10,Arsenal,Chelsea
+2021,2009-05-09,West Ham United,Liverpool
+2022,2009-05-09,Everton,Tottenham Hotspur
+2023,2009-05-11,Newcastle United,Middlesbrough
+2024,2009-05-09,Blackburn Rovers,Portsmouth
+2025,2009-05-09,Fulham,Aston Villa
+2026,2009-05-09,Bolton Wanderers,Sunderland
+2027,2009-05-09,West Bromwich Albion,Wigan Athletic
+2028,2009-05-09,Hull City,Stoke City
+2029,2009-05-16,Manchester United,Arsenal
+2030,2009-05-16,Tottenham Hotspur,Manchester City
+2031,2009-05-16,Everton,West Ham United
+2032,2009-05-16,Middlesbrough,Aston Villa
+2033,2009-05-16,Newcastle United,Fulham
+2034,2009-05-16,Bolton Wanderers,Hull City
+2035,2009-05-17,West Bromwich Albion,Liverpool
+2036,2009-05-18,Portsmouth,Sunderland
+2037,2009-05-16,Stoke City,Wigan Athletic
+2038,2009-05-17,Chelsea,Blackburn Rovers
+2039,2009-05-24,Arsenal,Stoke City
+2040,2009-05-24,Liverpool,Tottenham Hotspur
+2041,2009-05-24,Sunderland,Chelsea
+2042,2009-05-24,West Ham United,Middlesbrough
+2043,2009-05-24,Aston Villa,Newcastle United
+2044,2009-05-24,Manchester City,Bolton Wanderers
+2045,2009-05-24,Blackburn Rovers,West Bromwich Albion
+2046,2009-05-24,Fulham,Everton
+2047,2009-05-24,Hull City,Manchester United
+2048,2009-05-24,Wigan Athletic,Portsmouth
+2049,2008-09-13,Liverpool,Manchester United
+2050,2008-09-15,Tottenham Hotspur,Aston Villa
+2051,2008-09-13,Newcastle United,Hull City
+2052,2008-09-13,Manchester City,Chelsea
+2053,2008-09-13,Blackburn Rovers,Arsenal
+2054,2008-09-13,Fulham,Bolton Wanderers
+2055,2008-09-13,West Bromwich Albion,West Ham United
+2056,2008-09-13,Portsmouth,Middlesbrough
+2057,2008-09-14,Stoke City,Everton
+2058,2008-09-13,Wigan Athletic,Sunderland
+2059,2008-09-20,Liverpool,Stoke City
+2060,2008-09-20,Sunderland,Middlesbrough
+2061,2008-09-21,Tottenham Hotspur,Wigan Athletic
+2062,2008-09-20,West Ham United,Newcastle United
+2063,2008-09-21,Manchester City,Portsmouth
+2064,2008-09-20,Blackburn Rovers,Fulham
+2065,2008-09-20,Bolton Wanderers,Arsenal
+2066,2008-09-21,West Bromwich Albion,Aston Villa
+2067,2008-09-21,Hull City,Everton
+2068,2008-09-21,Chelsea,Manchester United
+2069,2008-09-27,Manchester United,Bolton Wanderers
+2070,2008-09-27,Arsenal,Hull City
+2071,2008-09-27,Aston Villa,Sunderland
+2072,2008-09-27,Everton,Liverpool
+2073,2008-09-27,Middlesbrough,West Bromwich Albion
+2074,2008-09-27,Newcastle United,Blackburn Rovers
+2075,2008-09-27,Fulham,West Ham United
+2076,2008-09-28,Portsmouth,Tottenham Hotspur
+2077,2008-09-27,Stoke City,Chelsea
+2078,2008-09-28,Wigan Athletic,Manchester City
+2079,2008-10-04,Sunderland,Arsenal
+2080,2008-10-05,Tottenham Hotspur,Hull City
+2081,2008-10-05,West Ham United,Bolton Wanderers
+2082,2008-10-05,Everton,Newcastle United
+2083,2008-10-05,Manchester City,Liverpool
+2084,2008-10-04,Blackburn Rovers,Manchester United
+2085,2008-10-04,West Bromwich Albion,Fulham
+2086,2008-10-05,Portsmouth,Stoke City
+2087,2008-10-04,Wigan Athletic,Middlesbrough
+2088,2008-10-05,Chelsea,Aston Villa
+2089,2008-10-18,Manchester United,West Bromwich Albion
+2090,2008-10-18,Arsenal,Everton
+2091,2008-10-18,Liverpool,Wigan Athletic
+2092,2008-10-18,Aston Villa,Portsmouth
+2093,2008-10-18,Middlesbrough,Chelsea
+2094,2008-10-20,Newcastle United,Manchester City
+2095,2008-10-18,Fulham,Sunderland
+2096,2008-10-18,Bolton Wanderers,Blackburn Rovers
+2097,2008-10-19,Hull City,West Ham United
+2098,2008-10-19,Stoke City,Tottenham Hotspur
+2099,2008-10-25,Sunderland,Newcastle United
+2100,2008-10-26,Tottenham Hotspur,Bolton Wanderers
+2101,2008-10-26,West Ham United,Arsenal
+2102,2008-10-25,Everton,Manchester United
+2103,2008-10-26,Manchester City,Stoke City
+2104,2008-10-25,Blackburn Rovers,Middlesbrough
+2105,2008-10-25,West Bromwich Albion,Hull City
+2106,2008-10-26,Portsmouth,Fulham
+2107,2008-10-26,Wigan Athletic,Aston Villa
+2108,2008-10-26,Chelsea,Liverpool
+2109,2009-08-16,Manchester United,Birmingham City
+2110,2009-08-16,Tottenham Hotspur,Liverpool
+2111,2009-08-15,Aston Villa,Wigan Athletic
+2112,2009-08-15,Everton,Arsenal
+2113,2009-08-15,Wolverhampton Wanderers,West Ham United
+2114,2009-08-15,Blackburn Rovers,Manchester City
+2115,2009-08-15,Bolton Wanderers,Sunderland
+2116,2009-08-15,Portsmouth,Fulham
+2117,2009-08-15,Stoke City,Burnley
+2118,2009-08-15,Chelsea,Hull City
+2119,2009-10-24,Burnley,Wigan Athletic
+2120,2009-10-24,Chelsea,Blackburn Rovers
+2121,2009-10-25,Bolton Wanderers,Everton
+2122,2009-10-24,Birmingham City,Sunderland
+2123,2009-10-24,Tottenham Hotspur,Stoke City
+2124,2009-10-25,West Ham United,Arsenal
+2125,2009-10-24,Wolverhampton Wanderers,Aston Villa
+2126,2009-10-24,Hull City,Portsmouth
+2127,2009-10-25,Liverpool,Manchester United
+2128,2009-10-25,Manchester City,Fulham
+2129,2009-10-31,Portsmouth,Wigan Athletic
+2130,2009-10-31,Manchester United,Blackburn Rovers
+2131,2009-10-31,Fulham,Liverpool
+2132,2009-10-31,Everton,Aston Villa
+2133,2009-10-31,Burnley,Hull City
+2134,2009-10-31,Bolton Wanderers,Chelsea
+2135,2009-11-01,Birmingham City,Manchester City
+2136,2009-10-31,Arsenal,Tottenham Hotspur
+2137,2009-10-31,Stoke City,Wolverhampton Wanderers
+2138,2009-10-31,Sunderland,West Ham United
+2139,2009-11-08,Wigan Athletic,Fulham
+2140,2009-11-08,Hull City,Stoke City
+2141,2009-11-07,Wolverhampton Wanderers,Arsenal
+2142,2009-11-08,West Ham United,Everton
+2143,2009-11-07,Tottenham Hotspur,Sunderland
+2144,2009-11-07,Manchester City,Burnley
+2145,2009-11-09,Liverpool,Birmingham City
+2146,2009-11-07,Aston Villa,Bolton Wanderers
+2147,2009-11-07,Blackburn Rovers,Portsmouth
+2148,2009-11-08,Chelsea,Manchester United
+2149,2009-11-21,Birmingham City,Fulham
+2150,2009-11-21,Sunderland,Arsenal
+2151,2009-11-22,Stoke City,Portsmouth
+2152,2009-11-21,Burnley,Aston Villa
+2153,2009-11-21,Chelsea,Wolverhampton Wanderers
+2154,2009-11-21,Hull City,West Ham United
+2155,2009-11-21,Liverpool,Manchester City
+2156,2009-11-21,Manchester United,Everton
+2157,2009-11-22,Tottenham Hotspur,Wigan Athletic
+2158,2009-11-22,Bolton Wanderers,Blackburn Rovers
+2159,2009-11-28,Portsmouth,Manchester United
+2160,2009-11-28,West Ham United,Burnley
+2161,2009-11-29,Wolverhampton Wanderers,Birmingham City
+2162,2009-11-28,Manchester City,Hull City
+2163,2009-11-28,Fulham,Bolton Wanderers
+2164,2009-11-29,Everton,Liverpool
+2165,2009-11-28,Blackburn Rovers,Stoke City
+2166,2009-11-28,Aston Villa,Tottenham Hotspur
+2167,2009-11-29,Arsenal,Chelsea
+2168,2009-11-28,Wigan Athletic,Sunderland
+2169,2009-12-05,Portsmouth,Burnley
+2170,2009-12-05,West Ham United,Manchester United
+2171,2009-12-05,Wigan Athletic,Birmingham City
+2172,2009-12-05,Wolverhampton Wanderers,Bolton Wanderers
+2173,2009-12-05,Manchester City,Chelsea
+2174,2009-12-06,Fulham,Sunderland
+2175,2009-12-06,Everton,Tottenham Hotspur
+2176,2009-12-05,Blackburn Rovers,Liverpool
+2177,2009-12-05,Aston Villa,Hull City
+2178,2009-12-05,Arsenal,Stoke City
+2179,2009-12-12,Manchester United,Aston Villa
+2180,2009-12-12,Stoke City,Wigan Athletic
+2181,2009-12-12,Sunderland,Portsmouth
+2182,2009-12-12,Tottenham Hotspur,Wolverhampton Wanderers
+2183,2009-12-13,Liverpool,Arsenal
+2184,2009-12-12,Hull City,Blackburn Rovers
+2185,2009-12-12,Chelsea,Everton
+2186,2009-12-12,Burnley,Fulham
+2187,2009-12-12,Bolton Wanderers,Manchester City
+2188,2009-12-12,Birmingham City,West Ham United
+2189,2009-12-16,Tottenham Hotspur,Manchester City
+2190,2009-12-15,Sunderland,Aston Villa
+2191,2010-01-05,Stoke City,Fulham
+2192,2009-12-15,Manchester United,Wolverhampton Wanderers
+2193,2009-11-25,Hull City,Everton
+2194,2009-12-16,Burnley,Arsenal
+2195,2009-12-15,Bolton Wanderers,West Ham United
+2196,2009-12-15,Birmingham City,Blackburn Rovers
+2197,2009-12-16,Liverpool,Wigan Athletic
+2198,2009-12-16,Chelsea,Portsmouth
+2199,2009-12-19,Arsenal,Hull City
+2200,2009-12-20,Wolverhampton Wanderers,Burnley
+2201,2010-02-17,Wigan Athletic,Bolton Wanderers
+2202,2009-12-20,West Ham United,Chelsea
+2203,2009-12-19,Portsmouth,Liverpool
+2204,2009-12-19,Manchester City,Sunderland
+2205,2009-12-19,Fulham,Manchester United
+2206,2009-12-20,Everton,Birmingham City
+2207,2009-12-19,Blackburn Rovers,Tottenham Hotspur
+2208,2009-12-19,Aston Villa,Stoke City
+2209,2009-12-26,Wigan Athletic,Blackburn Rovers
+2210,2009-12-26,West Ham United,Portsmouth
+2211,2009-12-26,Sunderland,Everton
+2212,2009-12-26,Manchester City,Stoke City
+2213,2009-12-26,Liverpool,Wolverhampton Wanderers
+2214,2009-12-27,Hull City,Manchester United
+2215,2009-12-26,Fulham,Tottenham Hotspur
+2216,2009-12-26,Burnley,Bolton Wanderers
+2217,2009-12-26,Birmingham City,Chelsea
+2218,2009-12-27,Arsenal,Aston Villa
+2219,2010-01-20,Arsenal,Bolton Wanderers
+2220,2009-08-18,Sunderland,Chelsea
+2221,2009-11-04,West Ham United,Aston Villa
+2222,2009-11-25,Fulham,Blackburn Rovers
+2223,2009-08-19,Birmingham City,Portsmouth
+2224,2009-08-19,Hull City,Tottenham Hotspur
+2225,2009-08-19,Burnley,Manchester United
+2226,2009-08-18,Wigan Athletic,Wolverhampton Wanderers
+2227,2009-08-19,Liverpool,Stoke City
+2228,2010-03-24,Manchester City,Everton
+2229,2009-12-28,Wolverhampton Wanderers,Manchester City
+2230,2009-12-28,Tottenham Hotspur,West Ham United
+2231,2009-12-28,Stoke City,Birmingham City
+2232,2009-12-30,Portsmouth,Arsenal
+2233,2009-12-28,Everton,Burnley
+2234,2009-12-28,Chelsea,Fulham
+2235,2009-12-29,Bolton Wanderers,Hull City
+2236,2009-12-28,Blackburn Rovers,Sunderland
+2237,2009-12-29,Aston Villa,Liverpool
+2238,2009-12-30,Manchester United,Wigan Athletic
+2239,2010-03-16,Wigan Athletic,Aston Villa
+2240,2010-03-23,West Ham United,Wolverhampton Wanderers
+2241,2010-01-11,Manchester City,Blackburn Rovers
+2242,2010-01-20,Liverpool,Tottenham Hotspur
+2243,2010-02-02,Hull City,Chelsea
+2244,2010-02-03,Fulham,Portsmouth
+2245,2010-03-10,Burnley,Stoke City
+2246,2010-03-09,Sunderland,Bolton Wanderers
+2247,2010-01-09,Birmingham City,Manchester United
+2248,2010-01-09,Arsenal,Everton
+2249,2010-03-09,Portsmouth,Birmingham City
+2250,2010-01-16,Stoke City,Liverpool
+2251,2010-01-16,Tottenham Hotspur,Hull City
+2252,2010-01-16,Wolverhampton Wanderers,Wigan Athletic
+2253,2010-01-16,Manchester United,Burnley
+2254,2010-01-16,Everton,Manchester City
+2255,2010-01-16,Chelsea,Sunderland
+2256,2010-01-17,Bolton Wanderers,Arsenal
+2257,2010-01-17,Blackburn Rovers,Fulham
+2258,2010-01-17,Aston Villa,West Ham United
+2259,2010-01-26,Wolverhampton Wanderers,Liverpool
+2260,2010-01-26,Tottenham Hotspur,Fulham
+2261,2010-02-16,Stoke City,Manchester City
+2262,2010-01-26,Portsmouth,West Ham United
+2263,2010-01-23,Manchester United,Hull City
+2264,2010-01-26,Bolton Wanderers,Burnley
+2265,2010-01-27,Everton,Sunderland
+2266,2010-01-27,Chelsea,Birmingham City
+2267,2010-01-27,Blackburn Rovers,Wigan Athletic
+2268,2010-01-27,Aston Villa,Arsenal
+2269,2010-01-30,West Ham United,Blackburn Rovers
+2270,2010-01-30,Wigan Athletic,Everton
+2271,2010-02-01,Sunderland,Stoke City
+2272,2010-01-31,Manchester City,Portsmouth
+2273,2010-01-30,Liverpool,Bolton Wanderers
+2274,2010-01-30,Hull City,Wolverhampton Wanderers
+2275,2010-01-30,Fulham,Aston Villa
+2276,2010-01-30,Burnley,Chelsea
+2277,2010-01-31,Arsenal,Manchester United
+2278,2010-01-30,Birmingham City,Tottenham Hotspur
+2279,2010-02-06,Manchester United,Portsmouth
+2280,2010-02-06,Stoke City,Blackburn Rovers
+2281,2010-02-06,Sunderland,Wigan Athletic
+2282,2010-02-06,Tottenham Hotspur,Aston Villa
+2283,2010-02-06,Burnley,West Ham United
+2284,2010-02-07,Chelsea,Arsenal
+2285,2010-02-06,Bolton Wanderers,Fulham
+2286,2010-02-06,Hull City,Manchester City
+2287,2010-02-06,Liverpool,Everton
+2288,2010-02-07,Birmingham City,Wolverhampton Wanderers
+2289,2010-02-10,Arsenal,Liverpool
+2290,2010-02-09,Fulham,Burnley
+2291,2010-02-10,West Ham United,Birmingham City
+2292,2010-02-10,Wolverhampton Wanderers,Tottenham Hotspur
+2293,2010-02-09,Wigan Athletic,Stoke City
+2294,2010-02-09,Portsmouth,Sunderland
+2295,2010-02-10,Blackburn Rovers,Hull City
+2296,2010-02-10,Aston Villa,Manchester United
+2297,2010-02-10,Everton,Chelsea
+2298,2010-02-09,Manchester City,Bolton Wanderers
+2299,2010-02-21,Fulham,Birmingham City
+2300,2010-02-20,Portsmouth,Stoke City
+2301,2010-02-20,West Ham United,Hull City
+2302,2010-02-21,Blackburn Rovers,Bolton Wanderers
+2303,2010-02-20,Everton,Manchester United
+2304,2010-02-20,Arsenal,Sunderland
+2305,2010-02-21,Wigan Athletic,Tottenham Hotspur
+2306,2010-02-20,Wolverhampton Wanderers,Chelsea
+2307,2010-02-21,Manchester City,Liverpool
+2308,2010-02-21,Aston Villa,Burnley
+2309,2010-02-28,Sunderland,Fulham
+2310,2010-02-28,Tottenham Hotspur,Everton
+2311,2010-02-27,Stoke City,Arsenal
+2312,2010-02-23,Manchester United,West Ham United
+2313,2010-02-28,Liverpool,Blackburn Rovers
+2314,2010-04-21,Hull City,Aston Villa
+2315,2010-02-27,Chelsea,Manchester City
+2316,2010-02-27,Birmingham City,Wigan Athletic
+2317,2010-02-27,Burnley,Portsmouth
+2318,2010-02-27,Bolton Wanderers,Wolverhampton Wanderers
+2319,2010-03-08,Wigan Athletic,Liverpool
+2320,2010-03-06,West Ham United,Bolton Wanderers
+2321,2010-05-05,Manchester City,Tottenham Hotspur
+2322,2010-03-24,Portsmouth,Chelsea
+2323,2010-03-07,Everton,Hull City
+2324,2010-03-24,Blackburn Rovers,Birmingham City
+2325,2010-03-24,Aston Villa,Sunderland
+2326,2010-03-06,Arsenal,Burnley
+2327,2010-03-06,Wolverhampton Wanderers,Manchester United
+2328,2010-05-05,Fulham,Stoke City
+2329,2009-08-22,Arsenal,Portsmouth
+2330,2009-08-24,Liverpool,Aston Villa
+2331,2009-08-22,Sunderland,Blackburn Rovers
+2332,2009-08-23,West Ham United,Tottenham Hotspur
+2333,2009-08-22,Manchester City,Wolverhampton Wanderers
+2334,2009-08-23,Fulham,Chelsea
+2335,2009-08-22,Birmingham City,Stoke City
+2336,2009-08-22,Hull City,Bolton Wanderers
+2337,2009-08-23,Burnley,Everton
+2338,2009-08-22,Wigan Athletic,Manchester United
+2339,2010-03-13,Tottenham Hotspur,Blackburn Rovers
+2340,2010-03-14,Sunderland,Manchester City
+2341,2010-03-13,Stoke City,Aston Villa
+2342,2010-03-14,Manchester United,Fulham
+2343,2010-03-15,Liverpool,Portsmouth
+2344,2010-03-13,Hull City,Arsenal
+2345,2010-03-13,Birmingham City,Everton
+2346,2010-03-13,Bolton Wanderers,Wigan Athletic
+2347,2010-03-13,Burnley,Wolverhampton Wanderers
+2348,2010-03-13,Chelsea,West Ham United
+2349,2010-03-20,Wigan Athletic,Burnley
+2350,2010-03-20,Sunderland,Birmingham City
+2351,2010-03-20,Arsenal,West Ham United
+2352,2010-03-20,Aston Villa,Wolverhampton Wanderers
+2353,2010-03-21,Blackburn Rovers,Chelsea
+2354,2010-03-20,Portsmouth,Hull City
+2355,2010-03-20,Everton,Bolton Wanderers
+2356,2010-03-21,Fulham,Manchester City
+2357,2010-03-21,Manchester United,Liverpool
+2358,2010-03-20,Stoke City,Tottenham Hotspur
+2359,2010-03-28,Liverpool,Sunderland
+2360,2010-03-29,Manchester City,Wigan Athletic
+2361,2010-03-27,Tottenham Hotspur,Portsmouth
+2362,2010-03-27,Bolton Wanderers,Manchester United
+2363,2010-03-27,West Ham United,Stoke City
+2364,2010-03-27,Wolverhampton Wanderers,Everton
+2365,2010-03-27,Hull City,Fulham
+2366,2010-03-27,Chelsea,Aston Villa
+2367,2010-03-28,Burnley,Blackburn Rovers
+2368,2010-03-27,Birmingham City,Arsenal
+2369,2010-04-03,Sunderland,Tottenham Hotspur
+2370,2010-04-03,Stoke City,Hull City
+2371,2010-04-03,Portsmouth,Blackburn Rovers
+2372,2010-04-03,Manchester United,Chelsea
+2373,2010-04-04,Fulham,Wigan Athletic
+2374,2010-04-04,Everton,West Ham United
+2375,2010-04-03,Burnley,Manchester City
+2376,2010-04-03,Bolton Wanderers,Aston Villa
+2377,2010-04-04,Birmingham City,Liverpool
+2378,2010-04-03,Arsenal,Wolverhampton Wanderers
+2379,2010-04-10,West Ham United,Sunderland
+2380,2010-04-11,Wolverhampton Wanderers,Stoke City
+2381,2010-04-14,Wigan Athletic,Portsmouth
+2382,2010-04-14,Tottenham Hotspur,Arsenal
+2383,2010-04-11,Manchester City,Birmingham City
+2384,2010-04-11,Liverpool,Fulham
+2385,2010-04-10,Hull City,Burnley
+2386,2010-04-13,Chelsea,Bolton Wanderers
+2387,2010-04-11,Blackburn Rovers,Manchester United
+2388,2010-04-14,Aston Villa,Everton
+2389,2010-04-18,Wigan Athletic,Arsenal
+2390,2010-04-17,Tottenham Hotspur,Chelsea
+2391,2010-04-17,Sunderland,Burnley
+2392,2010-04-17,Stoke City,Bolton Wanderers
+2393,2010-04-18,Portsmouth,Aston Villa
+2394,2010-04-19,Liverpool,West Ham United
+2395,2010-04-17,Fulham,Wolverhampton Wanderers
+2396,2010-04-17,Blackburn Rovers,Everton
+2397,2010-04-17,Birmingham City,Hull City
+2398,2010-04-17,Manchester City,Manchester United
+2399,2010-04-25,Everton,Fulham
+2400,2010-04-24,Hull City,Sunderland
+2401,2010-04-24,Wolverhampton Wanderers,Blackburn Rovers
+2402,2010-04-24,West Ham United,Wigan Athletic
+2403,2010-04-24,Manchester United,Tottenham Hotspur
+2404,2010-04-25,Chelsea,Stoke City
+2405,2010-04-25,Burnley,Liverpool
+2406,2010-04-24,Bolton Wanderers,Portsmouth
+2407,2010-04-25,Aston Villa,Birmingham City
+2408,2010-04-24,Arsenal,Manchester City
+2409,2010-05-03,Wigan Athletic,Hull City
+2410,2010-05-01,Tottenham Hotspur,Bolton Wanderers
+2411,2010-05-02,Sunderland,Manchester United
+2412,2010-05-01,Stoke City,Everton
+2413,2010-05-01,Portsmouth,Wolverhampton Wanderers
+2414,2010-05-01,Manchester City,Aston Villa
+2415,2010-05-01,Birmingham City,Burnley
+2416,2010-05-03,Blackburn Rovers,Arsenal
+2417,2010-05-02,Fulham,West Ham United
+2418,2010-05-02,Liverpool,Chelsea
+2419,2010-05-09,Wolverhampton Wanderers,Sunderland
+2420,2010-05-09,Everton,Portsmouth
+2421,2010-05-09,Chelsea,Wigan Athletic
+2422,2010-05-09,Burnley,Tottenham Hotspur
+2423,2010-05-09,Bolton Wanderers,Birmingham City
+2424,2010-05-09,Aston Villa,Blackburn Rovers
+2425,2010-05-09,Arsenal,Fulham
+2426,2010-05-09,Manchester United,Stoke City
+2427,2010-05-09,West Ham United,Manchester City
+2428,2010-05-09,Hull City,Liverpool
+2429,2009-08-29,Manchester United,Arsenal
+2430,2009-08-29,Tottenham Hotspur,Birmingham City
+2431,2009-08-30,Aston Villa,Fulham
+2432,2009-08-30,Everton,Wigan Athletic
+2433,2009-08-29,Wolverhampton Wanderers,Hull City
+2434,2009-08-29,Blackburn Rovers,West Ham United
+2435,2009-08-29,Bolton Wanderers,Liverpool
+2436,2009-08-30,Portsmouth,Manchester City
+2437,2009-08-29,Stoke City,Sunderland
+2438,2009-08-29,Chelsea,Burnley
+2439,2009-09-12,Liverpool,Burnley
+2440,2009-09-12,Sunderland,Hull City
+2441,2009-09-12,Tottenham Hotspur,Manchester United
+2442,2009-09-12,Manchester City,Arsenal
+2443,2009-09-12,Blackburn Rovers,Wolverhampton Wanderers
+2444,2009-09-13,Fulham,Everton
+2445,2009-09-13,Birmingham City,Aston Villa
+2446,2009-09-12,Portsmouth,Bolton Wanderers
+2447,2009-09-12,Stoke City,Chelsea
+2448,2009-09-12,Wigan Athletic,West Ham United
+2449,2009-09-20,Manchester United,Manchester City
+2450,2009-09-19,Arsenal,Wigan Athletic
+2451,2009-09-19,West Ham United,Liverpool
+2452,2009-09-19,Aston Villa,Portsmouth
+2453,2009-09-20,Everton,Blackburn Rovers
+2454,2009-09-20,Wolverhampton Wanderers,Fulham
+2455,2009-09-19,Bolton Wanderers,Stoke City
+2456,2009-09-19,Hull City,Birmingham City
+2457,2009-09-19,Burnley,Sunderland
+2458,2009-09-20,Chelsea,Tottenham Hotspur
+2459,2009-09-26,Liverpool,Hull City
+2460,2009-09-26,Tottenham Hotspur,Burnley
+2461,2009-09-26,Wigan Athletic,Chelsea
+2462,2009-09-27,Sunderland,Wolverhampton Wanderers
+2463,2009-09-26,Stoke City,Manchester United
+2464,2009-09-26,Portsmouth,Everton
+2465,2009-09-28,Manchester City,West Ham United
+2466,2009-09-26,Fulham,Arsenal
+2467,2009-09-26,Blackburn Rovers,Aston Villa
+2468,2009-09-26,Birmingham City,Bolton Wanderers
+2469,2009-10-03,Manchester United,Sunderland
+2470,2009-10-03,Wolverhampton Wanderers,Portsmouth
+2471,2009-10-04,West Ham United,Fulham
+2472,2009-10-04,Everton,Stoke City
+2473,2009-10-04,Chelsea,Liverpool
+2474,2009-10-03,Burnley,Birmingham City
+2475,2009-10-03,Bolton Wanderers,Tottenham Hotspur
+2476,2009-10-03,Hull City,Wigan Athletic
+2477,2009-10-05,Aston Villa,Manchester City
+2478,2009-10-04,Arsenal,Blackburn Rovers
+2479,2009-10-17,Stoke City,West Ham United
+2480,2009-10-17,Manchester United,Bolton Wanderers
+2481,2009-10-19,Fulham,Hull City
+2482,2009-10-17,Everton,Wolverhampton Wanderers
+2483,2009-10-18,Blackburn Rovers,Burnley
+2484,2009-10-17,Aston Villa,Chelsea
+2485,2009-10-17,Sunderland,Liverpool
+2486,2009-10-18,Wigan Athletic,Manchester City
+2487,2009-10-17,Portsmouth,Tottenham Hotspur
+2488,2009-10-17,Arsenal,Birmingham City
+2489,2010-08-14,Aston Villa,West Ham United
+2490,2010-08-14,Blackburn Rovers,Everton
+2491,2010-08-14,Bolton Wanderers,Fulham
+2492,2010-08-14,Chelsea,West Bromwich Albion
+2493,2010-08-15,Liverpool,Arsenal
+2494,2010-08-16,Manchester United,Newcastle United
+2495,2010-08-14,Sunderland,Birmingham City
+2496,2010-08-14,Tottenham Hotspur,Manchester City
+2497,2010-08-14,Wolverhampton Wanderers,Stoke City
+2498,2010-08-14,Wigan Athletic,Blackpool
+2499,2010-10-30,Manchester United,Tottenham Hotspur
+2500,2010-10-30,Arsenal,West Ham United
+2501,2010-10-31,Aston Villa,Birmingham City
+2502,2010-10-30,Everton,Stoke City
+2503,2010-10-31,Newcastle United,Sunderland
+2504,2010-10-30,Wolverhampton Wanderers,Manchester City
+2505,2010-10-30,Blackburn Rovers,Chelsea
+2506,2010-10-30,Fulham,Wigan Athletic
+2507,2010-10-31,Bolton Wanderers,Liverpool
+2508,2010-11-01,Blackpool,West Bromwich Albion
+2509,2010-11-06,Manchester United,Wolverhampton Wanderers
+2510,2010-11-07,Arsenal,Newcastle United
+2511,2010-11-07,Liverpool,Chelsea
+2512,2010-11-06,Sunderland,Stoke City
+2513,2010-11-06,Blackburn Rovers,Wigan Athletic
+2514,2010-11-06,Fulham,Aston Villa
+2515,2010-11-06,Birmingham City,West Ham United
+2516,2010-11-06,Bolton Wanderers,Tottenham Hotspur
+2517,2010-11-07,West Bromwich Albion,Manchester City
+2518,2010-11-06,Blackpool,Everton
+2519,2010-11-09,Tottenham Hotspur,Sunderland
+2520,2010-11-10,West Ham United,West Bromwich Albion
+2521,2010-11-10,Wolverhampton Wanderers,Arsenal
+2522,2010-11-09,Stoke City,Birmingham City
+2523,2010-11-10,Wigan Athletic,Liverpool
+2524,2010-11-10,Aston Villa,Blackpool
+2525,2010-11-10,Everton,Bolton Wanderers
+2526,2010-11-10,Newcastle United,Blackburn Rovers
+2527,2010-11-10,Manchester City,Manchester United
+2528,2010-11-10,Chelsea,Fulham
+2529,2010-11-13,Tottenham Hotspur,Blackburn Rovers
+2530,2010-11-13,West Ham United,Blackpool
+2531,2010-11-13,Aston Villa,Manchester United
+2532,2010-11-14,Everton,Arsenal
+2533,2010-11-13,Newcastle United,Fulham
+2534,2010-11-13,Manchester City,Birmingham City
+2535,2010-11-13,Wolverhampton Wanderers,Bolton Wanderers
+2536,2010-11-13,Stoke City,Liverpool
+2537,2010-11-13,Wigan Athletic,West Bromwich Albion
+2538,2010-11-14,Chelsea,Sunderland
+2539,2010-11-20,Manchester United,Wigan Athletic
+2540,2010-11-20,Arsenal,Tottenham Hotspur
+2541,2010-11-20,Liverpool,West Ham United
+2542,2010-11-22,Sunderland,Everton
+2543,2010-11-21,Blackburn Rovers,Aston Villa
+2544,2010-11-21,Fulham,Manchester City
+2545,2010-11-20,Birmingham City,Chelsea
+2546,2010-11-20,Bolton Wanderers,Newcastle United
+2547,2010-11-20,West Bromwich Albion,Stoke City
+2548,2010-11-20,Blackpool,Wolverhampton Wanderers
+2549,2010-11-27,Manchester United,Blackburn Rovers
+2550,2010-11-28,Tottenham Hotspur,Liverpool
+2551,2010-11-27,West Ham United,Wigan Athletic
+2552,2010-11-27,Aston Villa,Arsenal
+2553,2010-11-27,Everton,West Bromwich Albion
+2554,2010-11-28,Newcastle United,Chelsea
+2555,2010-11-27,Wolverhampton Wanderers,Sunderland
+2556,2010-11-27,Fulham,Birmingham City
+2557,2010-11-27,Bolton Wanderers,Blackpool
+2558,2010-11-27,Stoke City,Manchester City
+2559,2010-12-04,Arsenal,Fulham
+2560,2010-12-06,Liverpool,Aston Villa
+2561,2010-12-05,Sunderland,West Ham United
+2562,2010-12-04,Manchester City,Bolton Wanderers
+2563,2010-12-04,Blackburn Rovers,Wolverhampton Wanderers
+2564,2010-12-04,Birmingham City,Tottenham Hotspur
+2565,2010-12-05,West Bromwich Albion,Newcastle United
+2566,2011-01-25,Blackpool,Manchester United
+2567,2010-12-04,Wigan Athletic,Stoke City
+2568,2010-12-04,Chelsea,Everton
+2569,2010-12-13,Manchester United,Arsenal
+2570,2010-12-12,Tottenham Hotspur,Chelsea
+2571,2010-12-11,West Ham United,Manchester City
+2572,2010-12-11,Aston Villa,West Bromwich Albion
+2573,2010-12-11,Everton,Wigan Athletic
+2574,2010-12-11,Newcastle United,Liverpool
+2575,2010-12-12,Wolverhampton Wanderers,Birmingham City
+2576,2010-12-11,Fulham,Sunderland
+2577,2010-12-12,Bolton Wanderers,Blackburn Rovers
+2578,2010-12-11,Stoke City,Blackpool
+2579,2011-02-23,Arsenal,Stoke City
+2580,2011-01-26,Liverpool,Fulham
+2581,2010-12-18,Sunderland,Bolton Wanderers
+2582,2010-12-20,Manchester City,Everton
+2583,2010-12-18,Blackburn Rovers,West Ham United
+2584,2011-02-15,Birmingham City,Newcastle United
+2585,2011-02-20,West Bromwich Albion,Wolverhampton Wanderers
+2586,2011-02-22,Blackpool,Tottenham Hotspur
+2587,2011-01-25,Wigan Athletic,Aston Villa
+2588,2011-03-01,Chelsea,Manchester United
+2589,2010-12-26,Manchester United,Sunderland
+2590,2010-12-27,Arsenal,Chelsea
+2591,2010-12-26,Aston Villa,Tottenham Hotspur
+2592,2011-03-09,Everton,Birmingham City
+2593,2010-12-26,Newcastle United,Manchester City
+2594,2010-12-26,Wolverhampton Wanderers,Wigan Athletic
+2595,2010-12-26,Blackburn Rovers,Stoke City
+2596,2010-12-26,Fulham,West Ham United
+2597,2010-12-26,Bolton Wanderers,West Bromwich Albion
+2598,2011-01-12,Blackpool,Liverpool
+2599,2010-08-21,Arsenal,Blackpool
+2600,2010-08-21,West Ham United,Bolton Wanderers
+2601,2010-08-21,Everton,Wolverhampton Wanderers
+2602,2010-08-22,Newcastle United,Aston Villa
+2603,2010-08-23,Manchester City,Liverpool
+2604,2010-08-22,Fulham,Manchester United
+2605,2010-08-21,Birmingham City,Blackburn Rovers
+2606,2010-08-21,West Bromwich Albion,Sunderland
+2607,2010-08-21,Stoke City,Tottenham Hotspur
+2608,2010-08-21,Wigan Athletic,Chelsea
+2609,2010-12-29,Liverpool,Wolverhampton Wanderers
+2610,2010-12-28,Sunderland,Blackpool
+2611,2010-12-28,Tottenham Hotspur,Newcastle United
+2612,2010-12-28,West Ham United,Everton
+2613,2010-12-28,Manchester City,Aston Villa
+2614,2010-12-28,Birmingham City,Manchester United
+2615,2010-12-28,West Bromwich Albion,Blackburn Rovers
+2616,2010-12-28,Stoke City,Fulham
+2617,2010-12-29,Wigan Athletic,Arsenal
+2618,2010-12-29,Chelsea,Bolton Wanderers
+2619,2011-01-01,Liverpool,Bolton Wanderers
+2620,2011-01-01,Sunderland,Blackburn Rovers
+2621,2011-01-01,Tottenham Hotspur,Fulham
+2622,2011-01-01,West Ham United,Wolverhampton Wanderers
+2623,2011-01-01,Manchester City,Blackpool
+2624,2011-01-01,Birmingham City,Arsenal
+2625,2011-01-01,West Bromwich Albion,Manchester United
+2626,2011-01-01,Stoke City,Everton
+2627,2011-01-02,Wigan Athletic,Newcastle United
+2628,2011-01-02,Chelsea,Aston Villa
+2629,2011-01-04,Manchester United,Stoke City
+2630,2011-01-05,Arsenal,Manchester City
+2631,2011-01-05,Wolverhampton Wanderers,Chelsea
+2632,2011-01-05,Bolton Wanderers,Wigan Athletic
+2633,2011-01-04,Blackpool,Birmingham City
+2634,2011-01-05,Aston Villa,Sunderland
+2635,2011-01-05,Everton,Tottenham Hotspur
+2636,2011-01-05,Newcastle United,West Ham United
+2637,2011-01-05,Blackburn Rovers,Liverpool
+2638,2011-01-04,Fulham,West Bromwich Albion
+2639,2011-01-16,Liverpool,Everton
+2640,2011-01-16,Sunderland,Newcastle United
+2641,2011-01-16,Tottenham Hotspur,Manchester United
+2642,2011-01-15,West Ham United,Arsenal
+2643,2011-01-15,Manchester City,Wolverhampton Wanderers
+2644,2011-01-16,Birmingham City,Aston Villa
+2645,2011-01-15,West Bromwich Albion,Blackpool
+2646,2011-01-15,Stoke City,Bolton Wanderers
+2647,2011-01-15,Wigan Athletic,Fulham
+2648,2011-01-15,Chelsea,Blackburn Rovers
+2649,2011-01-22,Manchester United,Birmingham City
+2650,2011-01-22,Arsenal,Wigan Athletic
+2651,2011-01-22,Aston Villa,Manchester City
+2652,2011-01-22,Everton,West Ham United
+2653,2011-01-22,Newcastle United,Tottenham Hotspur
+2654,2011-01-22,Wolverhampton Wanderers,Liverpool
+2655,2011-01-23,Blackburn Rovers,West Bromwich Albion
+2656,2011-01-22,Fulham,Stoke City
+2657,2011-01-24,Bolton Wanderers,Chelsea
+2658,2011-01-22,Blackpool,Sunderland
+2659,2011-02-01,Manchester United,Aston Villa
+2660,2011-02-01,Arsenal,Everton
+2661,2011-02-01,Sunderland,Chelsea
+2662,2011-02-02,Birmingham City,Manchester City
+2663,2011-02-02,Bolton Wanderers,Wolverhampton Wanderers
+2664,2011-02-01,West Bromwich Albion,Wigan Athletic
+2665,2011-02-02,Blackpool,West Ham United
+2666,2011-02-02,Liverpool,Stoke City
+2667,2011-02-02,Blackburn Rovers,Tottenham Hotspur
+2668,2011-02-02,Fulham,Newcastle United
+2669,2011-02-05,Tottenham Hotspur,Bolton Wanderers
+2670,2011-02-06,West Ham United,Birmingham City
+2671,2011-02-05,Aston Villa,Fulham
+2672,2011-02-05,Everton,Blackpool
+2673,2011-02-05,Newcastle United,Arsenal
+2674,2011-02-05,Manchester City,West Bromwich Albion
+2675,2011-02-05,Wolverhampton Wanderers,Manchester United
+2676,2011-02-05,Stoke City,Sunderland
+2677,2011-02-05,Wigan Athletic,Blackburn Rovers
+2678,2011-02-06,Chelsea,Liverpool
+2679,2011-02-12,Manchester United,Manchester City
+2680,2011-02-12,Arsenal,Wolverhampton Wanderers
+2681,2011-02-12,Liverpool,Wigan Athletic
+2682,2011-02-12,Sunderland,Tottenham Hotspur
+2683,2011-02-12,Blackburn Rovers,Newcastle United
+2684,2011-02-14,Fulham,Chelsea
+2685,2011-02-12,Birmingham City,Stoke City
+2686,2011-02-13,Bolton Wanderers,Everton
+2687,2011-02-12,West Bromwich Albion,West Ham United
+2688,2011-02-12,Blackpool,Aston Villa
+2689,2011-04-20,Tottenham Hotspur,Arsenal
+2690,2011-02-27,West Ham United,Liverpool
+2691,2011-02-26,Aston Villa,Blackburn Rovers
+2692,2011-02-26,Everton,Sunderland
+2693,2011-02-26,Newcastle United,Bolton Wanderers
+2694,2011-02-27,Manchester City,Fulham
+2695,2011-02-26,Wolverhampton Wanderers,Blackpool
+2696,2011-02-28,Stoke City,West Bromwich Albion
+2697,2011-02-26,Wigan Athletic,Manchester United
+2698,2011-04-20,Chelsea,Birmingham City
+2699,2011-03-05,Arsenal,Sunderland
+2700,2011-03-06,Liverpool,Manchester United
+2701,2011-03-05,West Ham United,Stoke City
+2702,2011-03-05,Newcastle United,Everton
+2703,2011-03-05,Manchester City,Wigan Athletic
+2704,2011-03-06,Wolverhampton Wanderers,Tottenham Hotspur
+2705,2011-03-05,Fulham,Blackburn Rovers
+2706,2011-03-05,Birmingham City,West Bromwich Albion
+2707,2011-03-05,Bolton Wanderers,Aston Villa
+2708,2011-03-07,Blackpool,Chelsea
+2709,2010-08-28,Manchester United,West Ham United
+2710,2010-08-29,Liverpool,West Bromwich Albion
+2711,2010-08-29,Sunderland,Manchester City
+2712,2010-08-28,Tottenham Hotspur,Wigan Athletic
+2713,2010-08-29,Aston Villa,Everton
+2714,2010-08-28,Wolverhampton Wanderers,Newcastle United
+2715,2010-08-28,Blackburn Rovers,Arsenal
+2716,2010-08-29,Bolton Wanderers,Birmingham City
+2717,2010-08-28,Blackpool,Fulham
+2718,2010-08-28,Chelsea,Stoke City
+2719,2011-03-19,Manchester United,Bolton Wanderers
+2720,2011-03-20,Sunderland,Liverpool
+2721,2011-03-19,Tottenham Hotspur,West Ham United
+2722,2011-03-19,Aston Villa,Wolverhampton Wanderers
+2723,2011-03-19,Everton,Fulham
+2724,2011-03-19,Blackburn Rovers,Blackpool
+2725,2011-03-19,West Bromwich Albion,Arsenal
+2726,2011-03-19,Stoke City,Newcastle United
+2727,2011-03-19,Wigan Athletic,Birmingham City
+2728,2011-03-20,Chelsea,Manchester City
+2729,2011-04-02,Arsenal,Blackburn Rovers
+2730,2011-04-02,West Ham United,Manchester United
+2731,2011-04-02,Everton,Aston Villa
+2732,2011-04-02,Newcastle United,Wolverhampton Wanderers
+2733,2011-04-03,Manchester City,Sunderland
+2734,2011-04-03,Fulham,Blackpool
+2735,2011-04-02,Birmingham City,Bolton Wanderers
+2736,2011-04-02,West Bromwich Albion,Liverpool
+2737,2011-04-02,Stoke City,Chelsea
+2738,2011-04-02,Wigan Athletic,Tottenham Hotspur
+2739,2011-04-09,Manchester United,Fulham
+2740,2011-04-11,Liverpool,Manchester City
+2741,2011-04-09,Sunderland,West Bromwich Albion
+2742,2011-04-09,Tottenham Hotspur,Stoke City
+2743,2011-04-10,Aston Villa,Newcastle United
+2744,2011-04-09,Wolverhampton Wanderers,Everton
+2745,2011-04-09,Blackburn Rovers,Birmingham City
+2746,2011-04-09,Bolton Wanderers,West Ham United
+2747,2011-04-10,Blackpool,Arsenal
+2748,2011-04-09,Chelsea,Wigan Athletic
+2749,2011-04-16,Blackpool,Wigan Athletic
+2750,2011-04-17,Arsenal,Liverpool
+2751,2011-04-16,West Ham United,Aston Villa
+2752,2011-04-16,Everton,Blackburn Rovers
+2753,2011-04-19,Newcastle United,Manchester United
+2754,2011-05-10,Manchester City,Tottenham Hotspur
+2755,2011-04-27,Fulham,Bolton Wanderers
+2756,2011-04-16,Birmingham City,Sunderland
+2757,2011-04-16,West Bromwich Albion,Chelsea
+2758,2011-04-26,Stoke City,Wolverhampton Wanderers
+2759,2011-04-23,Manchester United,Everton
+2760,2011-04-23,Liverpool,Birmingham City
+2761,2011-04-23,Sunderland,Wigan Athletic
+2762,2011-04-23,Tottenham Hotspur,West Bromwich Albion
+2763,2011-04-23,Aston Villa,Stoke City
+2764,2011-04-23,Wolverhampton Wanderers,Fulham
+2765,2011-04-25,Blackburn Rovers,Manchester City
+2766,2011-04-24,Bolton Wanderers,Arsenal
+2767,2011-04-23,Blackpool,Newcastle United
+2768,2011-04-23,Chelsea,West Ham United
+2769,2011-05-01,Arsenal,Manchester United
+2770,2011-05-01,Liverpool,Newcastle United
+2771,2011-04-30,Sunderland,Fulham
+2772,2011-05-01,Manchester City,West Ham United
+2773,2011-04-30,Blackburn Rovers,Bolton Wanderers
+2774,2011-05-01,Birmingham City,Wolverhampton Wanderers
+2775,2011-04-30,West Bromwich Albion,Aston Villa
+2776,2011-04-30,Blackpool,Stoke City
+2777,2011-04-30,Wigan Athletic,Everton
+2778,2011-04-30,Chelsea,Tottenham Hotspur
+2779,2011-05-08,Manchester United,Chelsea
+2780,2011-05-07,Tottenham Hotspur,Blackpool
+2781,2011-05-07,West Ham United,Blackburn Rovers
+2782,2011-05-07,Aston Villa,Wigan Athletic
+2783,2011-05-07,Everton,Manchester City
+2784,2011-05-07,Newcastle United,Birmingham City
+2785,2011-05-08,Wolverhampton Wanderers,West Bromwich Albion
+2786,2011-05-09,Fulham,Liverpool
+2787,2011-05-07,Bolton Wanderers,Sunderland
+2788,2011-05-08,Stoke City,Arsenal
+2789,2011-05-15,Arsenal,Aston Villa
+2790,2011-05-15,Liverpool,Tottenham Hotspur
+2791,2011-05-14,Sunderland,Wolverhampton Wanderers
+2792,2011-05-17,Manchester City,Stoke City
+2793,2011-05-14,Blackburn Rovers,Manchester United
+2794,2011-05-15,Birmingham City,Fulham
+2795,2011-05-14,West Bromwich Albion,Everton
+2796,2011-05-14,Blackpool,Bolton Wanderers
+2797,2011-05-15,Wigan Athletic,West Ham United
+2798,2011-05-15,Chelsea,Newcastle United
+2799,2011-05-22,Manchester United,Blackpool
+2800,2011-05-22,Tottenham Hotspur,Birmingham City
+2801,2011-05-22,West Ham United,Sunderland
+2802,2011-05-22,Aston Villa,Liverpool
+2803,2011-05-22,Everton,Chelsea
+2804,2011-05-22,Newcastle United,West Bromwich Albion
+2805,2011-05-22,Wolverhampton Wanderers,Blackburn Rovers
+2806,2011-05-22,Fulham,Arsenal
+2807,2011-05-22,Bolton Wanderers,Manchester City
+2808,2011-05-22,Stoke City,Wigan Athletic
+2809,2010-09-11,Arsenal,Bolton Wanderers
+2810,2010-09-11,West Ham United,Chelsea
+2811,2010-09-11,Everton,Manchester United
+2812,2010-09-11,Newcastle United,Blackpool
+2813,2010-09-11,Manchester City,Blackburn Rovers
+2814,2010-09-11,Fulham,Wolverhampton Wanderers
+2815,2010-09-12,Birmingham City,Liverpool
+2816,2010-09-11,West Bromwich Albion,Tottenham Hotspur
+2817,2010-09-13,Stoke City,Aston Villa
+2818,2010-09-11,Wigan Athletic,Sunderland
+2819,2010-09-19,Manchester United,Liverpool
+2820,2010-09-18,Sunderland,Arsenal
+2821,2010-09-18,Tottenham Hotspur,Wolverhampton Wanderers
+2822,2010-09-18,Aston Villa,Bolton Wanderers
+2823,2010-09-18,Everton,Newcastle United
+2824,2010-09-18,Blackburn Rovers,Fulham
+2825,2010-09-18,West Bromwich Albion,Birmingham City
+2826,2010-09-18,Stoke City,West Ham United
+2827,2010-09-19,Wigan Athletic,Manchester City
+2828,2010-09-19,Chelsea,Blackpool
+2829,2010-09-25,Arsenal,West Bromwich Albion
+2830,2010-09-25,Liverpool,Sunderland
+2831,2010-09-25,West Ham United,Tottenham Hotspur
+2832,2010-09-26,Newcastle United,Stoke City
+2833,2010-09-25,Manchester City,Chelsea
+2834,2010-09-26,Wolverhampton Wanderers,Aston Villa
+2835,2010-09-25,Fulham,Everton
+2836,2010-09-25,Birmingham City,Wigan Athletic
+2837,2010-09-26,Bolton Wanderers,Manchester United
+2838,2010-09-25,Blackpool,Blackburn Rovers
+2839,2010-10-03,Liverpool,Blackpool
+2840,2010-10-02,Sunderland,Manchester United
+2841,2010-10-02,Tottenham Hotspur,Aston Villa
+2842,2010-10-02,West Ham United,Fulham
+2843,2010-10-03,Manchester City,Newcastle United
+2844,2010-10-02,Birmingham City,Everton
+2845,2010-10-02,West Bromwich Albion,Bolton Wanderers
+2846,2010-10-02,Stoke City,Blackburn Rovers
+2847,2010-10-02,Wigan Athletic,Wolverhampton Wanderers
+2848,2010-10-03,Chelsea,Arsenal
+2849,2010-10-16,Manchester United,West Bromwich Albion
+2850,2010-10-16,Arsenal,Birmingham City
+2851,2010-10-16,Aston Villa,Chelsea
+2852,2010-10-17,Everton,Liverpool
+2853,2010-10-16,Newcastle United,Wigan Athletic
+2854,2010-10-16,Wolverhampton Wanderers,West Ham United
+2855,2010-10-18,Blackburn Rovers,Sunderland
+2856,2010-10-16,Fulham,Tottenham Hotspur
+2857,2010-10-16,Bolton Wanderers,Stoke City
+2858,2010-10-17,Blackpool,Manchester City
+2859,2010-10-24,Liverpool,Blackburn Rovers
+2860,2010-10-23,Sunderland,Aston Villa
+2861,2010-10-23,Tottenham Hotspur,Everton
+2862,2010-10-23,West Ham United,Newcastle United
+2863,2010-10-24,Manchester City,Arsenal
+2864,2010-10-23,Birmingham City,Blackpool
+2865,2010-10-23,West Bromwich Albion,Fulham
+2866,2010-10-24,Stoke City,Manchester United
+2867,2010-10-23,Wigan Athletic,Bolton Wanderers
+2868,2010-10-23,Chelsea,Wolverhampton Wanderers
+2869,2011-08-13,Blackburn Rovers,Wolverhampton Wanderers
+2870,2011-08-13,Fulham,Aston Villa
+2871,2011-08-13,Liverpool,Sunderland
+2872,2011-08-15,Manchester City,Swansea City
+2873,2011-08-13,Newcastle United,Arsenal
+2874,2011-08-13,Queens Park Rangers,Bolton Wanderers
+2875,2011-08-14,Stoke City,Chelsea
+2876,2012-01-11,Tottenham Hotspur,Everton
+2877,2011-08-14,West Bromwich Albion,Manchester United
+2878,2011-08-13,Wigan Athletic,Norwich City
+2879,2011-10-29,Chelsea,Arsenal
+2880,2011-10-29,Everton,Manchester United
+2881,2011-10-29,Manchester City,Wolverhampton Wanderers
+2882,2011-10-29,Norwich City,Blackburn Rovers
+2883,2011-10-31,Stoke City,Newcastle United
+2884,2011-10-29,Sunderland,Aston Villa
+2885,2011-10-29,Swansea City,Bolton Wanderers
+2886,2011-10-30,Tottenham Hotspur,Queens Park Rangers
+2887,2011-10-29,West Bromwich Albion,Liverpool
+2888,2011-10-29,Wigan Athletic,Fulham
+2889,2011-11-05,Arsenal,West Bromwich Albion
+2890,2011-11-05,Aston Villa,Norwich City
+2891,2011-11-05,Blackburn Rovers,Chelsea
+2892,2011-11-06,Bolton Wanderers,Stoke City
+2893,2011-11-06,Fulham,Tottenham Hotspur
+2894,2011-11-05,Liverpool,Swansea City
+2895,2011-11-05,Manchester United,Sunderland
+2896,2011-11-05,Newcastle United,Everton
+2897,2011-11-05,Queens Park Rangers,Manchester City
+2898,2011-11-06,Wolverhampton Wanderers,Wigan Athletic
+2899,2011-11-20,Chelsea,Liverpool
+2900,2011-11-19,Everton,Wolverhampton Wanderers
+2901,2011-11-19,Manchester City,Newcastle United
+2902,2011-11-19,Norwich City,Arsenal
+2903,2011-11-19,Stoke City,Queens Park Rangers
+2904,2011-11-19,Sunderland,Fulham
+2905,2011-11-19,Swansea City,Manchester United
+2906,2011-11-21,Tottenham Hotspur,Aston Villa
+2907,2011-11-19,West Bromwich Albion,Bolton Wanderers
+2908,2011-11-19,Wigan Athletic,Blackburn Rovers
+2909,2011-11-26,Arsenal,Fulham
+2910,2011-11-26,Bolton Wanderers,Everton
+2911,2011-11-26,Chelsea,Wolverhampton Wanderers
+2912,2011-11-27,Liverpool,Manchester City
+2913,2011-11-26,Manchester United,Newcastle United
+2914,2011-11-26,Norwich City,Queens Park Rangers
+2915,2011-11-26,Stoke City,Blackburn Rovers
+2916,2011-11-26,Sunderland,Wigan Athletic
+2917,2011-11-27,Swansea City,Aston Villa
+2918,2011-11-26,West Bromwich Albion,Tottenham Hotspur
+2919,2011-12-03,Aston Villa,Manchester United
+2920,2011-12-03,Blackburn Rovers,Swansea City
+2921,2011-12-04,Everton,Stoke City
+2922,2011-12-05,Fulham,Liverpool
+2923,2011-12-03,Manchester City,Norwich City
+2924,2011-12-03,Newcastle United,Chelsea
+2925,2011-12-03,Queens Park Rangers,West Bromwich Albion
+2926,2011-12-03,Tottenham Hotspur,Bolton Wanderers
+2927,2011-12-03,Wigan Athletic,Arsenal
+2928,2011-12-04,Wolverhampton Wanderers,Sunderland
+2929,2011-12-10,Arsenal,Everton
+2930,2011-12-10,Bolton Wanderers,Aston Villa
+2931,2011-12-12,Chelsea,Manchester City
+2932,2011-12-10,Liverpool,Queens Park Rangers
+2933,2011-12-10,Manchester United,Wolverhampton Wanderers
+2934,2011-12-10,Norwich City,Newcastle United
+2935,2011-12-11,Stoke City,Tottenham Hotspur
+2936,2011-12-11,Sunderland,Blackburn Rovers
+2937,2011-12-10,Swansea City,Fulham
+2938,2011-12-10,West Bromwich Albion,Wigan Athletic
+2939,2011-12-18,Aston Villa,Liverpool
+2940,2011-12-17,Blackburn Rovers,West Bromwich Albion
+2941,2011-12-17,Everton,Norwich City
+2942,2011-12-17,Fulham,Bolton Wanderers
+2943,2011-12-18,Manchester City,Arsenal
+2944,2011-12-17,Newcastle United,Swansea City
+2945,2011-12-18,Queens Park Rangers,Manchester United
+2946,2011-12-18,Tottenham Hotspur,Sunderland
+2947,2011-12-17,Wigan Athletic,Chelsea
+2948,2011-12-17,Wolverhampton Wanderers,Stoke City
+2949,2011-12-21,Queens Park Rangers,Sunderland
+2950,2011-12-22,Tottenham Hotspur,Chelsea
+2951,2011-12-21,Wigan Athletic,Liverpool
+2952,2011-12-20,Wolverhampton Wanderers,Norwich City
+2953,2011-12-21,Aston Villa,Arsenal
+2954,2011-12-20,Blackburn Rovers,Bolton Wanderers
+2955,2011-12-21,Everton,Swansea City
+2956,2011-12-21,Fulham,Manchester United
+2957,2011-12-21,Manchester City,Stoke City
+2958,2011-12-21,Newcastle United,West Bromwich Albion
+2959,2011-12-27,Arsenal,Wolverhampton Wanderers
+2960,2011-12-26,Bolton Wanderers,Newcastle United
+2961,2011-12-26,Chelsea,Fulham
+2962,2011-12-26,Liverpool,Blackburn Rovers
+2963,2011-12-26,Manchester United,Wigan Athletic
+2964,2011-12-27,Norwich City,Tottenham Hotspur
+2965,2011-12-26,Stoke City,Aston Villa
+2966,2011-12-26,Sunderland,Everton
+2967,2011-12-27,Swansea City,Queens Park Rangers
+2968,2011-12-26,West Bromwich Albion,Manchester City
+2969,2011-12-31,Arsenal,Queens Park Rangers
+2970,2011-12-31,Bolton Wanderers,Wolverhampton Wanderers
+2971,2011-12-31,Chelsea,Aston Villa
+2972,2011-12-30,Liverpool,Newcastle United
+2973,2011-12-31,Manchester United,Blackburn Rovers
+2974,2011-12-31,Norwich City,Fulham
+2975,2011-12-31,Stoke City,Wigan Athletic
+2976,2012-01-01,Sunderland,Manchester City
+2977,2011-12-31,Swansea City,Tottenham Hotspur
+2978,2012-01-01,West Bromwich Albion,Everton
+2979,2011-08-20,Arsenal,Liverpool
+2980,2011-08-20,Aston Villa,Blackburn Rovers
+2981,2011-08-21,Bolton Wanderers,Manchester City
+2982,2011-08-20,Chelsea,West Bromwich Albion
+2983,2011-08-20,Everton,Queens Park Rangers
+2984,2011-08-22,Manchester United,Tottenham Hotspur
+2985,2011-08-21,Norwich City,Stoke City
+2986,2011-08-20,Sunderland,Newcastle United
+2987,2011-08-20,Swansea City,Wigan Athletic
+2988,2011-08-21,Wolverhampton Wanderers,Fulham
+2989,2012-01-02,Aston Villa,Swansea City
+2990,2012-01-02,Blackburn Rovers,Stoke City
+2991,2012-01-04,Everton,Bolton Wanderers
+2992,2012-01-02,Fulham,Arsenal
+2993,2012-01-03,Manchester City,Liverpool
+2994,2012-01-04,Newcastle United,Manchester United
+2995,2012-01-02,Queens Park Rangers,Norwich City
+2996,2012-01-03,Tottenham Hotspur,West Bromwich Albion
+2997,2012-01-03,Wigan Athletic,Sunderland
+2998,2012-01-02,Wolverhampton Wanderers,Chelsea
+2999,2012-01-14,Aston Villa,Everton
+3000,2012-01-14,Blackburn Rovers,Fulham
+3001,2012-01-14,Chelsea,Sunderland
+3002,2012-01-14,Liverpool,Stoke City
+3003,2012-01-14,Manchester United,Bolton Wanderers
+3004,2012-01-15,Newcastle United,Queens Park Rangers
+3005,2012-01-15,Swansea City,Arsenal
+3006,2012-01-14,Tottenham Hotspur,Wolverhampton Wanderers
+3007,2012-01-14,West Bromwich Albion,Norwich City
+3008,2012-01-16,Wigan Athletic,Manchester City
+3009,2012-01-22,Arsenal,Manchester United
+3010,2012-01-21,Bolton Wanderers,Liverpool
+3011,2012-01-21,Everton,Blackburn Rovers
+3012,2012-01-21,Fulham,Newcastle United
+3013,2012-01-22,Manchester City,Tottenham Hotspur
+3014,2012-01-21,Norwich City,Chelsea
+3015,2012-01-21,Queens Park Rangers,Wigan Athletic
+3016,2012-01-21,Stoke City,West Bromwich Albion
+3017,2012-01-21,Sunderland,Swansea City
+3018,2012-01-21,Wolverhampton Wanderers,Aston Villa
+3019,2012-02-01,Bolton Wanderers,Arsenal
+3020,2012-01-31,Manchester United,Stoke City
+3021,2012-02-01,Sunderland,Norwich City
+3022,2012-01-31,Swansea City,Chelsea
+3023,2012-01-31,Tottenham Hotspur,Wigan Athletic
+3024,2012-01-31,Wolverhampton Wanderers,Liverpool
+3025,2012-02-01,Aston Villa,Queens Park Rangers
+3026,2012-02-01,Blackburn Rovers,Newcastle United
+3027,2012-01-31,Everton,Manchester City
+3028,2012-02-01,Fulham,West Bromwich Albion
+3029,2012-02-04,Arsenal,Blackburn Rovers
+3030,2012-02-05,Chelsea,Manchester United
+3031,2012-02-06,Liverpool,Tottenham Hotspur
+3032,2012-02-04,Manchester City,Fulham
+3033,2012-02-05,Newcastle United,Aston Villa
+3034,2012-02-04,Norwich City,Bolton Wanderers
+3035,2012-02-04,Queens Park Rangers,Wolverhampton Wanderers
+3036,2012-02-04,Stoke City,Sunderland
+3037,2012-02-04,West Bromwich Albion,Swansea City
+3038,2012-02-04,Wigan Athletic,Everton
+3039,2012-02-12,Aston Villa,Manchester City
+3040,2012-02-11,Blackburn Rovers,Queens Park Rangers
+3041,2012-02-11,Bolton Wanderers,Wigan Athletic
+3042,2012-02-11,Everton,Chelsea
+3043,2012-02-11,Fulham,Stoke City
+3044,2012-02-11,Manchester United,Liverpool
+3045,2012-02-11,Sunderland,Arsenal
+3046,2012-02-11,Swansea City,Norwich City
+3047,2012-02-11,Tottenham Hotspur,Newcastle United
+3048,2012-02-12,Wolverhampton Wanderers,West Bromwich Albion
+3049,2012-02-26,Arsenal,Tottenham Hotspur
+3050,2012-02-25,Chelsea,Bolton Wanderers
+3051,2012-03-13,Liverpool,Everton
+3052,2012-02-25,Manchester City,Blackburn Rovers
+3053,2012-02-25,Newcastle United,Wolverhampton Wanderers
+3054,2012-02-26,Norwich City,Manchester United
+3055,2012-02-25,Queens Park Rangers,Fulham
+3056,2012-02-26,Stoke City,Swansea City
+3057,2012-02-25,West Bromwich Albion,Sunderland
+3058,2012-02-25,Wigan Athletic,Aston Villa
+3059,2012-03-03,Blackburn Rovers,Aston Villa
+3060,2012-03-04,Fulham,Wolverhampton Wanderers
+3061,2012-03-03,Liverpool,Arsenal
+3062,2012-03-03,Manchester City,Bolton Wanderers
+3063,2012-03-04,Newcastle United,Sunderland
+3064,2012-03-03,Queens Park Rangers,Everton
+3065,2012-03-03,Stoke City,Norwich City
+3066,2012-03-04,Tottenham Hotspur,Manchester United
+3067,2012-03-03,West Bromwich Albion,Chelsea
+3068,2012-03-03,Wigan Athletic,Swansea City
+3069,2012-03-12,Arsenal,Newcastle United
+3070,2012-03-10,Aston Villa,Fulham
+3071,2012-03-10,Bolton Wanderers,Queens Park Rangers
+3072,2012-03-10,Chelsea,Stoke City
+3073,2012-03-10,Everton,Tottenham Hotspur
+3074,2012-03-11,Manchester United,West Bromwich Albion
+3075,2012-03-11,Norwich City,Wigan Athletic
+3076,2012-03-10,Sunderland,Liverpool
+3077,2012-03-11,Swansea City,Manchester City
+3078,2012-03-10,Wolverhampton Wanderers,Blackburn Rovers
+3079,2012-04-24,Aston Villa,Bolton Wanderers
+3080,2012-03-20,Blackburn Rovers,Sunderland
+3081,2012-03-21,Everton,Arsenal
+3082,2012-03-17,Fulham,Swansea City
+3083,2012-03-21,Manchester City,Chelsea
+3084,2012-03-18,Newcastle United,Norwich City
+3085,2012-03-21,Queens Park Rangers,Liverpool
+3086,2012-03-21,Tottenham Hotspur,Stoke City
+3087,2012-03-17,Wigan Athletic,West Bromwich Albion
+3088,2012-03-18,Wolverhampton Wanderers,Manchester United
+3089,2011-08-27,Aston Villa,Wolverhampton Wanderers
+3090,2011-08-27,Blackburn Rovers,Everton
+3091,2011-08-27,Chelsea,Norwich City
+3092,2011-08-27,Liverpool,Bolton Wanderers
+3093,2011-08-28,Manchester United,Arsenal
+3094,2011-08-28,Newcastle United,Fulham
+3095,2011-08-27,Swansea City,Sunderland
+3096,2011-08-28,Tottenham Hotspur,Manchester City
+3097,2011-08-28,West Bromwich Albion,Stoke City
+3098,2011-08-27,Wigan Athletic,Queens Park Rangers
+3099,2012-03-24,Arsenal,Aston Villa
+3100,2012-03-24,Bolton Wanderers,Blackburn Rovers
+3101,2012-03-24,Chelsea,Tottenham Hotspur
+3102,2012-03-24,Liverpool,Wigan Athletic
+3103,2012-03-26,Manchester United,Fulham
+3104,2012-03-24,Norwich City,Wolverhampton Wanderers
+3105,2012-03-24,Stoke City,Manchester City
+3106,2012-03-24,Sunderland,Queens Park Rangers
+3107,2012-03-24,Swansea City,Everton
+3108,2012-03-25,West Bromwich Albion,Newcastle United
+3109,2012-03-31,Aston Villa,Chelsea
+3110,2012-04-02,Blackburn Rovers,Manchester United
+3111,2012-03-31,Everton,West Bromwich Albion
+3112,2012-03-31,Fulham,Norwich City
+3113,2012-03-31,Manchester City,Sunderland
+3114,2012-04-01,Newcastle United,Liverpool
+3115,2012-03-31,Queens Park Rangers,Arsenal
+3116,2012-04-01,Tottenham Hotspur,Swansea City
+3117,2012-03-31,Wigan Athletic,Stoke City
+3118,2012-03-31,Wolverhampton Wanderers,Bolton Wanderers
+3119,2012-04-08,Arsenal,Manchester City
+3120,2012-04-07,Bolton Wanderers,Fulham
+3121,2012-04-07,Chelsea,Wigan Athletic
+3122,2012-04-07,Liverpool,Aston Villa
+3123,2012-04-08,Manchester United,Queens Park Rangers
+3124,2012-04-07,Norwich City,Everton
+3125,2012-04-07,Stoke City,Wolverhampton Wanderers
+3126,2012-04-07,Sunderland,Tottenham Hotspur
+3127,2012-04-06,Swansea City,Newcastle United
+3128,2012-04-07,West Bromwich Albion,Blackburn Rovers
+3129,2012-04-09,Aston Villa,Stoke City
+3130,2012-04-10,Blackburn Rovers,Liverpool
+3131,2012-04-09,Everton,Sunderland
+3132,2012-04-09,Fulham,Chelsea
+3133,2012-04-11,Manchester City,West Bromwich Albion
+3134,2012-04-09,Newcastle United,Bolton Wanderers
+3135,2012-04-11,Queens Park Rangers,Swansea City
+3136,2012-04-09,Tottenham Hotspur,Norwich City
+3137,2012-04-11,Wigan Athletic,Manchester United
+3138,2012-04-11,Wolverhampton Wanderers,Arsenal
+3139,2012-04-16,Arsenal,Wigan Athletic
+3140,2012-05-02,Bolton Wanderers,Tottenham Hotspur
+3141,2012-05-02,Chelsea,Newcastle United
+3142,2012-05-01,Liverpool,Fulham
+3143,2012-04-15,Manchester United,Aston Villa
+3144,2012-04-14,Norwich City,Manchester City
+3145,2012-05-01,Stoke City,Everton
+3146,2012-04-14,Sunderland,Wolverhampton Wanderers
+3147,2012-04-14,Swansea City,Blackburn Rovers
+3148,2012-04-14,West Bromwich Albion,Queens Park Rangers
+3149,2012-04-21,Arsenal,Chelsea
+3150,2012-04-21,Aston Villa,Sunderland
+3151,2012-04-21,Blackburn Rovers,Norwich City
+3152,2012-04-21,Bolton Wanderers,Swansea City
+3153,2012-04-21,Fulham,Wigan Athletic
+3154,2012-04-22,Liverpool,West Bromwich Albion
+3155,2012-04-22,Manchester United,Everton
+3156,2012-04-21,Newcastle United,Stoke City
+3157,2012-04-21,Queens Park Rangers,Tottenham Hotspur
+3158,2012-04-22,Wolverhampton Wanderers,Manchester City
+3159,2012-04-29,Chelsea,Queens Park Rangers
+3160,2012-04-28,Everton,Fulham
+3161,2012-04-30,Manchester City,Manchester United
+3162,2012-04-28,Norwich City,Liverpool
+3163,2012-04-28,Stoke City,Arsenal
+3164,2012-04-28,Sunderland,Bolton Wanderers
+3165,2012-04-28,Swansea City,Wolverhampton Wanderers
+3166,2012-04-29,Tottenham Hotspur,Blackburn Rovers
+3167,2012-04-28,West Bromwich Albion,Aston Villa
+3168,2012-04-28,Wigan Athletic,Newcastle United
+3169,2012-05-05,Arsenal,Norwich City
+3170,2012-05-06,Aston Villa,Tottenham Hotspur
+3171,2012-05-07,Blackburn Rovers,Wigan Athletic
+3172,2012-05-06,Bolton Wanderers,West Bromwich Albion
+3173,2012-05-06,Fulham,Sunderland
+3174,2012-05-08,Liverpool,Chelsea
+3175,2012-05-06,Manchester United,Swansea City
+3176,2012-05-06,Newcastle United,Manchester City
+3177,2012-05-06,Queens Park Rangers,Stoke City
+3178,2012-05-06,Wolverhampton Wanderers,Everton
+3179,2012-05-13,Chelsea,Blackburn Rovers
+3180,2012-05-13,Everton,Newcastle United
+3181,2012-05-13,Manchester City,Queens Park Rangers
+3182,2012-05-13,Norwich City,Aston Villa
+3183,2012-05-13,Stoke City,Bolton Wanderers
+3184,2012-05-13,Sunderland,Manchester United
+3185,2012-05-13,Swansea City,Liverpool
+3186,2012-05-13,Tottenham Hotspur,Fulham
+3187,2012-05-13,West Bromwich Albion,Arsenal
+3188,2012-05-13,Wigan Athletic,Wolverhampton Wanderers
+3189,2011-09-10,Arsenal,Swansea City
+3190,2011-09-10,Bolton Wanderers,Manchester United
+3191,2011-09-10,Everton,Aston Villa
+3192,2011-09-11,Fulham,Blackburn Rovers
+3193,2011-09-10,Manchester City,Wigan Athletic
+3194,2011-09-11,Norwich City,West Bromwich Albion
+3195,2011-09-12,Queens Park Rangers,Newcastle United
+3196,2011-09-10,Stoke City,Liverpool
+3197,2011-09-10,Sunderland,Chelsea
+3198,2011-09-10,Wolverhampton Wanderers,Tottenham Hotspur
+3199,2011-09-17,Aston Villa,Newcastle United
+3200,2011-09-17,Blackburn Rovers,Arsenal
+3201,2011-09-17,Bolton Wanderers,Norwich City
+3202,2011-09-17,Everton,Wigan Athletic
+3203,2011-09-18,Fulham,Manchester City
+3204,2011-09-18,Manchester United,Chelsea
+3205,2011-09-18,Sunderland,Stoke City
+3206,2011-09-17,Swansea City,West Bromwich Albion
+3207,2011-09-18,Tottenham Hotspur,Liverpool
+3208,2011-09-17,Wolverhampton Wanderers,Queens Park Rangers
+3209,2011-09-24,Arsenal,Bolton Wanderers
+3210,2011-09-24,Chelsea,Swansea City
+3211,2011-09-24,Liverpool,Wolverhampton Wanderers
+3212,2011-09-24,Manchester City,Everton
+3213,2011-09-24,Newcastle United,Blackburn Rovers
+3214,2011-09-26,Norwich City,Sunderland
+3215,2011-09-25,Queens Park Rangers,Aston Villa
+3216,2011-09-24,Stoke City,Manchester United
+3217,2011-09-24,West Bromwich Albion,Fulham
+3218,2011-09-24,Wigan Athletic,Tottenham Hotspur
+3219,2011-10-01,Aston Villa,Wigan Athletic
+3220,2011-10-01,Blackburn Rovers,Manchester City
+3221,2011-10-02,Bolton Wanderers,Chelsea
+3222,2011-10-01,Everton,Liverpool
+3223,2011-10-02,Fulham,Queens Park Rangers
+3224,2011-10-01,Manchester United,Norwich City
+3225,2011-10-01,Sunderland,West Bromwich Albion
+3226,2011-10-02,Swansea City,Stoke City
+3227,2011-10-02,Tottenham Hotspur,Arsenal
+3228,2011-10-01,Wolverhampton Wanderers,Newcastle United
+3229,2011-10-16,Arsenal,Sunderland
+3230,2011-10-15,Chelsea,Everton
+3231,2011-10-15,Liverpool,Manchester United
+3232,2011-10-15,Manchester City,Aston Villa
+3233,2011-10-16,Newcastle United,Tottenham Hotspur
+3234,2011-10-15,Norwich City,Swansea City
+3235,2011-10-15,Queens Park Rangers,Blackburn Rovers
+3236,2011-10-15,Stoke City,Fulham
+3237,2011-10-16,West Bromwich Albion,Wolverhampton Wanderers
+3238,2011-10-15,Wigan Athletic,Bolton Wanderers
+3239,2011-10-23,Arsenal,Stoke City
+3240,2011-10-22,Aston Villa,West Bromwich Albion
+3241,2011-10-23,Blackburn Rovers,Tottenham Hotspur
+3242,2011-10-22,Bolton Wanderers,Sunderland
+3243,2011-10-23,Fulham,Everton
+3244,2011-10-22,Liverpool,Norwich City
+3245,2011-10-23,Manchester United,Manchester City
+3246,2011-10-22,Newcastle United,Wigan Athletic
+3247,2011-10-23,Queens Park Rangers,Chelsea
+3248,2011-10-22,Wolverhampton Wanderers,Swansea City
+3249,2012-08-18,Arsenal,Sunderland
+3250,2012-08-20,Everton,Manchester United
+3251,2012-08-18,Fulham,Norwich City
+3252,2012-08-19,Manchester City,Southampton
+3253,2012-08-18,Newcastle United,Tottenham Hotspur
+3254,2012-08-18,Queens Park Rangers,Swansea City
+3255,2012-08-18,Reading,Stoke City
+3256,2012-08-18,West Bromwich Albion,Liverpool
+3257,2012-08-18,West Ham United,Aston Villa
+3258,2012-08-19,Wigan Athletic,Chelsea
+3259,2012-11-03,Fulham,Everton
+3260,2012-11-04,Liverpool,Newcastle United
+3261,2012-11-03,Manchester United,Arsenal
+3262,2012-11-03,Norwich City,Stoke City
+3263,2012-11-04,Queens Park Rangers,Reading
+3264,2012-11-03,Sunderland,Aston Villa
+3265,2012-11-03,Swansea City,Chelsea
+3266,2012-11-03,Tottenham Hotspur,Wigan Athletic
+3267,2012-11-05,West Bromwich Albion,Southampton
+3268,2012-11-03,West Ham United,Manchester City
+3269,2012-11-10,Arsenal,Fulham
+3270,2012-11-10,Aston Villa,Manchester United
+3271,2012-11-11,Chelsea,Liverpool
+3272,2012-11-10,Everton,Sunderland
+3273,2012-11-11,Manchester City,Tottenham Hotspur
+3274,2012-11-11,Newcastle United,West Ham United
+3275,2012-11-10,Reading,Norwich City
+3276,2012-11-10,Southampton,Swansea City
+3277,2012-11-10,Stoke City,Queens Park Rangers
+3278,2012-11-10,Wigan Athletic,West Bromwich Albion
+3279,2012-11-17,Arsenal,Tottenham Hotspur
+3280,2012-11-18,Fulham,Sunderland
+3281,2012-11-17,Liverpool,Wigan Athletic
+3282,2012-11-17,Manchester City,Aston Villa
+3283,2012-11-17,Newcastle United,Swansea City
+3284,2012-11-17,Norwich City,Manchester United
+3285,2012-11-17,Queens Park Rangers,Southampton
+3286,2012-11-17,Reading,Everton
+3287,2012-11-17,West Bromwich Albion,Chelsea
+3288,2012-11-19,West Ham United,Stoke City
+3289,2012-11-24,Aston Villa,Arsenal
+3290,2012-11-25,Chelsea,Manchester City
+3291,2012-11-24,Everton,Norwich City
+3292,2012-11-24,Manchester United,Queens Park Rangers
+3293,2012-11-25,Southampton,Newcastle United
+3294,2012-11-24,Stoke City,Fulham
+3295,2012-11-24,Sunderland,West Bromwich Albion
+3296,2012-11-25,Swansea City,Liverpool
+3297,2012-11-25,Tottenham Hotspur,West Ham United
+3298,2012-11-24,Wigan Athletic,Reading
+3299,2012-11-27,Aston Villa,Reading
+3300,2012-11-28,Manchester United,West Ham United
+3301,2012-11-28,Southampton,Norwich City
+3302,2012-11-28,Stoke City,Newcastle United
+3303,2012-11-27,Sunderland,Queens Park Rangers
+3304,2012-11-28,Swansea City,West Bromwich Albion
+3305,2012-11-28,Tottenham Hotspur,Liverpool
+3306,2012-11-28,Wigan Athletic,Manchester City
+3307,2012-11-28,Chelsea,Fulham
+3308,2012-11-28,Everton,Arsenal
+3309,2012-12-01,Arsenal,Swansea City
+3310,2012-12-01,Fulham,Tottenham Hotspur
+3311,2012-12-01,Liverpool,Southampton
+3312,2012-12-01,Manchester City,Everton
+3313,2012-12-03,Newcastle United,Wigan Athletic
+3314,2012-12-02,Norwich City,Sunderland
+3315,2012-12-01,Queens Park Rangers,Aston Villa
+3316,2012-12-01,Reading,Manchester United
+3317,2012-12-01,West Bromwich Albion,Stoke City
+3318,2012-12-01,West Ham United,Chelsea
+3319,2012-12-08,Arsenal,West Bromwich Albion
+3320,2012-12-08,Aston Villa,Stoke City
+3321,2012-12-09,Everton,Tottenham Hotspur
+3322,2012-12-10,Fulham,Newcastle United
+3323,2012-12-09,Manchester City,Manchester United
+3324,2012-12-08,Southampton,Reading
+3325,2012-12-08,Sunderland,Chelsea
+3326,2012-12-08,Swansea City,Norwich City
+3327,2012-12-09,West Ham United,Liverpool
+3328,2012-12-08,Wigan Athletic,Queens Park Rangers
+3329,2013-01-16,Chelsea,Southampton
+3330,2012-12-15,Liverpool,Aston Villa
+3331,2012-12-15,Manchester United,Sunderland
+3332,2012-12-15,Newcastle United,Manchester City
+3333,2012-12-15,Norwich City,Wigan Athletic
+3334,2012-12-15,Queens Park Rangers,Fulham
+3335,2012-12-17,Reading,Arsenal
+3336,2012-12-15,Stoke City,Everton
+3337,2012-12-16,Tottenham Hotspur,Swansea City
+3338,2012-12-16,West Bromwich Albion,West Ham United
+3339,2012-12-23,Chelsea,Aston Villa
+3340,2012-12-22,Liverpool,Fulham
+3341,2012-12-22,Manchester City,Reading
+3342,2012-12-22,Newcastle United,Queens Park Rangers
+3343,2012-12-22,Southampton,Sunderland
+3344,2012-12-23,Swansea City,Manchester United
+3345,2012-12-22,Tottenham Hotspur,Stoke City
+3346,2012-12-22,West Bromwich Albion,Norwich City
+3347,2012-12-22,West Ham United,Everton
+3348,2012-12-22,Wigan Athletic,Arsenal
+3349,2013-01-23,Arsenal,West Ham United
+3350,2012-12-26,Aston Villa,Tottenham Hotspur
+3351,2012-12-26,Everton,Wigan Athletic
+3352,2012-12-26,Fulham,Southampton
+3353,2012-12-26,Manchester United,Newcastle United
+3354,2012-12-26,Norwich City,Chelsea
+3355,2012-12-26,Queens Park Rangers,West Bromwich Albion
+3356,2012-12-26,Reading,Swansea City
+3357,2012-12-26,Stoke City,Liverpool
+3358,2012-12-26,Sunderland,Manchester City
+3359,2012-08-25,Aston Villa,Everton
+3360,2012-08-25,Chelsea,Newcastle United
+3361,2012-08-26,Liverpool,Manchester City
+3362,2012-08-25,Manchester United,Fulham
+3363,2012-08-25,Norwich City,Queens Park Rangers
+3364,2012-08-25,Southampton,Wigan Athletic
+3365,2012-08-26,Stoke City,Arsenal
+3366,2012-12-11,Sunderland,Reading
+3367,2012-08-25,Swansea City,West Ham United
+3368,2012-08-25,Tottenham Hotspur,West Bromwich Albion
+3369,2012-12-29,Arsenal,Newcastle United
+3370,2012-12-29,Aston Villa,Wigan Athletic
+3371,2012-12-30,Everton,Chelsea
+3372,2012-12-29,Fulham,Swansea City
+3373,2012-12-29,Manchester United,West Bromwich Albion
+3374,2012-12-29,Norwich City,Manchester City
+3375,2012-12-30,Queens Park Rangers,Liverpool
+3376,2012-12-29,Reading,West Ham United
+3377,2012-12-29,Stoke City,Southampton
+3378,2012-12-29,Sunderland,Tottenham Hotspur
+3379,2013-01-02,Chelsea,Queens Park Rangers
+3380,2013-01-02,Liverpool,Sunderland
+3381,2013-01-01,Manchester City,Stoke City
+3382,2013-01-02,Newcastle United,Everton
+3383,2013-01-01,Southampton,Arsenal
+3384,2013-01-01,Swansea City,Aston Villa
+3385,2013-01-01,Tottenham Hotspur,Reading
+3386,2013-01-01,West Bromwich Albion,Fulham
+3387,2013-01-01,West Ham United,Norwich City
+3388,2013-01-01,Wigan Athletic,Manchester United
+3389,2013-01-13,Arsenal,Manchester City
+3390,2013-01-12,Aston Villa,Southampton
+3391,2013-01-12,Everton,Swansea City
+3392,2013-01-12,Fulham,Wigan Athletic
+3393,2013-01-13,Manchester United,Liverpool
+3394,2013-01-12,Norwich City,Newcastle United
+3395,2013-01-12,Queens Park Rangers,Tottenham Hotspur
+3396,2013-01-12,Reading,West Bromwich Albion
+3397,2013-01-12,Stoke City,Chelsea
+3398,2013-01-12,Sunderland,West Ham United
+3399,2013-01-20,Chelsea,Arsenal
+3400,2013-01-19,Liverpool,Norwich City
+3401,2013-01-19,Manchester City,Fulham
+3402,2013-01-19,Newcastle United,Reading
+3403,2013-01-21,Southampton,Everton
+3404,2013-01-19,Swansea City,Stoke City
+3405,2013-01-20,Tottenham Hotspur,Manchester United
+3406,2013-01-19,West Bromwich Albion,Aston Villa
+3407,2013-01-19,West Ham United,Queens Park Rangers
+3408,2013-01-19,Wigan Athletic,Sunderland
+3409,2013-01-30,Arsenal,Liverpool
+3410,2013-01-29,Aston Villa,Newcastle United
+3411,2013-01-30,Manchester United,Southampton
+3412,2013-01-30,Norwich City,Tottenham Hotspur
+3413,2013-01-29,Queens Park Rangers,Manchester City
+3414,2013-01-30,Reading,Chelsea
+3415,2013-01-29,Stoke City,Wigan Athletic
+3416,2013-01-29,Sunderland,Swansea City
+3417,2013-01-30,Everton,West Bromwich Albion
+3418,2013-01-30,Fulham,West Ham United
+3419,2013-02-02,Arsenal,Stoke City
+3420,2013-02-02,Everton,Aston Villa
+3421,2013-02-02,Fulham,Manchester United
+3422,2013-02-03,Manchester City,Liverpool
+3423,2013-02-02,Newcastle United,Chelsea
+3424,2013-02-02,Queens Park Rangers,Norwich City
+3425,2013-02-02,Reading,Sunderland
+3426,2013-02-03,West Bromwich Albion,Tottenham Hotspur
+3427,2013-02-02,West Ham United,Swansea City
+3428,2013-02-02,Wigan Athletic,Southampton
+3429,2013-02-10,Aston Villa,West Ham United
+3430,2013-02-09,Chelsea,Wigan Athletic
+3431,2013-02-11,Liverpool,West Bromwich Albion
+3432,2013-02-10,Manchester United,Everton
+3433,2013-02-09,Norwich City,Fulham
+3434,2013-02-09,Southampton,Manchester City
+3435,2013-02-09,Stoke City,Reading
+3436,2013-02-09,Sunderland,Arsenal
+3437,2013-02-09,Swansea City,Queens Park Rangers
+3438,2013-02-09,Tottenham Hotspur,Newcastle United
+3439,2013-02-23,Arsenal,Aston Villa
+3440,2013-02-23,Fulham,Stoke City
+3441,2013-02-17,Liverpool,Swansea City
+3442,2013-02-24,Manchester City,Chelsea
+3443,2013-02-24,Newcastle United,Southampton
+3444,2013-02-23,Norwich City,Everton
+3445,2013-02-23,Queens Park Rangers,Manchester United
+3446,2013-02-23,Reading,Wigan Athletic
+3447,2013-02-23,West Bromwich Albion,Sunderland
+3448,2013-02-25,West Ham United,Tottenham Hotspur
+3449,2013-03-04,Aston Villa,Manchester City
+3450,2013-03-02,Chelsea,West Bromwich Albion
+3451,2013-03-02,Everton,Reading
+3452,2013-03-02,Manchester United,Norwich City
+3453,2013-03-02,Southampton,Queens Park Rangers
+3454,2013-03-02,Stoke City,West Ham United
+3455,2013-03-02,Sunderland,Fulham
+3456,2013-03-02,Swansea City,Newcastle United
+3457,2013-03-03,Tottenham Hotspur,Arsenal
+3458,2013-03-02,Wigan Athletic,Liverpool
+3459,2013-04-16,Arsenal,Everton
+3460,2013-04-17,Fulham,Chelsea
+3461,2013-03-10,Liverpool,Tottenham Hotspur
+3462,2013-04-17,Manchester City,Wigan Athletic
+3463,2013-03-10,Newcastle United,Stoke City
+3464,2013-03-09,Norwich City,Southampton
+3465,2013-03-09,Queens Park Rangers,Sunderland
+3466,2013-03-09,Reading,Aston Villa
+3467,2013-03-09,West Bromwich Albion,Swansea City
+3468,2013-04-17,West Ham United,Manchester United
+3469,2012-08-22,Chelsea,Reading
+3470,2012-09-02,Liverpool,Arsenal
+3471,2012-09-01,Manchester City,Queens Park Rangers
+3472,2012-09-02,Newcastle United,Aston Villa
+3473,2012-09-02,Southampton,Manchester United
+3474,2012-09-01,Swansea City,Sunderland
+3475,2012-09-01,Tottenham Hotspur,Norwich City
+3476,2012-09-01,West Bromwich Albion,Everton
+3477,2012-09-01,West Ham United,Fulham
+3478,2012-09-01,Wigan Athletic,Stoke City
+3479,2013-03-16,Aston Villa,Queens Park Rangers
+3480,2013-03-17,Chelsea,West Ham United
+3481,2013-03-16,Everton,Manchester City
+3482,2013-03-16,Manchester United,Reading
+3483,2013-03-16,Southampton,Liverpool
+3484,2013-03-16,Stoke City,West Bromwich Albion
+3485,2013-03-17,Sunderland,Norwich City
+3486,2013-03-16,Swansea City,Arsenal
+3487,2013-03-17,Tottenham Hotspur,Fulham
+3488,2013-03-17,Wigan Athletic,Newcastle United
+3489,2013-03-30,Arsenal,Reading
+3490,2013-03-31,Aston Villa,Liverpool
+3491,2013-03-30,Everton,Stoke City
+3492,2013-04-01,Fulham,Queens Park Rangers
+3493,2013-03-30,Manchester City,Newcastle United
+3494,2013-03-30,Southampton,Chelsea
+3495,2013-03-30,Sunderland,Manchester United
+3496,2013-03-30,Swansea City,Tottenham Hotspur
+3497,2013-03-30,West Ham United,West Bromwich Albion
+3498,2013-03-30,Wigan Athletic,Norwich City
+3499,2013-04-07,Chelsea,Sunderland
+3500,2013-04-07,Liverpool,West Ham United
+3501,2013-04-08,Manchester United,Manchester City
+3502,2013-04-07,Newcastle United,Fulham
+3503,2013-04-06,Norwich City,Swansea City
+3504,2013-04-07,Queens Park Rangers,Wigan Athletic
+3505,2013-04-06,Reading,Southampton
+3506,2013-04-06,Stoke City,Aston Villa
+3507,2013-04-07,Tottenham Hotspur,Everton
+3508,2013-04-06,West Bromwich Albion,Arsenal
+3509,2013-04-13,Arsenal,Norwich City
+3510,2013-04-13,Aston Villa,Fulham
+3511,2013-05-08,Chelsea,Tottenham Hotspur
+3512,2013-04-13,Everton,Queens Park Rangers
+3513,2013-05-07,Manchester City,West Bromwich Albion
+3514,2013-04-14,Newcastle United,Sunderland
+3515,2013-04-13,Reading,Liverpool
+3516,2013-04-13,Southampton,West Ham United
+3517,2013-04-14,Stoke City,Manchester United
+3518,2013-05-07,Wigan Athletic,Swansea City
+3519,2013-04-20,Fulham,Arsenal
+3520,2013-04-21,Liverpool,Chelsea
+3521,2013-04-22,Manchester United,Aston Villa
+3522,2013-04-20,Norwich City,Reading
+3523,2013-04-20,Queens Park Rangers,Stoke City
+3524,2013-04-20,Sunderland,Everton
+3525,2013-04-20,Swansea City,Southampton
+3526,2013-04-21,Tottenham Hotspur,Manchester City
+3527,2013-04-20,West Bromwich Albion,Newcastle United
+3528,2013-04-20,West Ham United,Wigan Athletic
+3529,2013-04-28,Arsenal,Manchester United
+3530,2013-04-29,Aston Villa,Sunderland
+3531,2013-04-28,Chelsea,Swansea City
+3532,2013-04-27,Everton,Fulham
+3533,2013-04-27,Manchester City,West Ham United
+3534,2013-04-27,Newcastle United,Liverpool
+3535,2013-04-28,Reading,Queens Park Rangers
+3536,2013-04-27,Southampton,West Bromwich Albion
+3537,2013-04-27,Stoke City,Norwich City
+3538,2013-04-27,Wigan Athletic,Tottenham Hotspur
+3539,2013-05-04,Fulham,Reading
+3540,2013-05-05,Liverpool,Everton
+3541,2013-05-05,Manchester United,Chelsea
+3542,2013-05-04,Norwich City,Aston Villa
+3543,2013-05-04,Queens Park Rangers,Arsenal
+3544,2013-05-06,Sunderland,Stoke City
+3545,2013-05-04,Swansea City,Manchester City
+3546,2013-05-04,Tottenham Hotspur,Southampton
+3547,2013-05-04,West Bromwich Albion,Wigan Athletic
+3548,2013-05-04,West Ham United,Newcastle United
+3549,2013-05-14,Arsenal,Wigan Athletic
+3550,2013-05-11,Aston Villa,Chelsea
+3551,2013-05-12,Everton,West Ham United
+3552,2013-05-12,Fulham,Liverpool
+3553,2013-05-12,Manchester United,Swansea City
+3554,2013-05-12,Norwich City,West Bromwich Albion
+3555,2013-05-12,Queens Park Rangers,Newcastle United
+3556,2013-05-14,Reading,Manchester City
+3557,2013-05-12,Stoke City,Tottenham Hotspur
+3558,2013-05-12,Sunderland,Southampton
+3559,2013-05-19,Chelsea,Everton
+3560,2013-05-19,Liverpool,Queens Park Rangers
+3561,2013-05-19,Manchester City,Norwich City
+3562,2013-05-19,Newcastle United,Arsenal
+3563,2013-05-19,Southampton,Stoke City
+3564,2013-05-19,Swansea City,Fulham
+3565,2013-05-19,Tottenham Hotspur,Sunderland
+3566,2013-05-19,West Bromwich Albion,Manchester United
+3567,2013-05-19,West Ham United,Reading
+3568,2013-05-19,Wigan Athletic,Aston Villa
+3569,2012-09-15,Arsenal,Southampton
+3570,2012-09-15,Aston Villa,Swansea City
+3571,2012-09-17,Everton,Newcastle United
+3572,2012-09-15,Fulham,West Bromwich Albion
+3573,2012-09-15,Manchester United,Wigan Athletic
+3574,2012-09-15,Norwich City,West Ham United
+3575,2012-09-15,Queens Park Rangers,Chelsea
+3576,2012-09-16,Reading,Tottenham Hotspur
+3577,2012-09-15,Stoke City,Manchester City
+3578,2012-09-15,Sunderland,Liverpool
+3579,2012-09-22,Chelsea,Stoke City
+3580,2012-09-23,Liverpool,Manchester United
+3581,2012-09-23,Manchester City,Arsenal
+3582,2012-09-23,Newcastle United,Norwich City
+3583,2012-09-22,Southampton,Aston Villa
+3584,2012-09-22,Swansea City,Everton
+3585,2012-09-23,Tottenham Hotspur,Queens Park Rangers
+3586,2012-09-22,West Bromwich Albion,Reading
+3587,2012-09-22,West Ham United,Sunderland
+3588,2012-09-22,Wigan Athletic,Fulham
+3589,2012-09-29,Arsenal,Chelsea
+3590,2012-09-30,Aston Villa,West Bromwich Albion
+3591,2012-09-29,Everton,Southampton
+3592,2012-09-29,Fulham,Manchester City
+3593,2012-09-29,Manchester United,Tottenham Hotspur
+3594,2012-09-29,Norwich City,Liverpool
+3595,2012-10-01,Queens Park Rangers,West Ham United
+3596,2012-09-29,Reading,Newcastle United
+3597,2012-09-29,Stoke City,Swansea City
+3598,2012-09-29,Sunderland,Wigan Athletic
+3599,2012-10-06,Chelsea,Norwich City
+3600,2012-10-07,Liverpool,Stoke City
+3601,2012-10-06,Manchester City,Sunderland
+3602,2012-10-07,Newcastle United,Manchester United
+3603,2012-10-07,Southampton,Fulham
+3604,2012-10-06,Swansea City,Reading
+3605,2012-10-07,Tottenham Hotspur,Aston Villa
+3606,2012-10-06,West Bromwich Albion,Queens Park Rangers
+3607,2012-10-06,West Ham United,Arsenal
+3608,2012-10-06,Wigan Athletic,Everton
+3609,2012-10-20,Fulham,Aston Villa
+3610,2012-10-20,Liverpool,Reading
+3611,2012-10-20,Manchester United,Stoke City
+3612,2012-10-20,Norwich City,Arsenal
+3613,2012-10-21,Queens Park Rangers,Everton
+3614,2012-10-21,Sunderland,Newcastle United
+3615,2012-10-20,Swansea City,Wigan Athletic
+3616,2012-10-20,Tottenham Hotspur,Chelsea
+3617,2012-10-20,West Bromwich Albion,Manchester City
+3618,2012-10-20,West Ham United,Southampton
+3619,2012-10-27,Arsenal,Queens Park Rangers
+3620,2012-10-27,Aston Villa,Norwich City
+3621,2012-10-28,Chelsea,Manchester United
+3622,2012-10-28,Everton,Liverpool
+3623,2012-10-27,Manchester City,Swansea City
+3624,2012-10-28,Newcastle United,West Bromwich Albion
+3625,2012-10-27,Reading,Fulham
+3626,2012-10-28,Southampton,Tottenham Hotspur
+3627,2012-10-27,Stoke City,Sunderland
+3628,2012-10-27,Wigan Athletic,West Ham United
+3629,2013-08-17,Arsenal,Aston Villa
+3630,2013-08-18,Chelsea,Hull City
+3631,2013-08-18,Crystal Palace,Tottenham Hotspur
+3632,2013-08-17,Liverpool,Stoke City
+3633,2013-08-19,Manchester City,Newcastle United
+3634,2013-08-17,Norwich City,Everton
+3635,2013-08-17,Sunderland,Fulham
+3636,2013-08-17,Swansea City,Manchester United
+3637,2013-08-17,West Bromwich Albion,Southampton
+3638,2013-08-17,West Ham United,Cardiff City
+3639,2013-11-02,Arsenal,Liverpool
+3640,2013-11-03,Cardiff City,Swansea City
+3641,2013-11-03,Everton,Tottenham Hotspur
+3642,2013-11-02,Fulham,Manchester United
+3643,2013-11-02,Hull City,Sunderland
+3644,2013-11-02,Manchester City,Norwich City
+3645,2013-11-02,Newcastle United,Chelsea
+3646,2013-11-02,Stoke City,Southampton
+3647,2013-11-02,West Bromwich Albion,Crystal Palace
+3648,2013-11-02,West Ham United,Aston Villa
+3649,2013-11-09,Aston Villa,Cardiff City
+3650,2013-11-09,Chelsea,West Bromwich Albion
+3651,2013-11-09,Crystal Palace,Everton
+3652,2013-11-09,Liverpool,Fulham
+3653,2013-11-10,Manchester United,Arsenal
+3654,2013-11-09,Norwich City,West Ham United
+3655,2013-11-09,Southampton,Hull City
+3656,2013-11-10,Sunderland,Manchester City
+3657,2013-11-10,Swansea City,Stoke City
+3658,2013-11-10,Tottenham Hotspur,Newcastle United
+3659,2013-11-23,Arsenal,Southampton
+3660,2013-11-24,Cardiff City,Manchester United
+3661,2013-11-23,Everton,Liverpool
+3662,2013-11-23,Fulham,Swansea City
+3663,2013-11-23,Hull City,Crystal Palace
+3664,2013-11-24,Manchester City,Tottenham Hotspur
+3665,2013-11-23,Newcastle United,Norwich City
+3666,2013-11-23,Stoke City,Sunderland
+3667,2013-11-25,West Bromwich Albion,Aston Villa
+3668,2013-11-23,West Ham United,Chelsea
+3669,2013-11-30,Aston Villa,Sunderland
+3670,2013-11-30,Cardiff City,Arsenal
+3671,2013-12-01,Chelsea,Southampton
+3672,2013-11-30,Everton,Stoke City
+3673,2013-12-01,Hull City,Liverpool
+3674,2013-12-01,Manchester City,Swansea City
+3675,2013-11-30,Newcastle United,West Bromwich Albion
+3676,2013-11-30,Norwich City,Crystal Palace
+3677,2013-12-01,Tottenham Hotspur,Manchester United
+3678,2013-11-30,West Ham United,Fulham
+3679,2013-12-04,Arsenal,Hull City
+3680,2013-12-04,Liverpool,Norwich City
+3681,2013-12-04,Manchester United,Everton
+3682,2013-12-04,Southampton,Aston Villa
+3683,2013-12-04,Stoke City,Cardiff City
+3684,2013-12-04,Sunderland,Chelsea
+3685,2013-12-04,Swansea City,Newcastle United
+3686,2013-12-04,West Bromwich Albion,Manchester City
+3687,2013-12-04,Fulham,Tottenham Hotspur
+3688,2013-12-03,Crystal Palace,West Ham United
+3689,2013-12-08,Arsenal,Everton
+3690,2013-12-07,Crystal Palace,Cardiff City
+3691,2013-12-08,Fulham,Aston Villa
+3692,2013-12-07,Liverpool,West Ham United
+3693,2013-12-07,Manchester United,Newcastle United
+3694,2013-12-07,Southampton,Manchester City
+3695,2013-12-07,Stoke City,Chelsea
+3696,2013-12-07,Sunderland,Tottenham Hotspur
+3697,2013-12-09,Swansea City,Hull City
+3698,2013-12-07,West Bromwich Albion,Norwich City
+3699,2013-12-15,Aston Villa,Manchester United
+3700,2013-12-14,Cardiff City,West Bromwich Albion
+3701,2013-12-14,Chelsea,Crystal Palace
+3702,2013-12-14,Everton,Fulham
+3703,2013-12-14,Hull City,Stoke City
+3704,2013-12-14,Manchester City,Arsenal
+3705,2013-12-14,Newcastle United,Southampton
+3706,2013-12-15,Norwich City,Swansea City
+3707,2013-12-15,Tottenham Hotspur,Liverpool
+3708,2013-12-14,West Ham United,Sunderland
+3709,2013-12-23,Arsenal,Chelsea
+3710,2013-12-21,Crystal Palace,Newcastle United
+3711,2013-12-21,Fulham,Manchester City
+3712,2013-12-21,Liverpool,Cardiff City
+3713,2013-12-21,Manchester United,West Ham United
+3714,2013-12-22,Southampton,Tottenham Hotspur
+3715,2013-12-21,Stoke City,Aston Villa
+3716,2013-12-21,Sunderland,Norwich City
+3717,2013-12-22,Swansea City,Everton
+3718,2013-12-21,West Bromwich Albion,Hull City
+3719,2013-12-26,Aston Villa,Crystal Palace
+3720,2013-12-26,Cardiff City,Southampton
+3721,2013-12-26,Chelsea,Swansea City
+3722,2013-12-26,Everton,Sunderland
+3723,2013-12-26,Hull City,Manchester United
+3724,2013-12-26,Manchester City,Liverpool
+3725,2013-12-26,Newcastle United,Stoke City
+3726,2013-12-26,Norwich City,Fulham
+3727,2013-12-26,Tottenham Hotspur,West Bromwich Albion
+3728,2013-12-26,West Ham United,Arsenal
+3729,2013-12-28,Aston Villa,Swansea City
+3730,2013-12-28,Cardiff City,Sunderland
+3731,2013-12-29,Chelsea,Liverpool
+3732,2013-12-29,Everton,Southampton
+3733,2013-12-28,Hull City,Fulham
+3734,2013-12-28,Manchester City,Crystal Palace
+3735,2013-12-29,Newcastle United,Arsenal
+3736,2013-12-28,Norwich City,Manchester United
+3737,2013-12-29,Tottenham Hotspur,Stoke City
+3738,2013-12-28,West Ham United,West Bromwich Albion
+3739,2013-08-24,Aston Villa,Liverpool
+3740,2013-08-25,Cardiff City,Manchester City
+3741,2013-08-24,Everton,West Bromwich Albion
+3742,2013-08-24,Fulham,Arsenal
+3743,2013-08-24,Hull City,Norwich City
+3744,2013-08-26,Manchester United,Chelsea
+3745,2013-08-24,Newcastle United,West Ham United
+3746,2013-08-24,Southampton,Sunderland
+3747,2013-08-24,Stoke City,Crystal Palace
+3748,2013-08-25,Tottenham Hotspur,Swansea City
+3749,2014-01-01,Arsenal,Cardiff City
+3750,2014-01-01,Crystal Palace,Norwich City
+3751,2014-01-01,Fulham,West Ham United
+3752,2014-01-01,Liverpool,Hull City
+3753,2014-01-01,Manchester United,Tottenham Hotspur
+3754,2014-01-01,Southampton,Chelsea
+3755,2014-01-01,Stoke City,Everton
+3756,2014-01-01,Sunderland,Aston Villa
+3757,2014-01-01,Swansea City,Manchester City
+3758,2014-01-01,West Bromwich Albion,Newcastle United
+3759,2014-01-13,Aston Villa,Arsenal
+3760,2014-01-11,Cardiff City,West Ham United
+3761,2014-01-11,Everton,Norwich City
+3762,2014-01-11,Fulham,Sunderland
+3763,2014-01-11,Hull City,Chelsea
+3764,2014-01-11,Manchester United,Swansea City
+3765,2014-01-12,Newcastle United,Manchester City
+3766,2014-01-11,Southampton,West Bromwich Albion
+3767,2014-01-12,Stoke City,Liverpool
+3768,2014-01-11,Tottenham Hotspur,Crystal Palace
+3769,2014-01-18,Arsenal,Fulham
+3770,2014-01-19,Chelsea,Manchester United
+3771,2014-01-18,Crystal Palace,Stoke City
+3772,2014-01-18,Liverpool,Aston Villa
+3773,2014-01-18,Manchester City,Cardiff City
+3774,2014-01-18,Norwich City,Hull City
+3775,2014-01-18,Sunderland,Southampton
+3776,2014-01-19,Swansea City,Tottenham Hotspur
+3777,2014-01-20,West Bromwich Albion,Everton
+3778,2014-01-18,West Ham United,Newcastle United
+3779,2014-01-29,Aston Villa,West Bromwich Albion
+3780,2014-01-28,Crystal Palace,Hull City
+3781,2014-01-28,Liverpool,Everton
+3782,2014-01-28,Manchester United,Cardiff City
+3783,2014-01-28,Norwich City,Newcastle United
+3784,2014-01-28,Southampton,Arsenal
+3785,2014-01-29,Sunderland,Stoke City
+3786,2014-01-28,Swansea City,Fulham
+3787,2014-01-29,Chelsea,West Ham United
+3788,2014-01-29,Tottenham Hotspur,Manchester City
+3789,2014-02-02,Arsenal,Crystal Palace
+3790,2014-02-01,Cardiff City,Norwich City
+3791,2014-02-01,Everton,Aston Villa
+3792,2014-02-01,Fulham,Southampton
+3793,2014-02-01,Hull City,Tottenham Hotspur
+3794,2014-02-03,Manchester City,Chelsea
+3795,2014-02-01,Newcastle United,Sunderland
+3796,2014-02-01,Stoke City,Manchester United
+3797,2014-02-02,West Bromwich Albion,Liverpool
+3798,2014-02-01,West Ham United,Swansea City
+3799,2014-02-08,Crystal Palace,West Bromwich Albion
+3800,2014-02-08,Aston Villa,West Ham United
+3801,2014-02-08,Chelsea,Newcastle United
+3802,2014-02-08,Liverpool,Arsenal
+3803,2014-02-09,Manchester United,Fulham
+3804,2014-02-08,Norwich City,Manchester City
+3805,2014-02-08,Southampton,Stoke City
+3806,2014-02-08,Sunderland,Hull City
+3807,2014-02-08,Swansea City,Cardiff City
+3808,2014-02-09,Tottenham Hotspur,Everton
+3809,2014-02-12,Arsenal,Manchester United
+3810,2014-02-11,Cardiff City,Aston Villa
+3811,2014-02-11,Hull City,Southampton
+3812,2014-02-12,Stoke City,Swansea City
+3813,2014-02-11,West Bromwich Albion,Chelsea
+3814,2014-02-11,West Ham United,Norwich City
+3815,2014-04-16,Everton,Crystal Palace
+3816,2014-02-12,Fulham,Liverpool
+3817,2014-04-16,Manchester City,Sunderland
+3818,2014-02-12,Newcastle United,Tottenham Hotspur
+3819,2014-02-22,Arsenal,Sunderland
+3820,2014-02-22,Cardiff City,Hull City
+3821,2014-02-22,Chelsea,Everton
+3822,2014-02-22,Crystal Palace,Manchester United
+3823,2014-02-23,Liverpool,Swansea City
+3824,2014-02-22,Manchester City,Stoke City
+3825,2014-02-23,Newcastle United,Aston Villa
+3826,2014-02-23,Norwich City,Tottenham Hotspur
+3827,2014-02-22,West Bromwich Albion,Fulham
+3828,2014-02-22,West Ham United,Southampton
+3829,2014-03-02,Aston Villa,Norwich City
+3830,2014-03-01,Everton,West Ham United
+3831,2014-03-01,Fulham,Chelsea
+3832,2014-03-01,Hull City,Newcastle United
+3833,2014-03-25,Manchester United,Manchester City
+3834,2014-03-01,Southampton,Liverpool
+3835,2014-03-01,Stoke City,Arsenal
+3836,2014-05-07,Sunderland,West Bromwich Albion
+3837,2014-03-02,Swansea City,Crystal Palace
+3838,2014-03-02,Tottenham Hotspur,Cardiff City
+3839,2014-03-25,Arsenal,Swansea City
+3840,2014-03-08,Cardiff City,Fulham
+3841,2014-03-08,Chelsea,Tottenham Hotspur
+3842,2014-03-08,Crystal Palace,Southampton
+3843,2014-03-26,Liverpool,Sunderland
+3844,2014-05-07,Manchester City,Aston Villa
+3845,2014-03-25,Newcastle United,Everton
+3846,2014-03-08,Norwich City,Stoke City
+3847,2014-03-08,West Bromwich Albion,Manchester United
+3848,2014-03-26,West Ham United,Hull City
+3849,2013-09-01,Arsenal,Tottenham Hotspur
+3850,2013-08-31,Cardiff City,Everton
+3851,2013-08-21,Chelsea,Aston Villa
+3852,2013-08-31,Crystal Palace,Sunderland
+3853,2013-09-01,Liverpool,Manchester United
+3854,2013-08-31,Manchester City,Hull City
+3855,2013-08-31,Newcastle United,Fulham
+3856,2013-08-31,Norwich City,Southampton
+3857,2013-09-01,West Bromwich Albion,Swansea City
+3858,2013-08-31,West Ham United,Stoke City
+3859,2014-03-15,Swansea City,West Bromwich Albion
+3860,2014-03-15,Aston Villa,Chelsea
+3861,2014-03-15,Everton,Cardiff City
+3862,2014-03-15,Fulham,Newcastle United
+3863,2014-03-15,Hull City,Manchester City
+3864,2014-03-16,Manchester United,Liverpool
+3865,2014-03-15,Southampton,Norwich City
+3866,2014-03-15,Stoke City,West Ham United
+3867,2014-03-15,Sunderland,Crystal Palace
+3868,2014-03-16,Tottenham Hotspur,Arsenal
+3869,2014-03-23,Aston Villa,Stoke City
+3870,2014-03-22,Cardiff City,Liverpool
+3871,2014-03-22,Chelsea,Arsenal
+3872,2014-03-22,Everton,Swansea City
+3873,2014-03-22,Hull City,West Bromwich Albion
+3874,2014-03-22,Manchester City,Fulham
+3875,2014-03-22,Newcastle United,Crystal Palace
+3876,2014-03-22,Norwich City,Sunderland
+3877,2014-03-23,Tottenham Hotspur,Southampton
+3878,2014-03-22,West Ham United,Manchester United
+3879,2014-03-29,Arsenal,Manchester City
+3880,2014-03-29,Crystal Palace,Chelsea
+3881,2014-03-30,Fulham,Everton
+3882,2014-03-30,Liverpool,Tottenham Hotspur
+3883,2014-03-29,Manchester United,Aston Villa
+3884,2014-03-29,Southampton,Newcastle United
+3885,2014-03-29,Stoke City,Hull City
+3886,2014-03-31,Sunderland,West Ham United
+3887,2014-03-29,Swansea City,Norwich City
+3888,2014-03-29,West Bromwich Albion,Cardiff City
+3889,2014-04-05,Aston Villa,Fulham
+3890,2014-04-05,Cardiff City,Crystal Palace
+3891,2014-04-05,Chelsea,Stoke City
+3892,2014-04-06,Everton,Arsenal
+3893,2014-04-05,Hull City,Swansea City
+3894,2014-04-05,Manchester City,Southampton
+3895,2014-04-05,Newcastle United,Manchester United
+3896,2014-04-05,Norwich City,West Bromwich Albion
+3897,2014-04-07,Tottenham Hotspur,Sunderland
+3898,2014-04-06,West Ham United,Liverpool
+3899,2014-04-15,Arsenal,West Ham United
+3900,2014-04-12,Crystal Palace,Aston Villa
+3901,2014-04-12,Fulham,Norwich City
+3902,2014-04-13,Liverpool,Manchester City
+3903,2014-05-06,Manchester United,Hull City
+3904,2014-04-12,Southampton,Cardiff City
+3905,2014-04-12,Stoke City,Newcastle United
+3906,2014-04-12,Sunderland,Everton
+3907,2014-04-13,Swansea City,Chelsea
+3908,2014-04-12,West Bromwich Albion,Tottenham Hotspur
+3909,2014-04-19,Aston Villa,Southampton
+3910,2014-04-19,Cardiff City,Stoke City
+3911,2014-04-19,Chelsea,Sunderland
+3912,2014-04-20,Everton,Manchester United
+3913,2014-04-20,Hull City,Arsenal
+3914,2014-04-21,Manchester City,West Bromwich Albion
+3915,2014-04-19,Newcastle United,Swansea City
+3916,2014-04-20,Norwich City,Liverpool
+3917,2014-04-19,Tottenham Hotspur,Fulham
+3918,2014-04-19,West Ham United,Crystal Palace
+3919,2014-04-28,Arsenal,Newcastle United
+3920,2014-04-27,Crystal Palace,Manchester City
+3921,2014-04-26,Fulham,Hull City
+3922,2014-04-27,Liverpool,Chelsea
+3923,2014-04-26,Manchester United,Norwich City
+3924,2014-04-26,Southampton,Everton
+3925,2014-04-26,Stoke City,Tottenham Hotspur
+3926,2014-04-27,Sunderland,Cardiff City
+3927,2014-04-26,Swansea City,Aston Villa
+3928,2014-04-26,West Bromwich Albion,West Ham United
+3929,2014-05-04,Arsenal,West Bromwich Albion
+3930,2014-05-03,Aston Villa,Hull City
+3931,2014-05-04,Chelsea,Norwich City
+3932,2014-05-05,Crystal Palace,Liverpool
+3933,2014-05-03,Everton,Manchester City
+3934,2014-05-03,Manchester United,Sunderland
+3935,2014-05-03,Newcastle United,Cardiff City
+3936,2014-05-03,Stoke City,Fulham
+3937,2014-05-03,Swansea City,Southampton
+3938,2014-05-03,West Ham United,Tottenham Hotspur
+3939,2014-05-11,Cardiff City,Chelsea
+3940,2014-05-11,Fulham,Crystal Palace
+3941,2014-05-11,Hull City,Everton
+3942,2014-05-11,Liverpool,Newcastle United
+3943,2014-05-11,Manchester City,West Ham United
+3944,2014-05-11,Norwich City,Arsenal
+3945,2014-05-11,Southampton,Manchester United
+3946,2014-05-11,Sunderland,Swansea City
+3947,2014-05-11,Tottenham Hotspur,Aston Villa
+3948,2014-05-11,West Bromwich Albion,Stoke City
+3949,2013-09-14,Aston Villa,Newcastle United
+3950,2013-09-14,Everton,Chelsea
+3951,2013-09-14,Fulham,West Bromwich Albion
+3952,2013-09-14,Hull City,Cardiff City
+3953,2013-09-14,Manchester United,Crystal Palace
+3954,2013-09-15,Southampton,West Ham United
+3955,2013-09-14,Stoke City,Manchester City
+3956,2013-09-14,Sunderland,Arsenal
+3957,2013-09-16,Swansea City,Liverpool
+3958,2013-09-14,Tottenham Hotspur,Norwich City
+3959,2013-09-22,Arsenal,Stoke City
+3960,2013-09-22,Cardiff City,Tottenham Hotspur
+3961,2013-09-21,Chelsea,Fulham
+3962,2013-09-22,Crystal Palace,Swansea City
+3963,2013-09-21,Liverpool,Southampton
+3964,2013-09-22,Manchester City,Manchester United
+3965,2013-09-21,Newcastle United,Hull City
+3966,2013-09-21,Norwich City,Aston Villa
+3967,2013-09-21,West Bromwich Albion,Sunderland
+3968,2013-09-21,West Ham United,Everton
+3969,2013-09-28,Aston Villa,Manchester City
+3970,2013-09-30,Everton,Newcastle United
+3971,2013-09-28,Fulham,Cardiff City
+3972,2013-09-28,Hull City,West Ham United
+3973,2013-09-28,Manchester United,West Bromwich Albion
+3974,2013-09-28,Southampton,Crystal Palace
+3975,2013-09-29,Stoke City,Norwich City
+3976,2013-09-29,Sunderland,Liverpool
+3977,2013-09-28,Swansea City,Arsenal
+3978,2013-09-28,Tottenham Hotspur,Chelsea
+3979,2013-10-05,Cardiff City,Newcastle United
+3980,2013-10-05,Fulham,Stoke City
+3981,2013-10-05,Hull City,Aston Villa
+3982,2013-10-05,Liverpool,Crystal Palace
+3983,2013-10-05,Manchester City,Everton
+3984,2013-10-06,Norwich City,Chelsea
+3985,2013-10-06,Southampton,Swansea City
+3986,2013-10-05,Sunderland,Manchester United
+3987,2013-10-06,Tottenham Hotspur,West Ham United
+3988,2013-10-06,West Bromwich Albion,Arsenal
+3989,2013-10-19,Arsenal,Norwich City
+3990,2013-10-20,Aston Villa,Tottenham Hotspur
+3991,2013-10-19,Chelsea,Cardiff City
+3992,2013-10-21,Crystal Palace,Fulham
+3993,2013-10-19,Everton,Hull City
+3994,2013-10-19,Manchester United,Southampton
+3995,2013-10-19,Newcastle United,Liverpool
+3996,2013-10-19,Stoke City,West Bromwich Albion
+3997,2013-10-19,Swansea City,Sunderland
+3998,2013-10-19,West Ham United,Manchester City
+3999,2013-10-26,Aston Villa,Everton
+4000,2013-10-27,Chelsea,Manchester City
+4001,2013-10-26,Crystal Palace,Arsenal
+4002,2013-10-26,Liverpool,West Bromwich Albion
+4003,2013-10-26,Manchester United,Stoke City
+4004,2013-10-26,Norwich City,Cardiff City
+4005,2013-10-26,Southampton,Fulham
+4006,2013-10-27,Sunderland,Newcastle United
+4007,2013-10-27,Tottenham Hotspur,Hull City
+4008,2013-10-27,Swansea City,West Ham United
+4009,2014-08-16,Arsenal,Crystal Palace
+4010,2014-08-18,Burnley,Chelsea
+4011,2014-08-16,Leicester City,Everton
+4012,2014-08-17,Liverpool,Southampton
+4013,2014-08-16,Manchester United,Swansea City
+4014,2014-08-17,Newcastle United,Manchester City
+4015,2014-08-16,Queens Park Rangers,Hull City
+4016,2014-08-16,Stoke City,Aston Villa
+4017,2014-08-16,West Bromwich Albion,Sunderland
+4018,2014-08-16,West Ham United,Tottenham Hotspur
+4019,2014-11-01,Arsenal,Burnley
+4020,2014-11-02,Aston Villa,Tottenham Hotspur
+4021,2014-11-01,Chelsea,Queens Park Rangers
+4022,2014-11-03,Crystal Palace,Sunderland
+4023,2014-11-01,Everton,Swansea City
+4024,2014-11-01,Hull City,Southampton
+4025,2014-11-01,Leicester City,West Bromwich Albion
+4026,2014-11-02,Manchester City,Manchester United
+4027,2014-11-01,Newcastle United,Liverpool
+4028,2014-11-01,Stoke City,West Ham United
+4029,2014-11-08,Burnley,Hull City
+4030,2014-11-08,Liverpool,Chelsea
+4031,2014-11-08,Manchester United,Crystal Palace
+4032,2014-11-08,Queens Park Rangers,Manchester City
+4033,2014-11-08,Southampton,Leicester City
+4034,2014-11-09,Sunderland,Everton
+4035,2014-11-09,Swansea City,Arsenal
+4036,2014-11-09,Tottenham Hotspur,Stoke City
+4037,2014-11-09,West Bromwich Albion,Newcastle United
+4038,2014-11-08,West Ham United,Aston Villa
+4039,2014-11-22,Arsenal,Manchester United
+4040,2014-11-24,Aston Villa,Southampton
+4041,2014-11-22,Chelsea,West Bromwich Albion
+4042,2014-11-23,Crystal Palace,Liverpool
+4043,2014-11-22,Everton,West Ham United
+4044,2014-11-23,Hull City,Tottenham Hotspur
+4045,2014-11-22,Leicester City,Sunderland
+4046,2014-11-22,Manchester City,Swansea City
+4047,2014-11-22,Newcastle United,Queens Park Rangers
+4048,2014-11-22,Stoke City,Burnley
+4049,2014-11-29,Burnley,Aston Villa
+4050,2014-11-29,Liverpool,Stoke City
+4051,2014-11-29,Manchester United,Hull City
+4052,2014-11-29,Queens Park Rangers,Leicester City
+4053,2014-11-30,Southampton,Manchester City
+4054,2014-11-29,Sunderland,Chelsea
+4055,2014-11-29,Swansea City,Crystal Palace
+4056,2014-11-30,Tottenham Hotspur,Everton
+4057,2014-11-29,West Bromwich Albion,Arsenal
+4058,2014-11-29,West Ham United,Newcastle United
+4059,2014-12-03,Arsenal,Southampton
+4060,2014-12-02,Burnley,Newcastle United
+4061,2014-12-02,Leicester City,Liverpool
+4062,2014-12-02,Manchester United,Stoke City
+4063,2014-12-02,Swansea City,Queens Park Rangers
+4064,2014-12-02,Crystal Palace,Aston Villa
+4065,2014-12-02,West Bromwich Albion,West Ham United
+4066,2014-12-03,Chelsea,Tottenham Hotspur
+4067,2014-12-03,Everton,Hull City
+4068,2014-12-03,Sunderland,Manchester City
+4069,2014-12-07,Aston Villa,Leicester City
+4070,2014-12-06,Hull City,West Bromwich Albion
+4071,2014-12-06,Liverpool,Sunderland
+4072,2014-12-06,Manchester City,Everton
+4073,2014-12-06,Newcastle United,Chelsea
+4074,2014-12-06,Queens Park Rangers,Burnley
+4075,2014-12-08,Southampton,Manchester United
+4076,2014-12-06,Stoke City,Arsenal
+4077,2014-12-06,Tottenham Hotspur,Crystal Palace
+4078,2014-12-07,West Ham United,Swansea City
+4079,2014-12-13,Arsenal,Newcastle United
+4080,2014-12-13,Burnley,Southampton
+4081,2014-12-13,Chelsea,Hull City
+4082,2014-12-13,Crystal Palace,Stoke City
+4083,2014-12-15,Everton,Queens Park Rangers
+4084,2014-12-13,Leicester City,Manchester City
+4085,2014-12-14,Manchester United,Liverpool
+4086,2014-12-13,Sunderland,West Ham United
+4087,2014-12-14,Swansea City,Tottenham Hotspur
+4088,2014-12-13,West Bromwich Albion,Aston Villa
+4089,2014-12-20,Aston Villa,Manchester United
+4090,2014-12-20,Hull City,Swansea City
+4091,2014-12-21,Liverpool,Arsenal
+4092,2014-12-20,Manchester City,Crystal Palace
+4093,2014-12-21,Newcastle United,Sunderland
+4094,2014-12-20,Queens Park Rangers,West Bromwich Albion
+4095,2014-12-20,Southampton,Everton
+4096,2014-12-22,Stoke City,Chelsea
+4097,2014-12-20,Tottenham Hotspur,Burnley
+4098,2014-12-20,West Ham United,Leicester City
+4099,2014-12-26,Arsenal,Queens Park Rangers
+4100,2014-12-26,Burnley,Liverpool
+4101,2014-12-26,Chelsea,West Ham United
+4102,2014-12-26,Crystal Palace,Southampton
+4103,2014-12-26,Everton,Stoke City
+4104,2014-12-26,Leicester City,Tottenham Hotspur
+4105,2014-12-26,Manchester United,Newcastle United
+4106,2014-12-26,Sunderland,Hull City
+4107,2014-12-26,Swansea City,Aston Villa
+4108,2014-12-26,West Bromwich Albion,Manchester City
+4109,2014-12-28,Aston Villa,Sunderland
+4110,2014-12-28,Hull City,Leicester City
+4111,2014-12-29,Liverpool,Swansea City
+4112,2014-12-28,Manchester City,Burnley
+4113,2014-12-28,Newcastle United,Everton
+4114,2014-12-28,Queens Park Rangers,Crystal Palace
+4115,2014-12-28,Southampton,Chelsea
+4116,2014-12-28,Stoke City,West Bromwich Albion
+4117,2014-12-28,Tottenham Hotspur,Manchester United
+4118,2014-12-28,West Ham United,Arsenal
+4119,2014-08-23,Aston Villa,Newcastle United
+4120,2014-08-23,Chelsea,Leicester City
+4121,2014-08-23,Crystal Palace,West Ham United
+4122,2014-08-23,Everton,Arsenal
+4123,2014-08-24,Hull City,Stoke City
+4124,2014-08-25,Manchester City,Liverpool
+4125,2014-08-23,Southampton,West Bromwich Albion
+4126,2014-08-24,Sunderland,Manchester United
+4127,2014-08-23,Swansea City,Burnley
+4128,2014-08-24,Tottenham Hotspur,Queens Park Rangers
+4129,2015-01-01,Aston Villa,Crystal Palace
+4130,2015-01-01,Hull City,Everton
+4131,2015-01-01,Liverpool,Leicester City
+4132,2015-01-01,Manchester City,Sunderland
+4133,2015-01-01,Newcastle United,Burnley
+4134,2015-01-01,Queens Park Rangers,Swansea City
+4135,2015-01-01,Southampton,Arsenal
+4136,2015-01-01,Stoke City,Manchester United
+4137,2015-01-01,Tottenham Hotspur,Chelsea
+4138,2015-01-01,West Ham United,West Bromwich Albion
+4139,2015-01-11,Arsenal,Stoke City
+4140,2015-01-10,Burnley,Queens Park Rangers
+4141,2015-01-10,Chelsea,Newcastle United
+4142,2015-01-10,Crystal Palace,Tottenham Hotspur
+4143,2015-01-10,Everton,Manchester City
+4144,2015-01-10,Leicester City,Aston Villa
+4145,2015-01-11,Manchester United,Southampton
+4146,2015-01-10,Sunderland,Liverpool
+4147,2015-01-10,Swansea City,West Ham United
+4148,2015-01-10,West Bromwich Albion,Hull City
+4149,2015-01-17,Aston Villa,Liverpool
+4150,2015-01-17,Burnley,Crystal Palace
+4151,2015-01-19,Everton,West Bromwich Albion
+4152,2015-01-17,Leicester City,Stoke City
+4153,2015-01-18,Manchester City,Arsenal
+4154,2015-01-17,Newcastle United,Southampton
+4155,2015-01-17,Queens Park Rangers,Manchester United
+4156,2015-01-17,Swansea City,Chelsea
+4157,2015-01-17,Tottenham Hotspur,Sunderland
+4158,2015-01-18,West Ham United,Hull City
+4159,2015-02-01,Arsenal,Aston Villa
+4160,2015-01-31,Chelsea,Manchester City
+4161,2015-01-31,Crystal Palace,Everton
+4162,2015-01-31,Hull City,Newcastle United
+4163,2015-01-31,Liverpool,West Ham United
+4164,2015-01-31,Manchester United,Leicester City
+4165,2015-02-01,Southampton,Swansea City
+4166,2015-01-31,Stoke City,Queens Park Rangers
+4167,2015-01-31,Sunderland,Burnley
+4168,2015-01-31,West Bromwich Albion,Tottenham Hotspur
+4169,2015-02-07,Aston Villa,Chelsea
+4170,2015-02-08,Burnley,West Bromwich Albion
+4171,2015-02-07,Everton,Liverpool
+4172,2015-02-07,Leicester City,Crystal Palace
+4173,2015-02-07,Manchester City,Hull City
+4174,2015-02-08,Newcastle United,Stoke City
+4175,2015-02-07,Queens Park Rangers,Southampton
+4176,2015-02-07,Swansea City,Sunderland
+4177,2015-02-07,Tottenham Hotspur,Arsenal
+4178,2015-02-08,West Ham United,Manchester United
+4179,2015-02-10,Arsenal,Leicester City
+4180,2015-02-10,Hull City,Aston Villa
+4181,2015-02-11,Manchester United,Burnley
+4182,2015-02-11,Southampton,West Ham United
+4183,2015-02-11,Crystal Palace,Newcastle United
+4184,2015-02-10,Liverpool,Tottenham Hotspur
+4185,2015-02-11,West Bromwich Albion,Swansea City
+4186,2015-02-11,Chelsea,Everton
+4187,2015-02-11,Stoke City,Manchester City
+4188,2015-02-10,Sunderland,Queens Park Rangers
+4189,2015-02-21,Aston Villa,Stoke City
+4190,2015-02-21,Chelsea,Burnley
+4191,2015-02-21,Crystal Palace,Arsenal
+4192,2015-02-22,Everton,Leicester City
+4193,2015-02-21,Hull City,Queens Park Rangers
+4194,2015-02-21,Manchester City,Newcastle United
+4195,2015-02-22,Southampton,Liverpool
+4196,2015-02-21,Sunderland,West Bromwich Albion
+4197,2015-02-21,Swansea City,Manchester United
+4198,2015-02-22,Tottenham Hotspur,West Ham United
+4199,2015-03-01,Arsenal,Everton
+4200,2015-02-28,Burnley,Swansea City
+4201,2015-04-29,Leicester City,Chelsea
+4202,2015-03-01,Liverpool,Manchester City
+4203,2015-02-28,Manchester United,Sunderland
+4204,2015-02-28,Newcastle United,Aston Villa
+4205,2015-03-07,Queens Park Rangers,Tottenham Hotspur
+4206,2015-02-28,Stoke City,Hull City
+4207,2015-02-28,West Bromwich Albion,Southampton
+4208,2015-02-28,West Ham United,Crystal Palace
+4209,2015-03-03,Aston Villa,West Bromwich Albion
+4210,2015-03-03,Hull City,Sunderland
+4211,2015-03-04,Queens Park Rangers,Arsenal
+4212,2015-03-03,Southampton,Crystal Palace
+4213,2015-03-04,West Ham United,Chelsea
+4214,2015-03-04,Liverpool,Burnley
+4215,2015-03-04,Manchester City,Leicester City
+4216,2015-03-04,Newcastle United,Manchester United
+4217,2015-03-04,Stoke City,Everton
+4218,2015-03-04,Tottenham Hotspur,Swansea City
+4219,2015-03-14,Arsenal,West Ham United
+4220,2015-03-14,Burnley,Manchester City
+4221,2015-03-15,Chelsea,Southampton
+4222,2015-03-14,Crystal Palace,Queens Park Rangers
+4223,2015-03-15,Everton,Newcastle United
+4224,2015-03-14,Leicester City,Hull City
+4225,2015-03-15,Manchester United,Tottenham Hotspur
+4226,2015-03-14,Sunderland,Aston Villa
+4227,2015-03-16,Swansea City,Liverpool
+4228,2015-03-14,West Bromwich Albion,Stoke City
+4229,2014-08-31,Aston Villa,Hull City
+4230,2014-08-30,Burnley,Manchester United
+4231,2014-08-30,Everton,Chelsea
+4232,2014-08-31,Leicester City,Arsenal
+4233,2014-08-30,Manchester City,Stoke City
+4234,2014-08-30,Newcastle United,Crystal Palace
+4235,2014-08-30,Queens Park Rangers,Sunderland
+4236,2014-08-30,Swansea City,West Bromwich Albion
+4237,2014-08-31,Tottenham Hotspur,Liverpool
+4238,2014-08-30,West Ham United,Southampton
+4239,2015-03-21,Aston Villa,Swansea City
+4240,2015-03-22,Hull City,Chelsea
+4241,2015-03-22,Liverpool,Manchester United
+4242,2015-03-21,Manchester City,West Bromwich Albion
+4243,2015-03-21,Newcastle United,Arsenal
+4244,2015-03-22,Queens Park Rangers,Everton
+4245,2015-03-21,Southampton,Burnley
+4246,2015-03-21,Stoke City,Crystal Palace
+4247,2015-03-21,Tottenham Hotspur,Leicester City
+4248,2015-03-21,West Ham United,Sunderland
+4249,2015-04-04,Arsenal,Liverpool
+4250,2015-04-05,Burnley,Tottenham Hotspur
+4251,2015-04-04,Chelsea,Stoke City
+4252,2015-04-06,Crystal Palace,Manchester City
+4253,2015-04-04,Everton,Southampton
+4254,2015-04-04,Leicester City,West Ham United
+4255,2015-04-04,Manchester United,Aston Villa
+4256,2015-04-05,Sunderland,Newcastle United
+4257,2015-04-04,Swansea City,Hull City
+4258,2015-04-04,West Bromwich Albion,Queens Park Rangers
+4259,2015-04-11,Burnley,Arsenal
+4260,2015-04-13,Liverpool,Newcastle United
+4261,2015-04-12,Manchester United,Manchester City
+4262,2015-04-12,Queens Park Rangers,Chelsea
+4263,2015-04-11,Southampton,Hull City
+4264,2015-04-11,Sunderland,Crystal Palace
+4265,2015-04-11,Swansea City,Everton
+4266,2015-04-11,Tottenham Hotspur,Aston Villa
+4267,2015-04-11,West Bromwich Albion,Leicester City
+4268,2015-04-11,West Ham United,Stoke City
+4269,2015-05-20,Arsenal,Sunderland
+4270,2015-04-07,Aston Villa,Queens Park Rangers
+4271,2015-04-18,Chelsea,Manchester United
+4272,2015-04-18,Crystal Palace,West Bromwich Albion
+4273,2015-04-18,Everton,Burnley
+4274,2015-04-28,Hull City,Liverpool
+4275,2015-04-18,Leicester City,Swansea City
+4276,2015-04-19,Manchester City,West Ham United
+4277,2015-04-19,Newcastle United,Tottenham Hotspur
+4278,2015-04-18,Stoke City,Southampton
+4279,2015-04-26,Arsenal,Chelsea
+4280,2015-04-25,Burnley,Leicester City
+4281,2015-04-25,Crystal Palace,Hull City
+4282,2015-04-26,Everton,Manchester United
+4283,2015-04-25,Manchester City,Aston Villa
+4284,2015-04-25,Newcastle United,Swansea City
+4285,2015-04-25,Queens Park Rangers,West Ham United
+4286,2015-04-25,Southampton,Tottenham Hotspur
+4287,2015-04-25,Stoke City,Sunderland
+4288,2015-04-25,West Bromwich Albion,Liverpool
+4289,2015-05-02,Aston Villa,Everton
+4290,2015-05-03,Chelsea,Crystal Palace
+4291,2015-05-04,Hull City,Arsenal
+4292,2015-05-02,Leicester City,Newcastle United
+4293,2015-05-02,Liverpool,Queens Park Rangers
+4294,2015-05-02,Manchester United,West Bromwich Albion
+4295,2015-05-02,Sunderland,Southampton
+4296,2015-05-02,Swansea City,Stoke City
+4297,2015-05-03,Tottenham Hotspur,Manchester City
+4298,2015-05-02,West Ham United,Burnley
+4299,2015-05-11,Arsenal,Swansea City
+4300,2015-05-09,Aston Villa,West Ham United
+4301,2015-05-10,Chelsea,Liverpool
+4302,2015-05-09,Crystal Palace,Manchester United
+4303,2015-05-09,Everton,Sunderland
+4304,2015-05-09,Hull City,Burnley
+4305,2015-05-09,Leicester City,Southampton
+4306,2015-05-10,Manchester City,Queens Park Rangers
+4307,2015-05-09,Newcastle United,West Bromwich Albion
+4308,2015-05-09,Stoke City,Tottenham Hotspur
+4309,2015-05-16,Burnley,Stoke City
+4310,2015-05-16,Liverpool,Crystal Palace
+4311,2015-05-17,Manchester United,Arsenal
+4312,2015-05-16,Queens Park Rangers,Newcastle United
+4313,2015-05-16,Southampton,Aston Villa
+4314,2015-05-16,Sunderland,Leicester City
+4315,2015-05-17,Swansea City,Manchester City
+4316,2015-05-16,Tottenham Hotspur,Hull City
+4317,2015-05-18,West Bromwich Albion,Chelsea
+4318,2015-05-16,West Ham United,Everton
+4319,2015-05-24,Arsenal,West Bromwich Albion
+4320,2015-05-24,Aston Villa,Burnley
+4321,2015-05-24,Chelsea,Sunderland
+4322,2015-05-24,Crystal Palace,Swansea City
+4323,2015-05-24,Everton,Tottenham Hotspur
+4324,2015-05-24,Hull City,Manchester United
+4325,2015-05-24,Leicester City,Queens Park Rangers
+4326,2015-05-24,Manchester City,Southampton
+4327,2015-05-24,Newcastle United,West Ham United
+4328,2015-05-24,Stoke City,Liverpool
+4329,2014-09-13,Arsenal,Manchester City
+4330,2014-09-13,Chelsea,Swansea City
+4331,2014-09-13,Crystal Palace,Burnley
+4332,2014-09-15,Hull City,West Ham United
+4333,2014-09-13,Liverpool,Aston Villa
+4334,2014-09-14,Manchester United,Queens Park Rangers
+4335,2014-09-13,Southampton,Newcastle United
+4336,2014-09-13,Stoke City,Leicester City
+4337,2014-09-13,Sunderland,Tottenham Hotspur
+4338,2014-09-13,West Bromwich Albion,Everton
+4339,2014-09-20,Aston Villa,Arsenal
+4340,2014-09-20,Burnley,Sunderland
+4341,2014-09-21,Everton,Crystal Palace
+4342,2014-09-21,Leicester City,Manchester United
+4343,2014-09-21,Manchester City,Chelsea
+4344,2014-09-20,Newcastle United,Hull City
+4345,2014-09-20,Queens Park Rangers,Stoke City
+4346,2014-09-20,Swansea City,Southampton
+4347,2014-09-21,Tottenham Hotspur,West Bromwich Albion
+4348,2014-09-20,West Ham United,Liverpool
+4349,2014-09-27,Arsenal,Tottenham Hotspur
+4350,2014-09-27,Chelsea,Aston Villa
+4351,2014-09-27,Crystal Palace,Leicester City
+4352,2014-09-27,Hull City,Manchester City
+4353,2014-09-27,Liverpool,Everton
+4354,2014-09-27,Manchester United,West Ham United
+4355,2014-09-27,Southampton,Queens Park Rangers
+4356,2014-09-29,Stoke City,Newcastle United
+4357,2014-09-27,Sunderland,Swansea City
+4358,2014-09-28,West Bromwich Albion,Burnley
+4359,2014-10-04,Aston Villa,Manchester City
+4360,2014-10-05,Chelsea,Arsenal
+4361,2014-10-04,Hull City,Crystal Palace
+4362,2014-10-04,Leicester City,Burnley
+4363,2014-10-04,Liverpool,West Bromwich Albion
+4364,2014-10-05,Manchester United,Everton
+4365,2014-10-04,Sunderland,Stoke City
+4366,2014-10-04,Swansea City,Newcastle United
+4367,2014-10-05,Tottenham Hotspur,Southampton
+4368,2014-10-05,West Ham United,Queens Park Rangers
+4369,2014-10-18,Arsenal,Hull City
+4370,2014-10-18,Burnley,West Ham United
+4371,2014-10-18,Crystal Palace,Chelsea
+4372,2014-10-18,Everton,Aston Villa
+4373,2014-10-18,Manchester City,Tottenham Hotspur
+4374,2014-10-18,Newcastle United,Leicester City
+4375,2014-10-19,Queens Park Rangers,Liverpool
+4376,2014-10-18,Southampton,Sunderland
+4377,2014-10-19,Stoke City,Swansea City
+4378,2014-10-20,West Bromwich Albion,Manchester United
+4379,2014-10-26,Burnley,Everton
+4380,2014-10-25,Liverpool,Hull City
+4381,2014-10-26,Manchester United,Chelsea
+4382,2014-10-27,Queens Park Rangers,Aston Villa
+4383,2014-10-25,Southampton,Stoke City
+4384,2014-10-25,Sunderland,Arsenal
+4385,2014-10-25,Swansea City,Leicester City
+4386,2014-10-26,Tottenham Hotspur,Newcastle United
+4387,2014-10-25,West Bromwich Albion,Crystal Palace
+4388,2014-10-25,West Ham United,Manchester City
+4389,2015-08-09,Arsenal,West Ham United
+4390,2015-08-08,Bournemouth,Aston Villa
+4391,2015-08-08,Chelsea,Swansea City
+4392,2015-08-08,Everton,Watford
+4393,2015-08-08,Leicester City,Sunderland
+4394,2015-08-08,Manchester United,Tottenham Hotspur
+4395,2015-08-09,Newcastle United,Southampton
+4396,2015-08-08,Norwich City,Crystal Palace
+4397,2015-08-09,Stoke City,Liverpool
+4398,2015-08-10,West Bromwich Albion,Manchester City
+4399,2015-10-24,Arsenal,Everton
+4400,2015-10-24,Aston Villa,Swansea City
+4401,2015-10-25,Bournemouth,Tottenham Hotspur
+4402,2015-10-24,Leicester City,Crystal Palace
+4403,2015-10-25,Liverpool,Southampton
+4404,2015-10-25,Manchester United,Manchester City
+4405,2015-10-24,Norwich City,West Bromwich Albion
+4406,2015-10-24,Stoke City,Watford
+4407,2015-10-25,Sunderland,Newcastle United
+4408,2015-10-24,West Ham United,Chelsea
+4409,2015-10-31,Chelsea,Liverpool
+4410,2015-10-31,Crystal Palace,Manchester United
+4411,2015-11-01,Everton,Sunderland
+4412,2015-10-31,Manchester City,Norwich City
+4413,2015-10-31,Newcastle United,Stoke City
+4414,2015-11-01,Southampton,Bournemouth
+4415,2015-10-31,Swansea City,Arsenal
+4416,2015-11-02,Tottenham Hotspur,Aston Villa
+4417,2015-10-31,Watford,West Ham United
+4418,2015-10-31,West Bromwich Albion,Leicester City
+4419,2015-11-08,Arsenal,Tottenham Hotspur
+4420,2015-11-08,Aston Villa,Manchester City
+4421,2015-11-07,Bournemouth,Newcastle United
+4422,2015-11-07,Leicester City,Watford
+4423,2015-11-08,Liverpool,Crystal Palace
+4424,2015-11-07,Manchester United,West Bromwich Albion
+4425,2015-11-07,Norwich City,Swansea City
+4426,2015-11-07,Stoke City,Chelsea
+4427,2015-11-07,Sunderland,Southampton
+4428,2015-11-07,West Ham United,Everton
+4429,2015-11-21,Chelsea,Norwich City
+4430,2015-11-23,Crystal Palace,Sunderland
+4431,2015-11-21,Everton,Aston Villa
+4432,2015-11-21,Manchester City,Liverpool
+4433,2015-11-21,Newcastle United,Leicester City
+4434,2015-11-21,Southampton,Stoke City
+4435,2015-11-21,Swansea City,Bournemouth
+4436,2015-11-22,Tottenham Hotspur,West Ham United
+4437,2015-11-21,Watford,Manchester United
+4438,2015-11-21,West Bromwich Albion,Arsenal
+4439,2015-11-28,Aston Villa,Watford
+4440,2015-11-28,Bournemouth,Everton
+4441,2015-11-28,Crystal Palace,Newcastle United
+4442,2015-11-28,Leicester City,Manchester United
+4443,2015-11-29,Liverpool,Swansea City
+4444,2015-11-28,Manchester City,Southampton
+4445,2015-11-29,Norwich City,Arsenal
+4446,2015-11-28,Sunderland,Stoke City
+4447,2015-11-29,Tottenham Hotspur,Chelsea
+4448,2015-11-29,West Ham United,West Bromwich Albion
+4449,2015-12-05,Arsenal,Sunderland
+4450,2015-12-05,Chelsea,Bournemouth
+4451,2015-12-07,Everton,Crystal Palace
+4452,2015-12-05,Manchester United,West Ham United
+4453,2015-12-06,Newcastle United,Liverpool
+4454,2015-12-05,Southampton,Aston Villa
+4455,2015-12-05,Stoke City,Manchester City
+4456,2015-12-05,Swansea City,Leicester City
+4457,2015-12-05,Watford,Norwich City
+4458,2015-12-05,West Bromwich Albion,Tottenham Hotspur
+4459,2015-12-13,Aston Villa,Arsenal
+4460,2015-12-12,Bournemouth,Manchester United
+4461,2015-12-12,Crystal Palace,Southampton
+4462,2015-12-14,Leicester City,Chelsea
+4463,2015-12-13,Liverpool,West Bromwich Albion
+4464,2015-12-12,Manchester City,Swansea City
+4465,2015-12-12,Norwich City,Everton
+4466,2015-12-12,Sunderland,Watford
+4467,2015-12-13,Tottenham Hotspur,Newcastle United
+4468,2015-12-12,West Ham United,Stoke City
+4469,2015-12-21,Arsenal,Manchester City
+4470,2015-12-19,Chelsea,Sunderland
+4471,2015-12-19,Everton,Leicester City
+4472,2015-12-19,Manchester United,Norwich City
+4473,2015-12-19,Newcastle United,Aston Villa
+4474,2015-12-19,Southampton,Tottenham Hotspur
+4475,2015-12-19,Stoke City,Crystal Palace
+4476,2015-12-20,Swansea City,West Ham United
+4477,2015-12-20,Watford,Liverpool
+4478,2015-12-19,West Bromwich Albion,Bournemouth
+4479,2015-12-26,Aston Villa,West Ham United
+4480,2015-12-26,Bournemouth,Crystal Palace
+4481,2015-12-26,Chelsea,Watford
+4482,2015-12-26,Liverpool,Leicester City
+4483,2015-12-26,Manchester City,Sunderland
+4484,2015-12-26,Newcastle United,Everton
+4485,2015-12-26,Southampton,Arsenal
+4486,2015-12-26,Stoke City,Manchester United
+4487,2015-12-26,Swansea City,West Bromwich Albion
+4488,2015-12-26,Tottenham Hotspur,Norwich City
+4489,2015-12-28,Arsenal,Bournemouth
+4490,2015-12-28,Crystal Palace,Swansea City
+4491,2015-12-28,Everton,Stoke City
+4492,2015-12-29,Leicester City,Manchester City
+4493,2015-12-28,Manchester United,Chelsea
+4494,2015-12-28,Norwich City,Aston Villa
+4495,2015-12-30,Sunderland,Liverpool
+4496,2015-12-28,Watford,Tottenham Hotspur
+4497,2015-12-28,West Bromwich Albion,Newcastle United
+4498,2015-12-28,West Ham United,Southampton
+4499,2015-08-14,Aston Villa,Manchester United
+4500,2015-08-16,Crystal Palace,Arsenal
+4501,2015-08-17,Liverpool,Bournemouth
+4502,2015-08-16,Manchester City,Chelsea
+4503,2015-08-15,Southampton,Everton
+4504,2015-08-15,Sunderland,Norwich City
+4505,2015-08-15,Swansea City,Newcastle United
+4506,2015-08-15,Tottenham Hotspur,Stoke City
+4507,2015-08-15,Watford,West Bromwich Albion
+4508,2015-08-15,West Ham United,Leicester City
+4509,2016-01-02,Arsenal,Newcastle United
+4510,2016-01-03,Crystal Palace,Chelsea
+4511,2016-01-03,Everton,Tottenham Hotspur
+4512,2016-01-02,Leicester City,Bournemouth
+4513,2016-01-02,Manchester United,Swansea City
+4514,2016-01-02,Norwich City,Southampton
+4515,2016-01-02,Sunderland,Aston Villa
+4516,2016-01-02,Watford,Manchester City
+4517,2016-01-02,West Bromwich Albion,Stoke City
+4518,2016-01-02,West Ham United,Liverpool
+4519,2016-01-12,Aston Villa,Crystal Palace
+4520,2016-01-12,Bournemouth,West Ham United
+4521,2016-01-13,Swansea City,Sunderland
+4522,2016-01-13,Liverpool,Arsenal
+4523,2016-01-13,Chelsea,West Bromwich Albion
+4524,2016-01-13,Manchester City,Everton
+4525,2016-01-12,Newcastle United,Manchester United
+4526,2016-01-13,Southampton,Watford
+4527,2016-01-13,Stoke City,Norwich City
+4528,2016-01-13,Tottenham Hotspur,Leicester City
+4529,2016-01-16,Aston Villa,Leicester City
+4530,2016-01-16,Bournemouth,Norwich City
+4531,2016-01-16,Chelsea,Everton
+4532,2016-01-17,Liverpool,Manchester United
+4533,2016-01-16,Manchester City,Crystal Palace
+4534,2016-01-16,Newcastle United,West Ham United
+4535,2016-01-16,Southampton,West Bromwich Albion
+4536,2016-01-17,Stoke City,Arsenal
+4537,2016-01-18,Swansea City,Watford
+4538,2016-01-16,Tottenham Hotspur,Sunderland
+4539,2016-01-24,Arsenal,Chelsea
+4540,2016-01-23,Crystal Palace,Tottenham Hotspur
+4541,2016-01-24,Everton,Swansea City
+4542,2016-01-23,Leicester City,Stoke City
+4543,2016-01-23,Manchester United,Southampton
+4544,2016-01-23,Norwich City,Liverpool
+4545,2016-01-23,Sunderland,Bournemouth
+4546,2016-01-23,Watford,Newcastle United
+4547,2016-01-23,West Bromwich Albion,Aston Villa
+4548,2016-01-23,West Ham United,Manchester City
+4549,2016-02-02,Arsenal,Southampton
+4550,2016-02-02,Leicester City,Liverpool
+4551,2016-02-02,Norwich City,Tottenham Hotspur
+4552,2016-02-02,Sunderland,Manchester City
+4553,2016-02-03,Watford,Chelsea
+4554,2016-02-02,West Ham United,Aston Villa
+4555,2016-02-02,Crystal Palace,Bournemouth
+4556,2016-02-02,Manchester United,Stoke City
+4557,2016-02-02,West Bromwich Albion,Swansea City
+4558,2016-02-03,Everton,Newcastle United
+4559,2016-02-06,Aston Villa,Norwich City
+4560,2016-02-07,Bournemouth,Arsenal
+4561,2016-02-07,Chelsea,Manchester United
+4562,2016-02-06,Liverpool,Sunderland
+4563,2016-02-06,Manchester City,Leicester City
+4564,2016-02-06,Newcastle United,West Bromwich Albion
+4565,2016-02-06,Southampton,West Ham United
+4566,2016-02-06,Stoke City,Everton
+4567,2016-02-06,Swansea City,Crystal Palace
+4568,2016-02-06,Tottenham Hotspur,Watford
+4569,2016-02-14,Arsenal,Leicester City
+4570,2016-02-14,Aston Villa,Liverpool
+4571,2016-02-13,Bournemouth,Stoke City
+4572,2016-02-13,Chelsea,Newcastle United
+4573,2016-02-13,Crystal Palace,Watford
+4574,2016-02-13,Everton,West Bromwich Albion
+4575,2016-02-14,Manchester City,Tottenham Hotspur
+4576,2016-02-13,Norwich City,West Ham United
+4577,2016-02-13,Sunderland,Manchester United
+4578,2016-02-13,Swansea City,Southampton
+4579,2016-02-27,Leicester City,Norwich City
+4580,2016-04-20,Liverpool,Everton
+4581,2016-02-28,Manchester United,Arsenal
+4582,2016-04-19,Newcastle United,Manchester City
+4583,2016-02-27,Southampton,Chelsea
+4584,2016-02-27,Stoke City,Aston Villa
+4585,2016-02-28,Tottenham Hotspur,Swansea City
+4586,2016-02-27,Watford,Bournemouth
+4587,2016-02-27,West Bromwich Albion,Crystal Palace
+4588,2016-02-27,West Ham United,Sunderland
+4589,2016-03-02,Arsenal,Swansea City
+4590,2016-03-01,Aston Villa,Everton
+4591,2016-03-01,Bournemouth,Southampton
+4592,2016-03-01,Leicester City,West Bromwich Albion
+4593,2016-03-01,Norwich City,Chelsea
+4594,2016-03-01,Sunderland,Crystal Palace
+4595,2016-03-02,West Ham United,Tottenham Hotspur
+4596,2016-03-02,Liverpool,Manchester City
+4597,2016-03-02,Manchester United,Watford
+4598,2016-03-02,Stoke City,Newcastle United
+4599,2016-03-05,Chelsea,Stoke City
+4600,2016-03-06,Crystal Palace,Liverpool
+4601,2016-03-05,Everton,West Ham United
+4602,2016-03-05,Manchester City,Aston Villa
+4603,2016-03-05,Newcastle United,Bournemouth
+4604,2016-03-05,Southampton,Sunderland
+4605,2016-03-05,Swansea City,Norwich City
+4606,2016-03-05,Tottenham Hotspur,Arsenal
+4607,2016-03-05,Watford,Leicester City
+4608,2016-03-06,West Bromwich Albion,Manchester United
+4609,2015-08-24,Arsenal,Liverpool
+4610,2015-08-22,Crystal Palace,Aston Villa
+4611,2015-08-23,Everton,Manchester City
+4612,2015-08-22,Leicester City,Tottenham Hotspur
+4613,2015-08-22,Manchester United,Newcastle United
+4614,2015-08-22,Norwich City,Stoke City
+4615,2015-08-22,Sunderland,Swansea City
+4616,2015-08-23,Watford,Southampton
+4617,2015-08-23,West Bromwich Albion,Chelsea
+4618,2015-08-22,West Ham United,Bournemouth
+4619,2016-04-21,Arsenal,West Bromwich Albion
+4620,2016-03-13,Aston Villa,Tottenham Hotspur
+4621,2016-03-12,Bournemouth,Swansea City
+4622,2016-03-14,Leicester City,Newcastle United
+4623,2016-05-11,Liverpool,Chelsea
+4624,2016-04-20,Manchester United,Crystal Palace
+4625,2016-03-12,Norwich City,Manchester City
+4626,2016-03-12,Stoke City,Southampton
+4627,2016-05-11,Sunderland,Everton
+4628,2016-04-20,West Ham United,Watford
+4629,2016-03-19,Chelsea,West Ham United
+4630,2016-03-19,Crystal Palace,Leicester City
+4631,2016-03-19,Everton,Arsenal
+4632,2016-03-20,Manchester City,Manchester United
+4633,2016-03-20,Newcastle United,Sunderland
+4634,2016-03-20,Southampton,Liverpool
+4635,2016-03-19,Swansea City,Aston Villa
+4636,2016-03-20,Tottenham Hotspur,Bournemouth
+4637,2016-03-19,Watford,Stoke City
+4638,2016-03-19,West Bromwich Albion,Norwich City
+4639,2016-04-02,Arsenal,Watford
+4640,2016-04-02,Aston Villa,Chelsea
+4641,2016-04-02,Bournemouth,Manchester City
+4642,2016-04-03,Leicester City,Southampton
+4643,2016-04-02,Liverpool,Tottenham Hotspur
+4644,2016-04-03,Manchester United,Everton
+4645,2016-04-02,Norwich City,Newcastle United
+4646,2016-04-02,Stoke City,Swansea City
+4647,2016-04-02,Sunderland,West Bromwich Albion
+4648,2016-04-02,West Ham United,Crystal Palace
+4649,2016-04-09,Aston Villa,Bournemouth
+4650,2016-04-09,Crystal Palace,Norwich City
+4651,2016-04-10,Liverpool,Stoke City
+4652,2016-04-09,Manchester City,West Bromwich Albion
+4653,2016-04-09,Southampton,Newcastle United
+4654,2016-04-10,Sunderland,Leicester City
+4655,2016-04-09,Swansea City,Chelsea
+4656,2016-04-10,Tottenham Hotspur,Manchester United
+4657,2016-04-09,Watford,Everton
+4658,2016-04-09,West Ham United,Arsenal
+4659,2016-04-17,Arsenal,Crystal Palace
+4660,2016-04-17,Bournemouth,Liverpool
+4661,2016-04-16,Chelsea,Manchester City
+4662,2016-04-16,Everton,Southampton
+4663,2016-04-17,Leicester City,West Ham United
+4664,2016-04-16,Manchester United,Aston Villa
+4665,2016-04-16,Newcastle United,Swansea City
+4666,2016-04-16,Norwich City,Sunderland
+4667,2016-04-18,Stoke City,Tottenham Hotspur
+4668,2016-04-16,West Bromwich Albion,Watford
+4669,2016-04-23,Aston Villa,Southampton
+4670,2016-04-23,Bournemouth,Chelsea
+4671,2016-04-13,Crystal Palace,Everton
+4672,2016-04-24,Leicester City,Swansea City
+4673,2016-04-23,Liverpool,Newcastle United
+4674,2016-04-23,Manchester City,Stoke City
+4675,2016-05-11,Norwich City,Watford
+4676,2016-04-24,Sunderland,Arsenal
+4677,2016-04-25,Tottenham Hotspur,West Bromwich Albion
+4678,2016-05-10,West Ham United,Manchester United
+4679,2016-04-30,Arsenal,Norwich City
+4680,2016-05-02,Chelsea,Tottenham Hotspur
+4681,2016-04-30,Everton,Bournemouth
+4682,2016-05-01,Manchester United,Leicester City
+4683,2016-04-30,Newcastle United,Crystal Palace
+4684,2016-05-01,Southampton,Manchester City
+4685,2016-04-30,Stoke City,Sunderland
+4686,2016-05-01,Swansea City,Liverpool
+4687,2016-04-30,Watford,Aston Villa
+4688,2016-04-30,West Bromwich Albion,West Ham United
+4689,2016-05-07,Aston Villa,Newcastle United
+4690,2016-05-07,Bournemouth,West Bromwich Albion
+4691,2016-05-07,Crystal Palace,Stoke City
+4692,2016-05-07,Leicester City,Everton
+4693,2016-05-08,Liverpool,Watford
+4694,2016-05-08,Manchester City,Arsenal
+4695,2016-05-07,Norwich City,Manchester United
+4696,2016-05-07,Sunderland,Chelsea
+4697,2016-05-08,Tottenham Hotspur,Southampton
+4698,2016-05-07,West Ham United,Swansea City
+4699,2016-05-15,Arsenal,Aston Villa
+4700,2016-05-15,Chelsea,Leicester City
+4701,2016-05-15,Everton,Norwich City
+4702,2016-05-17,Manchester United,Bournemouth
+4703,2016-05-15,Newcastle United,Tottenham Hotspur
+4704,2016-05-15,Southampton,Crystal Palace
+4705,2016-05-15,Stoke City,West Ham United
+4706,2016-05-15,Swansea City,Manchester City
+4707,2016-05-15,Watford,Sunderland
+4708,2016-05-15,West Bromwich Albion,Liverpool
+4709,2015-08-29,Aston Villa,Sunderland
+4710,2015-08-29,Bournemouth,Leicester City
+4711,2015-08-29,Chelsea,Crystal Palace
+4712,2015-08-29,Liverpool,West Ham United
+4713,2015-08-29,Manchester City,Watford
+4714,2015-08-29,Newcastle United,Arsenal
+4715,2015-08-30,Southampton,Norwich City
+4716,2015-08-29,Stoke City,West Bromwich Albion
+4717,2015-08-30,Swansea City,Manchester United
+4718,2015-08-29,Tottenham Hotspur,Everton
+4719,2015-09-12,Arsenal,Stoke City
+4720,2015-09-12,Crystal Palace,Manchester City
+4721,2015-09-12,Everton,Chelsea
+4722,2015-09-13,Leicester City,Aston Villa
+4723,2015-09-12,Manchester United,Liverpool
+4724,2015-09-12,Norwich City,Bournemouth
+4725,2015-09-13,Sunderland,Tottenham Hotspur
+4726,2015-09-12,Watford,Swansea City
+4727,2015-09-12,West Bromwich Albion,Southampton
+4728,2015-09-14,West Ham United,Newcastle United
+4729,2015-09-19,Aston Villa,West Bromwich Albion
+4730,2015-09-19,Bournemouth,Sunderland
+4731,2015-09-19,Chelsea,Arsenal
+4732,2015-09-20,Liverpool,Norwich City
+4733,2015-09-19,Manchester City,West Ham United
+4734,2015-09-19,Newcastle United,Watford
+4735,2015-09-20,Southampton,Manchester United
+4736,2015-09-19,Stoke City,Leicester City
+4737,2015-09-19,Swansea City,Everton
+4738,2015-09-20,Tottenham Hotspur,Crystal Palace
+4739,2015-09-26,Leicester City,Arsenal
+4740,2015-09-26,Liverpool,Aston Villa
+4741,2015-09-26,Manchester United,Sunderland
+4742,2015-09-26,Newcastle United,Chelsea
+4743,2015-09-26,Southampton,Swansea City
+4744,2015-09-26,Stoke City,Bournemouth
+4745,2015-09-26,Tottenham Hotspur,Manchester City
+4746,2015-09-27,Watford,Crystal Palace
+4747,2015-09-28,West Bromwich Albion,Everton
+4748,2015-09-26,West Ham United,Norwich City
+4749,2015-10-04,Arsenal,Manchester United
+4750,2015-10-03,Aston Villa,Stoke City
+4751,2015-10-03,Bournemouth,Watford
+4752,2015-10-03,Chelsea,Southampton
+4753,2015-10-03,Crystal Palace,West Bromwich Albion
+4754,2015-10-04,Everton,Liverpool
+4755,2015-10-03,Manchester City,Newcastle United
+4756,2015-10-03,Norwich City,Leicester City
+4757,2015-10-03,Sunderland,West Ham United
+4758,2015-10-04,Swansea City,Tottenham Hotspur
+4759,2015-10-17,Chelsea,Aston Villa
+4760,2015-10-17,Crystal Palace,West Ham United
+4761,2015-10-17,Everton,Manchester United
+4762,2015-10-17,Manchester City,Bournemouth
+4763,2015-10-18,Newcastle United,Norwich City
+4764,2015-10-17,Southampton,Leicester City
+4765,2015-10-19,Swansea City,Stoke City
+4766,2015-10-17,Tottenham Hotspur,Liverpool
+4767,2015-10-17,Watford,Arsenal
+4768,2015-10-17,West Bromwich Albion,Sunderland
