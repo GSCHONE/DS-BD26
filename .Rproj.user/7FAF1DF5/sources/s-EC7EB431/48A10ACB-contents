@@ -1,0 +1,92 @@
+library(RSQLite)
+library(tidyverse)
+library(lubridate)
+###https://www.kaggle.com/datasets/hugomathien/soccer
+
+
+#repertoire de stockage du sqlite <- impossible à charger sur le GIT trop volumineux
+file = "U:/DATASCIENCE/DS-BD26/database.sqlite"
+
+conn <- dbConnect(RSQLite::SQLite(), file)
+
+###RECUPERATION EN LOCAL DES TABLES
+for (table in dbListTables(conn)){
+tmp = dbGetQuery(conn, paste0("SELECT * FROM ",table))
+write_rds(tmp,paste0("./DATA/",table))
+rm(tmp)
+
+}
+gc()
+Match=read_rds("./DATA/Match") 
+dim(Match)
+glimpse(Match)
+
+##GENERE EN LOCAL LES FICHIERS RDS POUR CHAQUE CHAMPIONNAT
+# unique(Match$country_id)
+# for (id_ in unique(Match$country_id)){
+#   Match %>% filter(country_id==id_)->tmp
+#   write_rds(tmp,paste0("./DATA/Match",id_))
+#rm(tmp)
+
+# }
+#VERSION AVEC JUSTE PL 
+#Match %>% filter(county_id==1729)->Match_PL
+Match_PL = read_rds("./DATA/Match1729")
+Player=read_rds("./DATA/Player")
+Player_Attributes=read_rds("./DATA/Player_Attributes")
+Team_Attributes=read_rds("./DATA/Team_Attributes")
+Team=read_rds("./DATA/Team")
+
+Match_PL %>% select(-matches("_player_X"),-matches("_Player_Y"))->Match_PL2
+
+Explore = Match_PL[1730,]
+Explore %>% left_join(Team_Attributes,by=c("home_team_api_id"="team_api_id"))->TEST
+Team_Attributes %>% filter("team_api_id"==1)
+Player_Attributes %>% mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Player_Attributes
+Player_Attributes %>% mutate(Saison=ifelse(month(date)<9,
+  paste0(year(date),"/",year(date)+1),
+  paste0(year(date)+1,"/",year(date)+2))) %>%  
+  group_by(player_api_id,Saison) %>% 
+  arrange(desc(date)) %>% 
+  slice(1)->Player_Attributes_L
+
+ExploreP=Player_Attributes_L[1,]
+
+Match_PL %>% mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Match_PL
+listPlayer= 
+Player<-dbGetQuery(conn, "SELECT * FROM Player")
+Player_Attributes<-dbGetQuery(conn, "SELECT * FROM Player_Attributes")
+
+
+min(Match$date)
+max(Player_Attributes$date)
+Team<-dbGetQuery(conn, "SELECT * FROM Team")
+Team_Attributes<-dbGetQuery(conn,"SELECT * FROM Team_Attributes")
+sqlite_sequence<-dbGetQuery(conn,"SELECT * FROM sqlite_sequence")
+
+
+
+
+Player_Attributes
+Player_Attributes %>% mutate(date_max_2008 = max(date) )
+
+Player_Attributes %>% group_by(year(date),months(date)) %>% summarise(n=n())-> test
+
+annee=c(2007,2008)
+date_max=vector()
+for (i in annee){
+  date_max[i]=as.Date(paste0("30-09-",i),"%Y-%m-%d")
+}
+
+
+
+  
+  
+  
+Player_Attributes %>% mutate(date2018=max(date))
+
+date_saison=function(id, date_perso,saison){
+  
+  
+  
+}

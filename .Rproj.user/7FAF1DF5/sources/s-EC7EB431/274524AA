@@ -1,0 +1,32 @@
+{
+    "id": "274524AA",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1672763589231.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "expression": "Team_Attributes_L",
+        "caption": "Team_Attributes_L",
+        "totalObservations": 1457,
+        "displayedObservations": 1457,
+        "variables": 26,
+        "cacheKey": "F361FFCC",
+        "object": "Team_Attributes_L",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=Team_Attributes_L&cache_key=F361FFCC&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 7596555669686985317,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1672763589231,
+    "read_only": false,
+    "read_only_alternatives": []
+}

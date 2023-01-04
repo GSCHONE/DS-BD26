@@ -3,55 +3,113 @@ library(tidyverse)
 library(lubridate)
 ###https://www.kaggle.com/datasets/hugomathien/soccer
 
-conn <- dbConnect(RSQLite::SQLite(), "C:/Users/cepe-s3-01/Documents/DS/database.sqlite")
+
+#NB ATTENTION impossible à charger sur le GIT trop volumineux
+#repertoirePerso pour les données volumineuses REP
+rep= "U:/DATASCIENCE/DS-BD26/"
+file="database.sqlite"
+
+conn <- dbConnect(RSQLite::SQLite(), paste0(rep,file))
+
+###RECUPERATION EN LOCAL DES TABLES
+for (table in dbListTables(conn)){
+tmp = dbGetQuery(conn, paste0("SELECT * FROM ",table))
+write_rds(tmp,paste0(rep,table))
+rm(tmp)
+
+}
 
 
-dbListTables(conn)
+
+##GENERE EN LOCAL LES FICHIERS RDS POUR CHAQUE CHAMPIONNAT / PAS NECESSAIRE SI ON TRAVAILLE QUE SUR PREMIERE LEAGUE
+# unique(Match$country_id)
+# for (id_ in unique(Match$country_id)) {
+#   Match %>% filter(country_id == id_) -> tmp
+#   write_rds(tmp, paste0(rep, "Match", id_))
+#   rm(tmp)
+# }
+
+#VERSION AVEC JUSTE PL 
+Match=read_rds(paste0(rep,"Match"))
+Match %>% filter(country_id==1729)->Match_PL
+rm(Match)
+
+Player=read_rds(paste0(rep,"Player"))
+Player_Attributes=read_rds(paste0(rep,"Player_Attributes"))
+Team_Attributes=read_rds(paste0(rep,"Team_Attributes"))
+Team=read_rds(paste0(rep,"Team"))
 
 
-Country<-dbGetQuery(conn, "SELECT * FROM Country")
-Match<-dbGetQuery(conn, "SELECT * FROM Match")
 
-Match %>% mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Match
-Player<-dbGetQuery(conn, "SELECT * FROM Player")
-Player_Attributes<-dbGetQuery(conn, "SELECT * FROM Player_Attributes")
+###SUPPRESSION DES VARIABLES Player_X_1 etc et Player_Y_1 etc (je ne sais pas à quoi ca correspond ? )
+Match_PL %>% 
+  select(-matches("_player_X"),-matches("_Player_Y")) %>% 
+  mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Match_PL
+
+
+Team_Attributes %>% mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Team_Attributes
+Team_Attributes %>% mutate(Saison=ifelse(month(date)<9,
+  paste0(year(date),"/",year(date)+1),
+  paste0(year(date)+1,"/",year(date)+2))) %>%  
+  group_by(team_api_id,Saison) %>% 
+  arrange(desc(date)) %>% 
+  slice(1) %>% 
+  select(-id,-team_fifa_api_id,-date)->Team_Attributes_L #L Pour light
+
 Player_Attributes %>% mutate(date=as.Date(substr(date,1,10),"%Y-%m-%d")) -> Player_Attributes
 Player_Attributes %>% mutate(Saison=ifelse(month(date)<9,
   paste0(year(date),"/",year(date)+1),
   paste0(year(date)+1,"/",year(date)+2))) %>%  
   group_by(player_api_id,Saison) %>% 
   arrange(desc(date)) %>% 
-  slice(1)->test
+  slice(1) %>% 
+  select(-id,-player_fifa_api_id,-date)->Player_Attributes_L #L Pour light
 
-min(Match$date)
-max(Player_Attributes$date)
-Team<-dbGetQuery(conn, "SELECT * FROM Team")
-Team_Attributes<-dbGetQuery(conn,"SELECT * FROM Team_Attributes")
-sqlite_sequence<-dbGetQuery(conn,"SELECT * FROM sqlite_sequence")
+Player %>%  mutate(birthday=as.Date(substr(birthday,1,10),"%Y-%m-%d")) %>% select(-id,-player_fifa_api_id) -> Player_L
 
 
+unique(Match_PL2$season) 
+unique(Team_Attributes_L$Saison)
+unique(Player_Attributes_L$Saison)
+## ON POURRAIT LIMITER AUX SAISONS DISPONIBLES DANS TEAM ATTRIBUTES
 
+# Explore=Match_PL2[1,]
+# 
+# Explore %>% left_join(Team_Attributes_L %>% rename_with(~paste0("Home_",.)),by=c("home_team_api_id"="Home_team_api_id","season"="Home_Saison")) %>% 
+#           left_join(Team_Attributes_L %>% rename_with(~paste0("Away_",.)),by=c("away_team_api_id"="Away_team_api_id","season"="Away_Saison")) ->Explore 
+ 
+Match_PL %>% left_join(Team_Attributes_L %>% rename_with(~paste0("Home_",.)),by=c("home_team_api_id"="Home_team_api_id","season"="Home_Saison")) %>% 
+          left_join(Team_Attributes_L %>% rename_with(~paste0("Away_",.)),by=c("away_team_api_id"="Away_team_api_id","season"="Away_Saison")) ->DON
 
-Player_Attributes
-Player_Attributes %>% mutate(date_max_2008 = max(date) )
+      
+for (k in 1:11){
+  
+  #home player
+  namesHome=c(paste0("home_player_",k),"season")
+  valuesHome=c(paste0("H",k,"_player_api_id"),paste0("H",k,"_Saison"))
+  vecHome=setNames(valuesHome,namesHome)
+  vecHomep=setNames(paste0("H",k,"_player_api_id"),paste0("home_player_",k))
+  
+  #away player
+  namesAway=c(paste0("away_player_",k),"season")
+  valuesAway=c(paste0("A",k,"_player_api_id"),paste0("A",k,"_Saison"))
+  vecAway=setNames(valuesAway,namesAway)
+  vecAwayp=setNames(paste0("A",k,"_player_api_id"),paste0("away_player_",k))
 
-Player_Attributes %>% group_by(year(date),months(date)) %>% summarise(n=n())-> test
-
-annee=c(2007,2008)
-date_max=vector()
-for (i in annee){
-  date_max[i]=as.Date(paste0("30-09-",i),"%Y-%m-%d")
+  DON %>% left_join(Player_Attributes_L %>% rename_with(~paste0("H",k,"_",.)),
+                       by=vecHome) %>% 
+    left_join(Player_Attributes_L %>% rename_with(~paste0("A",k,"_",.)),
+                       by=vecAway) %>% 
+    left_join(Player_L %>% rename_with(~paste0("H",k,"_",.)),by=vecHomep) %>% 
+    left_join(Player_L %>% rename_with(~paste0("A",k,"_",.)),by=vecAwayp) ->DON
 }
 
 
+Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>% 
+  left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("home_",.))) %>% 
+  left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("away_",.))) %>% 
+  select(-home_team_api_id,-away_team_api_id)->ListMatch
+ListMatch %>% head(10)
+write_rds(ListMatch,"./DATA/ListMatchPL")
+write_rds(DON,paste0(rep,"DON"))
 
-  
-  
-  
-Player_Attributes %>% mutate(date2018=max(date))
-
-date_saison=function(id, date_perso,saison){
-  
-  
-  
-}

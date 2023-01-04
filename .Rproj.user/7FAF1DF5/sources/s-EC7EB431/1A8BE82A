@@ -1,0 +1,32 @@
+{
+    "id": "1A8BE82A",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1672767756175.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "expression": "ExploreP",
+        "caption": "ExploreP",
+        "totalObservations": 1,
+        "displayedObservations": 1,
+        "variables": 71,
+        "cacheKey": "BCCEBC63",
+        "object": "ExploreP",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=ExploreP&cache_key=BCCEBC63&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1672753568,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1672767756175,
+    "read_only": false,
+    "read_only_alternatives": []
+}
