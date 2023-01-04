@@ -112,4 +112,5 @@ Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>%
 ListMatch %>% head(10)
 write_rds(ListMatch,"./DATA/ListMatchPL")
 write_rds(DON,paste0(rep,"DON"))
+write_csv(ListMatch,"./DATA/ListMatchPL.csv")
 

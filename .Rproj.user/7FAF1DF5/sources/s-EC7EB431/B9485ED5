@@ -3,9 +3,9 @@
     "path": "U:/GitHub/DS-BD26/DATA.R",
     "project_path": "DATA.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1146770550",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1672760592283.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -14,11 +14,11 @@
         "scrollLine": "85"
     },
     "folds": "",
-    "lastKnownWriteTime": 1672823820,
+    "lastKnownWriteTime": 1672824208,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1672824030767,
+    "last_content_update": 1672824208355,
     "read_only": false,
     "read_only_alternatives": []
 }
