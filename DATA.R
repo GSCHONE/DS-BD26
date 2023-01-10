@@ -16,7 +16,6 @@ for (table in dbListTables(conn)){
 tmp = dbGetQuery(conn, paste0("SELECT * FROM ",table))
 write_rds(tmp,paste0(rep,table))
 rm(tmp)
-
 }
 
 
@@ -109,8 +108,9 @@ Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>%
   left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("home_",.))) %>% 
   left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("away_",.))) %>% 
   select(-home_team_api_id,-away_team_api_id)->ListMatch
+
 ListMatch %>% head(10)
+
 write_rds(ListMatch,"./DATA/ListMatchPL")
 write_rds(DON,paste0(rep,"DON"))
 write_csv(ListMatch,"./DATA/ListMatchPL.csv")
-
