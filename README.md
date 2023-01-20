@@ -12,6 +12,7 @@ Données sources :
 - webscrapping sur l'affluence des stades (1)
 - https://www.kaggle.com/datasets/hugomathien/soccer (2)
 - https://www.kaggle.com/datasets/technika148/football-database - a voir
+- https://www.kaggle.com/datasets/justdhia/fifa-players?select=2021.csv
 - ...
 
 

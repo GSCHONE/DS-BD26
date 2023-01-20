@@ -14,9 +14,12 @@ set.seed(1234)
 #                DON_TEST[,i]=as.factor(DON[,i])
 #      }
 # }
-
-rf_bourin <- randomForest(Y~., data=DON, ntree=200, na.action=na.omit)
+DON$Y =as.factor(DON$Y)
+rf_bourin <- randomForest(Y~., data=DON, ntree=500, na.action=na.omit)
 rf_bourin
+rf_bourin
+
+
 
 DON %>% group_by(Y) %>% summarise(n())
 
@@ -36,6 +39,5 @@ DON[which(rowSums(is.na(DON))==0),] %>% group_by(Y) %>% summarise(n())
 
 varImpPlot(rf_bourin)
 x=varImpPlot(rf_bourin)
-
 
 
