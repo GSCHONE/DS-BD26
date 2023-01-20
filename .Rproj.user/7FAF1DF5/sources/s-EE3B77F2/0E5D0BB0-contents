@@ -1,0 +1,6 @@
+library(randomForest)
+unique(DON$Home_buildUpPlayPositioningClass)
+DON %>%  group_by(Home_buildUpPlayPositioningClass) %>% summarise(n())
+DON %>% group_by(Home_defenceDefenderLineClass) %>% summarise(n())
+                                                                  
+DON=ifeles()

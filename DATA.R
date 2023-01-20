@@ -103,7 +103,9 @@ for (k in 1:11){
     left_join(Player_L %>% rename_with(~paste0("A",k,"_",.)),by=vecAwayp) ->DON
 }
 
-
+# unique(Team_Attributes_L$Saison)
+# unique(DON_BK$season)
+# unique(Player_Attributes_L$Saison)
 Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>% 
   left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("home_",.))) %>% 
   left_join(Team %>% select(-id,-team_fifa_api_id,-team_short_name) %>% rename_with(~paste0("away_",.))) %>% 
@@ -111,6 +113,25 @@ Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>%
 
 ListMatch %>% head(10)
 
-write_rds(ListMatch,"./DATA/ListMatchPL")
-write_rds(DON,paste0(rep,"DON"))
-write_csv(ListMatch,"./DATA/ListMatchPL.csv")
+
+DON_BK=DON
+#DON=DON_BK
+col=comes(DON)
+# write.csv(col,"listCol.csv")
+
+DON %>% mutate(Y=case_when(
+  home_team_goal>away_team_goal~"H",
+  home_team_goal<away_team_goal~"A",
+  TRUE~"D")) -> DON
+
+
+DON %>% 
+  select(-ends_with("id")) %>% 
+  select(-starts_with("Home_Player")) %>% 
+  select(-starts_with("Away_Player")) -> DON
+
+
+DON %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON
+DON %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON
+DON %>% colnames()
+DON %>% select(-(1:30))-> DON
