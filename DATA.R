@@ -135,3 +135,15 @@ DON %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON
 DON %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON
 DON %>% colnames()
 DON %>% select(-(1:30))-> DON
+# colnames(DON)
+# colSums()
+# 
+ table(colSums(is.na(DON)))
+# write.csv(x,"x.csv")
+# x=table(x)
+# x
+ colnames(DON[which(colSums(is.na(DON))>=1140)])
+
+DON %>% filter(!season)
+
+DON %>% select(-ends_with("PlayDribbling"))-> DON
