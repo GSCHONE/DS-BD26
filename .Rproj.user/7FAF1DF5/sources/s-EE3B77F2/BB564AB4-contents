@@ -142,8 +142,33 @@ DON %>% select(-(1:30))-> DON
 # write.csv(x,"x.csv")
 # x=table(x)
 # x
- colnames(DON[which(colSums(is.na(DON))>=1140)])
+ colnames(DON[which(colSums(is.na(DON))==0)])
 
 DON %>% filter(!season)
 
 DON %>% select(-ends_with("PlayDribbling"))-> DON
+
+DON_H=DON_BK
+DON_A=DON_BK
+
+DON_H %>% mutate(Y=home_team_goal)->DON_H
+DON_H %>% 
+  select(-ends_with("id")) %>% 
+  select(-starts_with("Home_Player")) %>% 
+  select(-starts_with("Away_Player")) -> DON_H
+DON_H %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON_H
+DON_H %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON_H
+DON_H %>% colnames()
+DON_H %>% select(-(1:30))-> DON_H
+DON_H %>% select(-ends_with("PlayDribbling"))-> DON_H
+
+DON_A %>% mutate(Y=away_team_goal)->DON_A
+DON_A %>% 
+  select(-ends_with("id")) %>% 
+  select(-starts_with("Home_Player")) %>% 
+  select(-starts_with("Away_Player")) -> DON_A
+DON_A %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON_A
+DON_A %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON_A
+DON_A %>% colnames()
+DON_A %>% select(-(1:30))-> DON_A
+DON_A %>% select(-ends_with("PlayDribbling"))-> DON_A
