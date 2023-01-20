@@ -3,6 +3,7 @@
 
 #library(rvest)
 #library(tidyverse)
+#library(sys)
 
 
 saisons=c("2008-2009","2009-2010","2010-2011",
@@ -35,16 +36,18 @@ vecteur_nom_colonne=colnames(table_finale)
 ## boucle a partir de la seconde rotation
 for (i in saisons){
   html_table_match=read_html(paste0(html_part1,i,html_part2,i,html_part3))
+  print(i)
+  Sys.sleep(runif(1, 5.0, 10))
   
   table=html_table_match %>% html_nodes("tbody") %>% html_table() %>% data_frame(.[[1]])
   if (dim(table)[2]==15){
     table=table[,-c(1,7,9,15)]
     print(table)
-    table_inter=table[-(which(rowSums(is.na(table))>2)),]
+    table_inter=table[-(which(is.na(table[,1]))),]
   }
   else{
     table=table[,-c(1,13)]
-    table_inter=table[-(which(rowSums(is.na(table))>3)),]
+    table_inter=table[-(which(is.na(table[,1]))),]
   }
   
   vec_saison=rep(i,dim(table_inter)[1])
