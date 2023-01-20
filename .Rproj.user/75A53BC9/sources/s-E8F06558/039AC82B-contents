@@ -1,0 +1,38 @@
+
+
+don<-read.table("C:/Users/cepe-s3-10/Desktop/DS/J2J3/ozone.txt",  sep=";", header=T, 
+                 stringsAsFactors = T)
+summary(don)
+rownames(don)<- don$date
+don$date <- NULL #suppression variable Date
+
+
+library(tidyverse)
+don <-rename(data,Y=maxO3)
+summary(don)
+
+don <- na.omit(don) #suppression NA
+
+set.seed(1234)
+don
+foret <- randomForest(Y~.,data=don)
+foret
+
+varImpPlot(foret)
+
+############################
+# Test perso
+don_test <- don
+don_test$y_chap <- predict(foret,don)
+don_test
+
+don_test$erreur <- don_test$Y-don_test$y_chap
+don_test$erreur2 <- (don_test$Y-don_test$y_chap)^2
+don_test
+
+plot(density(don_test$erreur)) # Distribution des erreur
+plot(density(don_test$erreur2))
+abline(v=0) #Ajout de l'ordoné à 0
+
+
+

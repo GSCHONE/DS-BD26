@@ -1,0 +1,52 @@
+library(rpart)
+library(randomForest)
+library(tidyverse)
+install.packages(caret)
+library(caret)
+
+don<-read.table("C:/Users/cepe-s3-10/Desktop/DS/J2J3/ozone.txt",  sep=";", header=T, 
+                 stringsAsFactors = T)
+summary(don)
+
+don <- na.omit(don) #suppression NA
+
+don <-rename(data,Y=maxO3)
+summary(don)
+
+ind94 <- which(substring(don$date,1,4)=="1994")
+ind94
+don = don[-ind94,] #suppression année 94 car données extrêmes
+
+
+rownames(don)<- don$date
+don$date <- NULL #suppression variable Date
+summary(don)
+
+
+set.seed(1234)
+don
+foret <- randomForest(Y~.,data=don)
+names(foret)
+
+varImpPlot(foret)
+varImp(foret)
+
+foret$oob.times
+
+
+############################
+# Test perso
+don_test <- don
+don_test$y_chap <- predict(foret,don)
+don_test
+
+don_test$erreur <- don_test$Y-don_test$y_chap
+don_test$erreur2 <- (don_test$Y-don_test$y_chap)^2
+don_test
+
+plot(density(don_test$erreur)) # Distribution des erreur
+plot(density(don_test$erreur2))
+abline(v=0) #Ajout de l'ordoné à 0
+
+
+
