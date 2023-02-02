@@ -64,10 +64,19 @@ Player_Attributes %>% mutate(Saison=ifelse(month(date)<9,
   slice(1) %>% 
   select(-id,-player_fifa_api_id,-date)->Player_Attributes_L #L Pour light
 
+Player_Attributes %>% mutate(Saison=ifelse(month(date)<9,
+  paste0(year(date),"/",year(date)+1),
+  paste0(year(date)+1,"/",year(date)+2))) %>%  
+  group_by(player_api_id,Saison) %>% 
+  arrange(desc(date)) %>% 
+  slice(1) %>% 
+  select(-id,-player_fifa_api_id,-date) %>% 
+  select(c(1:3))->Player_Attributes_L #VL Pour VERY light
+
+
 Player %>%  mutate(birthday=as.Date(substr(birthday,1,10),"%Y-%m-%d")) %>% select(-id,-player_fifa_api_id) -> Player_L
 
 
-unique(Match_PL2$season) 
 unique(Team_Attributes_L$Saison)
 unique(Player_Attributes_L$Saison)
 ## ON POURRAIT LIMITER AUX SAISONS DISPONIBLES DANS TEAM ATTRIBUTES
@@ -112,63 +121,79 @@ Match_PL %>% select(id,date,home_team_api_id,away_team_api_id) %>%
   select(-home_team_api_id,-away_team_api_id)->ListMatch
 
 ListMatch %>% head(10)
-
-
-DON_BK=DON
 #DON=DON_BK
-col=comes(DON)
-# write.csv(col,"listCol.csv")
-
-DON %>% mutate(Y=case_when(
-  home_team_goal>away_team_goal~"H",
-  home_team_goal<away_team_goal~"A",
-  TRUE~"D")) -> DON
-
-
 DON %>% 
   select(-ends_with("id")) %>% 
   select(-starts_with("Home_Player")) %>% 
   select(-starts_with("Away_Player")) -> DON
 
-
 DON %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON
-DON %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON
-DON %>% colnames()
-DON %>% select(-(1:30))-> DON
+DON %>% select(-c(season,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession))->DON
+colnames(DON) [1:40]
+DON %>% select(-(4:33))-> DON
 # colnames(DON)
 # colSums()
 # 
- table(colSums(is.na(DON)))
+ #table(colSums(is.na(DON)))
 # write.csv(x,"x.csv")
 # x=table(x)
 # x
- colnames(DON[which(colSums(is.na(DON))==0)])
+# colnames(DON[which(colSums(is.na(DON))==0)])
 
-DON %>% filter(!season)
-
+# DON %>% filter(!season)
 DON %>% select(-ends_with("PlayDribbling"))-> DON
+DON %>% select(-ends_with("player_name"))-> DON
+DON %>% mutate_if(is.character,as.factor)->DON
+for (k in 1:11){
+
+  DON[[paste0("A",k,"_age")]]=round(time_length(interval(DON[[paste0("A",k,"_birthday")]],DON$date),"years"),0)
+  DON[[paste0("H",k,"_age")]]=round(time_length(interval(DON[[paste0("H",k,"_birthday")]],DON$date),"years"),0)
+  
+}
+
+  
+DON %>% select(-ends_with("birthday"))-> DON
+DON %>% select(-date)->DON
+DON_BK=DON
+DON %>% mutate(Y=case_when(
+  home_team_goal>away_team_goal~"H",
+  home_team_goal<away_team_goal~"A",
+  TRUE~"D")) -> DON_CLASS
+DON_CLASS %>% select(-c(home_team_goal,away_team_goal))->DON_CLASS
+
 
 DON_H=DON_BK
 DON_A=DON_BK
 
 DON_H %>% mutate(Y=home_team_goal)->DON_H
-DON_H %>% 
-  select(-ends_with("id")) %>% 
-  select(-starts_with("Home_Player")) %>% 
-  select(-starts_with("Away_Player")) -> DON_H
-DON_H %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON_H
-DON_H %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON_H
-DON_H %>% colnames()
-DON_H %>% select(-(1:30))-> DON_H
-DON_H %>% select(-ends_with("PlayDribbling"))-> DON_H
+DON_H%>% select(-home_team_goal,away_team_goal)->DON_H
 
 DON_A %>% mutate(Y=away_team_goal)->DON_A
-DON_A %>% 
-  select(-ends_with("id")) %>% 
-  select(-starts_with("Home_Player")) %>% 
-  select(-starts_with("Away_Player")) -> DON_A
-DON_A %>% filter(! season %in% c("2009/2010","2008/2009" ))-> DON_A
-DON_A %>% select(-c(season,date,stage,goal,shoton,shotoff,foulcommit,card,cross,corner,possession,home_team_goal,away_team_goal))->DON_A
-DON_A %>% colnames()
-DON_A %>% select(-(1:30))-> DON_A
-DON_A %>% select(-ends_with("PlayDribbling"))-> DON_A
+DON_A%>% select(-home_team_goal,away_team_goal)->DON_A
+colnames(DON)[1:50]
+
+DON_VL=DON_BK
+DON_TEAM=DON_VL %>% select(1:42)
+DON_PLAYER=DON_VL %>% select(-c(1:42))
+DON_PLAYER %>% select(matches(c("potential","overall_rating")))->DON_PLAYER
+DON_VL=cbind(DON_TEAM,DON_PLAYER)
+
+DON_VL %>% mutate(Y=case_when(
+  home_team_goal>away_team_goal~"H",
+  home_team_goal<away_team_goal~"A",
+  TRUE~"D")) -> DON_VL_CLASS
+DON_VL_CLASS %>% select(-c(home_team_goal,away_team_goal))->DON_VL_CLASS
+
+DON_VL %>% mutate(Y=home_team_goal)->DON_VL_H
+DON_VL_H%>% select(-c(home_team_goal,away_team_goal))->DON_VL_H
+DON_VLL_H=DON_VL_H
+DON_VLL_H %>% select(-matches("Home"))->DON_VLL_H
+DON_VLL_H %>% select(-matches("H\\d+_"))->DON_VLL_H
+
+
+
+DON_VL %>% mutate(Y=away_team_goal)->DON_VL_A
+DON_VL_A%>% select(-c(home_team_goal,away_team_goal))->DON_VL_A
+DON_VLL_A=DON_VL_A
+DON_VLL_A %>% select(-matches("Away"))->DON_VLL_A
+DON_VLL_A %>% select(-matches("A\\d+_"))->DON_VLL_A
