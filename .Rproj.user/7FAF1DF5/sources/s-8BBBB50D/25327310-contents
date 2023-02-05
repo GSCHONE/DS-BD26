@@ -72,19 +72,19 @@ for(ii in 1:nb){
   #######################
   ## Algo  ridge
   ########################
-  tmp <- cv.glmnet(XXA,YYA,alpha=0,family="binomial")
+  tmp <- cv.glmnet(XXA,YYA,alpha=0,family="multinomial")
   RES[blocs==ii,"ridgemin"] <- predict(tmp,XXT,s="lambda.min",type="response")
   RES[blocs==ii,"ridge1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
   #######################
   ## Algo  lasso
   ########################
-  tmp <- cv.glmnet(XXA,YYA,alpha=1,family="binomial")
+  tmp <- cv.glmnet(XXA,YYA,alpha=1,family="multinomial")
   RES[blocs==ii,"lassomin"] <- predict(tmp,XXT,s="lambda.min",type="response")
   RES[blocs==ii,"lasso1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
   #######################
   ## Algo  elastic
   ########################
-  tmp <- cv.glmnet(XXA,YYA,alpha=0.5,family="binomial")
+  tmp <- cv.glmnet(XXA,YYA,alpha=0.5,family="multinomial")
   RES[blocs==ii,"elasmin"] <- predict(tmp,XXT,s="lambda.min",type="response")
   RES[blocs==ii,"elas1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
 }
