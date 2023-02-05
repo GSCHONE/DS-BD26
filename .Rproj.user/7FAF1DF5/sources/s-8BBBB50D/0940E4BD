@@ -1,0 +1,25 @@
+{
+    "id": "0940E4BD",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1675425936367.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "id": "6a4905268e49495289f7b793f70a5e14",
+        "name": "sample_doc",
+        "title": "sample_doc"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2673855259584,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1675425936367,
+    "read_only": false,
+    "read_only_alternatives": []
+}

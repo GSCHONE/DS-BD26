@@ -1,0 +1,92 @@
+#don <- read.table("SAheart.data",header=T,sep=",",
+don=DON_VL_CLASS             #     stringsAsFactors = T,row.names = 1)
+summary(don)
+##on recode chd
+#don$Y <- as.factor(don$chd)
+#don$chd=NULL
+summary(don)
+dim(don)[2]
+don=don[,-20]
+don=don[,-39]
+for (k in 1:dim(don)[2]){
+     print(k)
+     print(levels(don[,k]))
+     
+     
+     
+}
+table(don$Away_defenceDefenderLineClass)     
+colnames(don)[39] 
+     
+
+levels(DON)
+#####COMPARAISON d'algor de régression
+don=don[which(rowSums(is.na(don))==0),]
+library(rpart)
+library(randomForest)
+library(glmnet)
+#################################
+XX <- model.matrix(Y~.,data=don)
+YY <- don$Y
+#######################################
+##création de blocs
+nb <- 10
+set.seed(1234)
+blocs <- sample(rep(1:nb,length=nrow(don)))
+RES <- data.frame(Y=don$Y)
+for(ii in 1:nb){
+  print(ii)
+  ### DECOUPAGE
+  donA <- don[blocs!=ii,]
+  donT <- don[blocs==ii,]
+  XXA <- XX[blocs!=ii,]
+  XXT <- XX[blocs==ii,]
+  YYA <- YY[blocs!=ii]
+  #######################
+  ## Algo 1 reg log
+  ########################
+  tmp <- glm(Y~.,data=donA,family="binomial")
+  RES[blocs==ii,"log"] <- predict(tmp,donT,type="response")
+  #######################
+  ## Algo  STEP AIC MCO
+  ########################
+  tmp <- glm(Y~.,data=donA,family="binomial")
+  modAIC <- step(tmp,trace=0)
+  RES[blocs==ii,"AIC"] <- predict(modAIC,donT,type="response")
+  #######################
+  ## Algo  STEP BIC MCO
+  ########################
+  #tmp <- lm(Y~.,data=donA)
+  #modBIC <- step(tmp,trace=0,k=log(nrow(donA)))
+  #RES[blocs==ii,"BIC"] <- predict(modBIC,donT)
+  #######################
+  ## Algo  arbre
+  ########################
+  tmp <- rpart(Y~.,data=donA)
+  RES[blocs==ii,"arbre"] <- predict(tmp,donT)[,2]
+  #######################
+  ## Algo  foret
+  ########################
+  tmp <- randomForest(Y~.,data=donA)
+  RES[blocs==ii,"foret"] <- predict(tmp,donT,type="prob")[,2]
+  #######################
+  ## Algo  ridge
+  ########################
+  tmp <- cv.glmnet(XXA,YYA,alpha=0,family="binomial")
+  RES[blocs==ii,"ridgemin"] <- predict(tmp,XXT,s="lambda.min",type="response")
+  RES[blocs==ii,"ridge1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
+  #######################
+  ## Algo  lasso
+  ########################
+  tmp <- cv.glmnet(XXA,YYA,alpha=1,family="binomial")
+  RES[blocs==ii,"lassomin"] <- predict(tmp,XXT,s="lambda.min",type="response")
+  RES[blocs==ii,"lasso1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
+  #######################
+  ## Algo  elastic
+  ########################
+  tmp <- cv.glmnet(XXA,YYA,alpha=0.5,family="binomial")
+  RES[blocs==ii,"elasmin"] <- predict(tmp,XXT,s="lambda.min",type="response")
+  RES[blocs==ii,"elas1se"] <- predict(tmp,XXT,s="lambda.1se",type="response")
+}
+
+saveRDS(RES,"resCLASUP.RDS")

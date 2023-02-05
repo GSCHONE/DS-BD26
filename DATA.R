@@ -173,6 +173,7 @@ DON_A%>% select(-home_team_goal,away_team_goal)->DON_A
 colnames(DON)[1:50]
 
 DON_VL=DON_BK
+DON_VL %>% select(1:42)
 DON_TEAM=DON_VL %>% select(1:42)
 DON_PLAYER=DON_VL %>% select(-c(1:42))
 DON_PLAYER %>% select(matches(c("potential","overall_rating")))->DON_PLAYER
@@ -197,3 +198,4 @@ DON_VL_A%>% select(-c(home_team_goal,away_team_goal))->DON_VL_A
 DON_VLL_A=DON_VL_A
 DON_VLL_A %>% select(-matches("Away"))->DON_VLL_A
 DON_VLL_A %>% select(-matches("A\\d+_"))->DON_VLL_A
+DON_VL_CLASS$Y=as.factor(DON_VL_CLASS$Y)

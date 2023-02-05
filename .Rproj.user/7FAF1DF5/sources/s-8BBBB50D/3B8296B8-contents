@@ -1,0 +1,6 @@
+###ALISON DOC WORD
+
+library(officer)
+library(dplyr)
+
+sample_doc <- read_docx("U:/IT/PROJET/ALISON/MEMOIRE4.docx")
