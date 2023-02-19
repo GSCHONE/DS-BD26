@@ -86,3 +86,4 @@ pred_test_H = predict.gbm(object = model_gbmH,
 result_H=data.frame(PRED=round(pred_test_H,0),test_H$Y)
 summary(result_H$PRED)
 RMSE(result_H$PRED,result_H$test_H.Y)
+#testGIT 2
