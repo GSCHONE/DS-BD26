@@ -88,6 +88,7 @@ final %>%
           pred_a==pred_h~"D")) ->final
 final %>% select(test.Y,pred_poisson)->final     
 final$pred_poisson=as.factor(final$pred_poisson)          
-conf_mat2 = confusionMatrix(final$pred_poisson,final$test.Y )
+
+conf_mat2 = confusionMatrix(final$test.Y, final$pred_poisson)
 conf_mat2
-confusionMatrix()
+
