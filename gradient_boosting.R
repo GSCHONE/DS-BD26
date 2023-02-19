@@ -1,7 +1,7 @@
 library(gbm)
 library(caret)
 library(tidyverse)
-library(ROCR)
+
 
 ##### CLASSIF
 
@@ -32,8 +32,7 @@ result = data.frame(test$Y, class_names)
 
 conf_mat = confusionMatrix(test$Y, as.factor(class_names))
 print(conf_mat)
-gbm_PRED_testing<-prediction(class_names,test$Y)
-gbm_ROC_testing<-
+
 ##### REGRESSION
    #AWAY  
  
