@@ -42,7 +42,7 @@ model_gbmA = gbm(Y ~.,
                 cv.folds = 10,
                 shrinkage = .01,
                 n.minobsinnode = 10,
-                n.trees = 1000)   
+                n.trees = 2000)   
 
 ntree_class_cv_A<-gbm.perf(model_gbmA,method="cv")
 
@@ -65,7 +65,7 @@ model_gbmH = gbm(Y ~.,
                  cv.folds = 10,
                  shrinkage = .01,
                  n.minobsinnode = 10,
-                 n.trees = 1000)   
+                 n.trees = 2000)   
 
 ntree_class_cv_H<-gbm.perf(model_gbmH,method="cv")
 
