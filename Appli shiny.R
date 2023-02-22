@@ -7,38 +7,37 @@ library(shiny)
 library(ggplot2)
 library(shinythemes)
 library(rintrojs)
+library(tidyverse)
 
 choiceschampionnat<-c("championnat 1",
            "championnat 2",
            "championnat 3")
 
-choicesteam <- c("equipe 1",
-                 "equipe 2",
-                 "equipe 3")
+choicesteam <- names(table(unique(ListMatch$home_team_long_name)))
 
-choicesjoueurdom <- c("joueur 1",
-                      "joueur 2",
-                      "joueur 3",
-                      "joueur 4",
-                      "joueur 5",
-                      "joueur 6",
-                      "joueur 7",
-                      "joueur 8",
-                      "joueur 9",
-                      "joueur 10",
-                      "joueur 11")
+### fabrication de la table qui permettra de mettre les attributs des équipes sur la dernière saison
+table_transi=
+     Team %>% filter(team_long_name %in% names(table(unique(ListMatch$home_team_long_name)))) %>% 
+          select(c(4,2)) %>% 
+          arrange(.$team_api_id)
 
-choicesjoueurext <- c("joueur 1",
-                      "joueur 2",
-                      "joueur 3",
-                      "joueur 4",
-                      "joueur 5",
-                      "joueur 6",
-                      "joueur 7",
-                      "joueur 8",
-                      "joueur 9",
-                      "joueur 10",
-                      "joueur 11")
+
+table_attribut_team=
+     Team_Attributes_L %>% filter(team_api_id %in% table_transi$team_api_id) %>% 
+          filter(Saison =="2016/2017") %>% 
+          arrange(.$team_api_id) %>% 
+          right_join(table_transi,.)
+
+
+
+#### pas vu comment faire le lien entre teams et équipe
+#### probablement un passage à faire pour mettre dans l'ui pour en faire des choix interactifs. 
+#### ajout d'un potentiel choix "autre" après ça qui arrive sur un recherche en fonction de ce que tape l'utilisateur
+choicesjoueurdom <- names(table(unique(Player$player_name)))
+
+choicesjoueurext <- names(table(unique(Player$player_name)))
+
+
 
 ui =  function(request) {
   fluidPage(introjsUI(),
@@ -131,7 +130,7 @@ server = function(input, output, session){
                         data.step = 2,
                         data.intro = "Vous pouvez choisir le championnat de l'équipe à domicile"),
                hr(),
-               h3("Choix equipe domicile",align="center"),
+               h3("Choix équipe domicile",align="center"),
                introBox(fluidRow(column(12,selectInput("Equipe", "Equipe", choicesteam))),
                         data.step = 3,
                         data.intro = "Vous pouvez choisir l'équipe à domicile"),

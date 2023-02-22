@@ -1,3 +1,7 @@
+#install.packages("RSQLite")
+#install.packages("tidyverse")
+#install.packages("lubridate")
+
 library(RSQLite)
 library(tidyverse)
 library(lubridate)
