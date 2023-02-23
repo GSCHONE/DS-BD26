@@ -107,6 +107,12 @@ rf_tuned <- tune::tune_grid(
      metrics = yardstick::metric_set(rmse, rsq, mae),
      control = tune::control_grid(verbose = TRUE)
 )
+
+rf_tuned %>%
+     tune::show_best(metric = "rmse") %>%
+     knitr::kable()
+
+
 rf_best_params <- rf_tuned %>%
      tune::select_best("rmse")
 
@@ -161,6 +167,8 @@ xg_best_params <- xgboost_tuned %>%
 xg_stage_2_model <- xgboost_tune %>% 
      finalize_model(parameters = xg_best_params)
 
+write_rds(xg_best_params,"xg_best_params.RDS")
+write_rds(rf_best_params,"rf_best_params.RDS")
 
 
 
