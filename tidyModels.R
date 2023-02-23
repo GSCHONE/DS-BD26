@@ -4,7 +4,9 @@ library(tidymodels)
 library(purrr)
 
 
+
 data_reg=readRDS("data_norm.RDS")
+
 
 
 
@@ -25,7 +27,9 @@ data_reg_val_set <- testing(data_reg_val_split)
 # recipe is nothing than a formula
 rec_basic <- 
      recipe(Y~., data = data_reg_train_set) %>% 
+
      step_normalize(all_numeric_predictors()) %>% 
+
      step_impute_mean(all_numeric_predictors()) %>%
      step_impute_mode(all_nominal_predictors()) %>%
      step_zv(all_nominal_predictors()) %>% 
@@ -64,6 +68,7 @@ formula(prep(rec_basic))
 
 ## Model : https://www.tidymodels.org/find/parsnip/ (mentioned in the diapo)
 
+
 data_reg_resample <- vfold_cv(data_reg_train_set, v = 5)
 #UTILISER POUR LES HYPERPARAMETRES
 
@@ -73,9 +78,11 @@ data_reg_resample <- vfold_cv(data_reg_train_set, v = 5)
 #      set_mode("regression")
 
 rf_model_tune <- 
+
      rand_forest(trees = tune()) %>% 
      set_engine("ranger") %>% 
      set_mode("regression")
+
 
 rf_params <- 
      dials::parameters(
@@ -156,10 +163,12 @@ xg_stage_2_model <- xgboost_tune %>%
 
 
 
+
 knn_tune <- 
      nearest_neighbor(neighbors = tune()) %>%  # dist_power = tune(), weight_func = tune()
      set_engine('kknn') %>% 
      set_mode('regression')
+
 
 knn_params <- 
      dials::parameters(
@@ -196,10 +205,12 @@ knn_stage_2_model <- knn_tune %>%
      finalize_model(parameters = knn_best_params)
 
 
+
 nnet_tune <- 
      mlp(penalty = tune(), epochs = tune()) %>% # hidden_units = tune() The number of hidden neurons
      set_engine('nnet') %>% 
      set_mode('regression')
+
 
 nnet_params <- 
      dials::parameters(
@@ -288,10 +299,12 @@ workflow_set(
      ), # a list of recipes
      
      models= list(
+
           rf_stage_2_model,
           xg_stage_2_model,
           knn_stage_2_model,
           nnet_stage_2_model
+
      ) # a list of models
      
 )
@@ -307,7 +320,9 @@ chi_models
 # param_info: An optional argument for defining the parameter ranges, when grid is an integer.
 # 
 
+
 # **tunebayes()**
+
 # The tune_bayes() function sets up Bayesian optimization iterative search. It’s similar to tune_grid() but with additional arguments. You can specify the maximum number of search iterations, the acquisition function to be used, and whether to stop the search if no improvement is detected. See Max and Julia for details and additional arguments.
 # 
 # test for tune_bayes
@@ -373,7 +388,9 @@ set.seed(1234)
 
 ## fitting
 # ```{r}
+
 data_reg_resample <- vfold_cv(data_reg_train_set, v = 5)
+
 
 # result view gestion
 keep_pred <- control_resamples(save_pred = T, save_workflow = T)
