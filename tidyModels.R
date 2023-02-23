@@ -4,7 +4,9 @@ library(tidymodels)
 library(purrr)
 
 
-data_reg=load_rds("data_reg.rds")
+
+data_reg=readRDS("data_norm.RDS")
+
 
 
 
@@ -25,7 +27,9 @@ data_reg_val_set <- testing(data_reg_val_split)
 # recipe is nothing than a formula
 rec_basic <- 
      recipe(Y~., data = data_reg_train_set) %>% 
-     step_normalize(all_numeric_predictors) %>% 
+
+     step_normalize(all_numeric_predictors()) %>% 
+
      step_impute_mean(all_numeric_predictors()) %>%
      step_impute_mode(all_nominal_predictors()) %>%
      step_zv(all_nominal_predictors()) %>% 
@@ -65,36 +69,223 @@ formula(prep(rec_basic))
 ## Model : https://www.tidymodels.org/find/parsnip/ (mentioned in the diapo)
 
 
+data_reg_resample <- vfold_cv(data_reg_train_set, v = 5)
+#UTILISER POUR LES HYPERPARAMETRES
 
-log_model <- logistic_reg() %>% 
-     set_engine("glm") %>% 
-     set_mode("regression")
+# 
+# lin_model <- 	linear_reg() %>% 
+#      set_engine("glm") %>% 
+#      set_mode("regression")
 
-rf_model <- 
+rf_model_tune <- 
+
      rand_forest(trees = tune()) %>% 
      set_engine("ranger") %>% 
      set_mode("regression")
 
 
-xgboost_model <- 
-     boost_tree(trees = tune(), min_n = tune(), tree_depth = tune(), learn_rate = tune(), loss_reduction = tune()) %>% 
-     set_engine('xgboost') %>% 
-     set_mode('regression')
+rf_params <- 
+     dials::parameters(
+          trees()
+     )
+rf_grid <- 
+     dials::grid_max_entropy(
+          rf_params, 
+          size = 10
+     )
+rf_wf <- 
+     workflows::workflow() %>%
+     add_model(rf_model_tune) %>% 
+     add_recipe(rec_basic)
+
+
+
+rf_tuned <- tune::tune_grid(
+     object = rf_wf,
+     resamples = data_reg_resample,
+     grid = rf_grid,
+     metrics = yardstick::metric_set(rmse, rsq, mae),
+     control = tune::control_grid(verbose = TRUE)
+)
+rf_best_params <- rf_tuned %>%
+     tune::select_best("rmse")
+
+rf_stage_2_model <- rf_model_tune %>% 
+     finalize_model(parameters = rf_best_params)
+
+xgboost_tune <- 
+     parsnip::boost_tree(
+          mode = "regression",
+          trees = 1000,
+          min_n = tune(),
+          tree_depth = tune(),
+          learn_rate = tune(),
+          loss_reduction = tune()
+     ) %>%
+     set_engine("xgboost", objective = "reg:squarederror")
+# grid specification
+xgboost_params <- 
+     dials::parameters(
+          min_n(),
+          tree_depth(),
+          learn_rate(),
+          loss_reduction()
+     )
+
+
+xgboost_grid <- 
+     dials::grid_max_entropy(
+          xgboost_params, 
+          size = 20
+     )
+
+
+
+xgboost_wf <- 
+     workflows::workflow() %>%
+     add_model(xgboost_tune) %>% 
+     add_recipe(rec_basic)
+   
+     
+     
+xgboost_tuned <- tune::tune_grid(
+          object = xgboost_wf,
+          resamples = data_reg_resample,
+          grid = xgboost_grid,
+          metrics = yardstick::metric_set(rmse, rsq, mae),
+          control = tune::control_grid(verbose = TRUE)
+     )
+xg_best_params <- xgboost_tuned %>%
+     tune::select_best("rmse")
+
+xg_stage_2_model <- xgboost_tune %>% 
+     finalize_model(parameters = xg_best_params)
+
+
+
 
 knn_tune <- 
      nearest_neighbor(neighbors = tune()) %>%  # dist_power = tune(), weight_func = tune()
      set_engine('kknn') %>% 
      set_mode('regression')
 
+
+knn_params <- 
+     dials::parameters(
+          neighbors()
+     )
+
+
+knn_grid <- 
+     dials::grid_max_entropy(
+          knn_params, 
+          size = 20
+     )
+
+
+
+knn_wf <- 
+     workflows::workflow() %>%
+     add_model(knn_tune) %>% 
+     add_recipe(rec_basic)
+
+
+
+knn_tuned <- tune::tune_grid(
+     object = knn_wf,
+     resamples = data_reg_resample,
+     grid = knn_grid,
+     metrics = yardstick::metric_set(rmse, rsq, mae),
+     control = tune::control_grid(verbose = TRUE)
+)
+knn_best_params <- knn_tuned %>%
+     tune::select_best("rmse")
+
+knn_stage_2_model <- knn_tune %>% 
+     finalize_model(parameters = knn_best_params)
+
+
+
 nnet_tune <- 
      mlp(penalty = tune(), epochs = tune()) %>% # hidden_units = tune() The number of hidden neurons
      set_engine('nnet') %>% 
      set_mode('regression')
 
-svm_p_tune <- 
-     svm_poly(degree = tune()) %>% # cost = tune()
-     set_engine('kernlab') %>% 
-     set_mode('regression')
+
+nnet_params <- 
+     dials::parameters(
+          penalty(),
+          epochs()
+     )
+
+nnet_grid <- 
+     dials::grid_max_entropy(
+          nnet_params, 
+          size = 20
+     )
+
+
+
+nnet_wf <- 
+     workflows::workflow() %>%
+     add_model(nnet_tune) %>% 
+     add_recipe(rec_basic)
+
+
+
+nnet_tuned <- tune::tune_grid(
+     object = nnet_wf,
+     resamples = data_reg_resample,
+     grid = nnet_grid,
+     metrics = yardstick::metric_set(rmse, rsq, mae),
+     control = tune::control_grid(verbose = TRUE)
+)
+nnet_best_params <- nnet_tuned %>%
+     tune::select_best("rmse")
+
+nnet_stage_2_model <- nnet_tune %>% 
+     finalize_model(parameters = nnet_best_params)
+# svm_p_tune <- 
+#      svm_poly(degree = tune()) %>% # cost = tune()
+#      set_engine('kernlab') %>% 
+#      set_mode('regression')
+# xgboost_params <- 
+#      dials::parameters(
+#           min_n(),
+#           tree_depth(),
+#           learn_rate(),
+#           loss_reduction()
+#      )
+# 
+# 
+# xgboost_grid <- 
+#      dials::grid_max_entropy(
+#           xgboost_params, 
+#           size = 30
+#      )
+# 
+# 
+# 
+# xgboost_wf <- 
+#      workflows::workflow() %>%
+#      add_model(xgboost_tune) %>% 
+#      add_recipe(rec_basic)
+# 
+# 
+# 
+# xgboost_tuned <- tune::tune_grid(
+#      object = xgboost_wf,
+#      resamples = data_reg_resample,
+#      grid = xgboost_grid,
+#      metrics = yardstick::metric_set(rmse, rsq, mae),
+#      control = tune::control_grid(verbose = TRUE)
+# )
+
+
+
+
+
+
 
 
 
@@ -108,12 +299,12 @@ workflow_set(
      ), # a list of recipes
      
      models= list(
-          log_model,
-          rf_model,
-          xgboost_model,
-          knn_tune,
-          nnet_tune,
-          svm_p_tune
+
+          rf_stage_2_model,
+          xg_stage_2_model,
+          knn_stage_2_model,
+          nnet_stage_2_model
+
      ) # a list of models
      
 )
@@ -129,7 +320,9 @@ chi_models
 # param_info: An optional argument for defining the parameter ranges, when grid is an integer.
 # 
 
-# **tune_bayes()**
+
+# **tunebayes()**
+
 # The tune_bayes() function sets up Bayesian optimization iterative search. It’s similar to tune_grid() but with additional arguments. You can specify the maximum number of search iterations, the acquisition function to be used, and whether to stop the search if no improvement is detected. See Max and Julia for details and additional arguments.
 # 
 # test for tune_bayes
@@ -195,7 +388,9 @@ set.seed(1234)
 
 ## fitting
 # ```{r}
-# data_reg_resample <- vfold_cv(data_reg_train_set, v = 3)
+
+data_reg_resample <- vfold_cv(data_reg_train_set, v = 5)
+
 
 # result view gestion
 keep_pred <- control_resamples(save_pred = T, save_workflow = T)
