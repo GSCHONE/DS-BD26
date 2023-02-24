@@ -1,6 +1,19 @@
-#Stat desc par équipe
 
 library(tidyverse)
+
+
+#Stat desc nombre de buts
+colnames(Match_PL)
+
+result <-  Match_PL %>% 
+  mutate(result = home_team_goal-away_team_goal) %>% 
+  group_by(home_team_goal, away_team_goal, result) %>% 
+  summarise(n = n()) %>% 
+  arrange(result) 
+
+write.csv(result,"result.CSV")
+
+###########################################################################################
 
 #Résultat par équipe et par saison : part de victoire/nul/défaite total/domicile/extérieur
 #Domicile
@@ -93,6 +106,82 @@ stat_desc_equipe <- left_join(result_but_tot, stat_Team_Attributes, by = "id_equ
 #export excel pour test
 library(xlsx)
 write.xlsx(stat_desc_equipe, "stat_desc_equipe.xlsx")
+
+#sauvegarde RDS
+saveRDS(stat_desc_equipe,"stat_desc_equipe.RDS")
+
+
+#####################################################################################################
+
+#Correspondance joueurs/équipes
+
+unique(Match$season)
+Match %>% filter(season=="2015/2016")->Match_2016
+
+result <- tibble()
+
+# Boucler sur les valeurs de home_player_i
+for (i in 1:11) {
+  # Ajouter la ligne correspondant à la valeur de home_player_i à result
+  result_i <- Match_2016 %>% 
+    group_by(!!sym(paste0("home_player_", i)), home_team_api_id) %>%  
+    mutate(nb=n()) %>% 
+    distinct(!!sym(paste0("home_player_", i)), home_team_api_id, nb) %>% 
+    group_by(!!sym(paste0("home_player_", i))) %>% 
+    rename( home_player=!!sym(paste0("home_player_", i)))
+  
+  result <- bind_rows(result, result_i)
+}
+
+result <- result %>%
+  group_by(home_player, home_team_api_id) %>% 
+  mutate(nb=sum(nb)) %>% 
+  distinct() %>% 
+  group_by(home_player) %>% 
+  slice_max(nb)
+
+result %>% 
+  group_by(home_player) %>% 
+  mutate(n=n()) %>%  
+  filter(n>1) %>% 
+  nrow()   
+# 36 lignes --> 18 joueurs ayant joué le même nombre de matchs avec 2 équipes différentes
+#Choix d'une équipe au hasard avec la 1ère ligne
+
+
+result <- result %>% 
+  group_by(home_player) %>% 
+  filter(nb>1) %>% 
+  slice(1)
+
+#Controle
+result %>% 
+  group_by(home_player) %>% 
+  mutate(n=n()) %>%  
+  filter(n>1) %>% 
+  nrow()   
+# --> OK
+
+
+#Jointure pour récupérer les attributs des joueurs
+
+result_tot <- left_join(result, Player_Attributes, by = c("home_player"="player_api_id")) %>% 
+  group_by(home_player) %>% 
+  slice_max(date)
+
+#Controle
+result_tot %>% 
+  group_by(home_player) %>% 
+  mutate(n=n()) %>%  
+  filter(n>1) %>% 
+  select()  # 2 joueurs avec des NA en attributs --> suppression des lignes   
+
+result_tot <- result_tot %>%
+  filter(complete.cases(overall_rating)) %>% 
+  select(-nb, -id, -player_fifa_api_id, -date, )
+
+saveRDS(result_tot,"stat_joueur.RDS")
+
 
 
 
