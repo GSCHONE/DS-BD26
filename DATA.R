@@ -203,3 +203,8 @@ DON_VLL_A=DON_VL_A
 DON_VLL_A %>% select(-matches("Away"))->DON_VLL_A
 DON_VLL_A %>% select(-matches("A\\d+_"))->DON_VLL_A
 DON_VL_CLASS$Y=as.factor(DON_VL_CLASS$Y)
+
+DON_NORM <- DON_BK
+DON_NORM$Y=DON_BK$home_team_goal-DON_BK$away_team_goal
+DON_NORM %>%  select(-c(home_team_goal,away_team_goal))->DON_NORM
+saveRDS(DON_NORM,"data_norm.RDS")
