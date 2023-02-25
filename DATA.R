@@ -10,7 +10,7 @@ library(lubridate)
 
 #NB ATTENTION impossible à charger sur le GIT trop volumineux
 #repertoirePerso pour les données volumineuses REP
-rep= "U:/DATASCIENCE/DS-BD26/"
+rep= "C:/Users/luffy/Downloads/database.sqlite/"
 file="database.sqlite"
 
 conn <- dbConnect(RSQLite::SQLite(), paste0(rep,file))

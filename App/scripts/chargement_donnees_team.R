@@ -1,0 +1,1 @@
+stat_desc_equipe<-readRDS("./rds/stat_desc_equipe.RDS")

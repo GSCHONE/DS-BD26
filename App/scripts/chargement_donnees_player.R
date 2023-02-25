@@ -1,0 +1,1 @@
+stat_desc_player<-readRDS("./rds/stat_joueur.RDS")
