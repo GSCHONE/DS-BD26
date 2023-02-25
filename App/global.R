@@ -14,6 +14,8 @@ source("./scripts/chargement_donnees_player.R")
 source("./scripts/chargement_Player.R")
 source("./scripts/chargement_Team.R")
 source("./scripts/chargement_ListMatch.R")
+source("./scripts/chargement_Match_PL.R")
+source("./scripts/traitement_donnees.R")
 
 choiceschampionnat<-c("championnat 1",
                       "championnat 2",

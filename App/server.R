@@ -1,3 +1,4 @@
+tible_joueur_dom=data.frame()
 server = function(input, output, session){
   
   
@@ -19,7 +20,7 @@ server = function(input, output, session){
                       data.intro = "Vous pouvez choisir le championnat de l'équipe à domicile"),
              hr(),
              h3("Choix équipe domicile",align="center"),
-             introBox(fluidRow(column(12,selectInput("Equipe", "Equipe", choicesteam))),
+             introBox(fluidRow(column(12,selectInput("Equipe_dom", "Equipe", choicesteam))),
                       data.step = 3,
                       data.intro = "Vous pouvez choisir l'équipe à domicile"),
              fluidRow(column(6,offset=3,h3("logo1"))),
@@ -32,26 +33,45 @@ server = function(input, output, session){
     )
   ) 
   
+  
+  tible_joueur_dom<-reactiveValues(tible_joueur_dom=tible_joueur_dom)
+  
+  
+  observeEvent(input$equipe_dom,{
+       print("yolo")
+       print(c(tible_joueur_dom,"Autres"))
+       tible_joueur_dom=
+            temp_name_equipe %>% filter(team_long_name==input$equipe_dom) %>% select(c(14:24))
+       
+       temp=c()
+       for (i in 1:11){
+            temp=append(temp,tible_joueur_dom[[i]])
+       }
+       tible_joueur_dom=temp
+       print(c(tible_joueur_dom,"Autres"))
+  })
+  
   #Tab joueurs de l'équipe domicile
   output$displayteam1 <- renderUI(
     tabPanel(br(),
              br(),
              br(),
              br(),
-             introBox(fluidRow(column(12,selectInput("Joueur dom 1", "Joueur 1", choicesjoueurdom, selected = choicesjoueurdom[1]))),
+             introBox(fluidRow(column(12,
+                      updateSelectInput(session, "Joueur_dom_1",label ="Joueur 1",choices = c(tible_joueur_dom,"Autres"),selected=tible_joueur_dom[1]))),
                       data.step = 5,
                       data.intro = "Si vous voulez changer vos joueurs, vous pouvez le faire ici"),
-             
-             fluidRow(column(12,selectInput("Joueur dom 2", "Joueur 2", choicesjoueurdom, selected = choicesjoueurdom[2]))),
-             fluidRow(column(12,selectInput("Joueur dom 3", "Joueur 3", choicesjoueurdom, selected = choicesjoueurdom[3]))),
-             fluidRow(column(12,selectInput("Joueur dom 4", "Joueur 4", choicesjoueurdom, selected = choicesjoueurdom[4]))),
-             fluidRow(column(12,selectInput("Joueur dom 5", "Joueur 5", choicesjoueurdom, selected = choicesjoueurdom[5]))),
-             fluidRow(column(12,selectInput("Joueur dom 6", "Joueur 6", choicesjoueurdom, selected = choicesjoueurdom[6]))),
-             fluidRow(column(12,selectInput("Joueur dom 7", "Joueur 7", choicesjoueurdom, selected = choicesjoueurdom[7]))),
-             fluidRow(column(12,selectInput("Joueur dom 8", "Joueur 8", choicesjoueurdom, selected = choicesjoueurdom[8]))),
-             fluidRow(column(12,selectInput("Joueur dom 9", "Joueur 9", choicesjoueurdom, selected = choicesjoueurdom[9]))),
-             fluidRow(column(12,selectInput("Joueur dom 10", "Joueur 10", choicesjoueurdom, selected = choicesjoueurdom[10]))),
-             fluidRow(column(12,selectInput("Joueur dom 11", "Joueur 11", choicesjoueurdom, selected = choicesjoueurdom[11])))
+
+             # fluidRow(column(12,selectInput("Joueur dom 2", "Joueur 2", choicesjoueurdom, selected = choicesjoueurdom[2]))),
+             # fluidRow(column(12,selectInput("Joueur dom 3", "Joueur 3", choicesjoueurdom, selected = choicesjoueurdom[3]))),
+             # fluidRow(column(12,selectInput("Joueur dom 4", "Joueur 4", choicesjoueurdom, selected = choicesjoueurdom[4]))),
+             # fluidRow(column(12,selectInput("Joueur dom 5", "Joueur 5", choicesjoueurdom, selected = choicesjoueurdom[5]))),
+             # fluidRow(column(12,selectInput("Joueur dom 6", "Joueur 6", choicesjoueurdom, selected = choicesjoueurdom[6]))),
+             # fluidRow(column(12,selectInput("Joueur dom 7", "Joueur 7", choicesjoueurdom, selected = choicesjoueurdom[7]))),
+             # fluidRow(column(12,selectInput("Joueur dom 8", "Joueur 8", choicesjoueurdom, selected = choicesjoueurdom[8]))),
+             # fluidRow(column(12,selectInput("Joueur dom 9", "Joueur 9", choicesjoueurdom, selected = choicesjoueurdom[9]))),
+             # fluidRow(column(12,selectInput("Joueur dom 10", "Joueur 10", choicesjoueurdom, selected = choicesjoueurdom[10]))),
+             # fluidRow(column(12,selectInput("Joueur dom 11", "Joueur 11", choicesjoueurdom, selected = choicesjoueurdom[11])))
     )
   ) 
   
