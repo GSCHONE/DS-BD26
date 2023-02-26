@@ -44,26 +44,26 @@ ui =  function(request) {
                 
                 
                 #### Panel choix de l'equipe exter
-            #     column(4,
-            #            fluidRow(
-            #              column(4,
-            #                     introBox(
-            #                       uiOutput('displayteam2'),
-            #                       data.step = 6,
-            #                       data.intro = "Cette partie vous montre les joueurs au sein de l'équipe exterieur. Vous pouvez aussi selectionner vos joueurs"
-            #                     )
-            #              ),
-            #              
-            #              #### Panel display des joueurs de l'equipe exter
-            #              column(8,
-            #                     introBox(
-            #                       uiOutput('Allchoicesteam2'),
-            #                       data.step = 7,
-            #                       data.intro = "Utilisez cette partie pour faire vos choix généraux sur l'équipe extérieur"
-            #                     )
-            #              )
-            #            )
-            #     )
+                column(4,
+                       fluidRow(
+                         column(4,
+                                introBox(
+                                  uiOutput('displayteam2'),
+                                  data.step = 6,
+                                  data.intro = "Cette partie vous montre les joueurs au sein de l'équipe exterieur. Vous pouvez aussi selectionner vos joueurs"
+                                )
+                         ),
+
+                         #### Panel display des joueurs de l'equipe exter
+                         column(8,
+                                introBox(
+                                  uiOutput('Allchoicesteam2'),
+                                  data.step = 7,
+                                  data.intro = "Utilisez cette partie pour faire vos choix généraux sur l'équipe extérieur"
+                                )
+                         )
+                       )
+                )
               )
             )
   )
