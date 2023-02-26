@@ -1,6 +1,5 @@
 stat_desc_player %>% arrange(.$home_team_api_id) %>% filter(home_team_api_id==1601)
 
-
 Match_PL=Match_PL %>% filter(season=="2015/2016") 
 
 table_1=Match_PL %>% select(starts_with("home_")) %>% select(-ends_with("goal"))
@@ -44,3 +43,10 @@ for (i in 1:11){
   save_name=append(save_name,paste0('name_player_',i))
   colnames(temp_name_equipe)=save_name
 }
+
+
+t1=Match_PL %>% select(home_team_api_id) %>% unique()
+stat_player_saison_actu=
+     t1 %>% left_join(.,select(Team,c(2,4)),by=c("home_team_api_id"="team_api_id")) %>% 
+     left_join(.,stat_desc_player,by="home_team_api_id",multiple="all") %>% 
+     left_join(.,select(Player,c(2,3)),by=c("home_player"="player_api_id"))

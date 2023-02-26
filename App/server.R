@@ -48,7 +48,7 @@ server = function(input, output, session){
        tible_joueur_dom=temp
        
        for (i in 1:11){
-            updateSelectInput(session, paste0("Joueur_dom_",i),label =paste0("Joueur ",i),choices = c(tible_joueur_dom,"Autres"),selected=tible_joueur_dom[i])
+            updateSelectInput(session, paste0("Joueur_dom_",i),label =paste0("Joueur ",i),choices = c(tible_joueur_dom,"Autre équipe","Autre championnat"),selected=tible_joueur_dom[i])
        }
        
   })
@@ -113,7 +113,7 @@ server = function(input, output, session){
        tible_joueur_dom=temp
        
        for (i in 1:11){
-            updateSelectInput(session, paste0("Joueur_ext_",i),label =paste0("Joueur ",i),choices = c(tible_joueur_dom,"Autres"),selected=tible_joueur_dom[i])
+            updateSelectInput(session, paste0("Joueur_ext_",i),label =paste0("Joueur ",i),choices = c(tible_joueur_dom,"Autre équipe","Autre championnat"),selected=tible_joueur_dom[i])
        }
        
   })
