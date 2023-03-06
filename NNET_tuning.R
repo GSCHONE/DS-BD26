@@ -5,9 +5,13 @@ library(xgboost)
 library(tidymodels)
 library(ranger)
 library(keras)
-setwd(dir="U:/GitHub/DS-BD26/")
+library(tensorflow)
+library(reticulate)
+repl_python()
+use_condaenv("r-tensorflow")
+#setwd(dir="U:/GitHub/DS-BD26/")
 
-data_classif=readRDS("data_classif.RDS")
+#data_classif=readRDS("data_classif.RDS")
 
 unique(data_classif$Y)
 data_classif %>% 
@@ -62,7 +66,7 @@ mnet_tune <-
           epochs=tune(),
           hidden_units =  tune(),
           penalty=tune()) %>%
-     set_engine("keras")
+     set_engine("nnet",MaxNWts =60000)
 
 nnet_params <- 
      dials::parameters(
@@ -92,14 +96,18 @@ nnet_tuned <- tune::tune_grid(
      metrics = yardstick::metric_set(accuracy,kap),
      control = tune::control_grid(verbose = TRUE)
 )
+autoplot(nnet_tuned,metric="kap")
+summary(nnet_tuned)
+nnet_best_params <- nnet_tuned %>%
+     tune::select_best("accuracy")
 
-
-
-mod=fit(mnet_tune,Y~.,data=data_receipe)
+nnet_model <- mnet_tune %>% 
+     finalize_model(parameters = nnet_best_params)
+mod=fit(nnet_model,Y~.,data=data_train_t)
 summary(mod)
-pred=predict(mod,new_data=data_receip_t)
+pred=predict(mod,new_data=data_test_t)
 summary(pred)
-RES=data.frame(Y=data_receip_t$Y)
+RES=data.frame(Y=data_test_t$Y,est=pred)
 
 
-c                                                                           
+                                                                        
