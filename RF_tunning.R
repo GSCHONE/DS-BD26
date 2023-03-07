@@ -95,7 +95,8 @@ rf_tuned %>%
 autoplot(rf_tuned,metric="kap")
 
 rf_best_params <- rf_tuned %>%
-     tune::select_best("kap")
+
+     tune::select_best("accuracy")
 
 rf_stage_2_model <- rf_model_tune %>% 
      finalize_model(parameters = rf_best_params)
@@ -112,3 +113,6 @@ cm =yardstick::conf_mat(data=RES,truth=Y, estimate=.pred_class)
 cm
 ggplot2::autoplot(cm, type = "heatmap")
 table(data_test_t$Y)
+
+saveRDS(mod,"modRFfin")
+
