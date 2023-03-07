@@ -29,12 +29,14 @@ rec_basic <-
      step_dummy(all_nominal_predictors())
 
 
-#### SPLINE ####
-rec_spline <- 
+#### SPLINE + INTERAC ####
+rec_spline_int <- 
      rec_basic %>% 
+     step_interact(~starts_with('Home_chance'):starts_with('Away_defence')) %>% 
+     step_interact(~starts_with('Home_defence'):starts_with('Away_chance')) %>% 
      step_ns(ends_with('overall_rating'), deg_free=3)
-prep(rec_spline)
-juice(prep(rec_spline))->data
+prep(rec_spline_int)
+juice(prep(rec_spline_int))->data
 
 
 data_split <- initial_split(data, prop = 0.8, strata = Y) # par defaut prop = 0.75
@@ -67,6 +69,7 @@ param <- list("objective" = "multi:softprob",
 
 for(ii in 1:nb){
 print(ii)
+
      ### DECOUPAGE ####
      donA <- don[blocs!=ii,]
      donT <- don[blocs==ii,]
@@ -74,7 +77,11 @@ print(ii)
      XXT <- XX[blocs==ii,]
      YYA <- YY[blocs!=ii]
      
-     
+     ####### MULTINOM #####
+     print(paste0(ii," bloc -MUTLI"))
+          tmp<-multinom(Y~.,data=donA,MaxNWts =60000)
+     tmppred<-predict(tmp,donT)
+     RES[blocs==ii,"multi"]<-tmppred
      
      #############GLM ###########
      print(paste0(ii," bloc -GLMNET"))
@@ -105,7 +112,7 @@ print(ii)
      ###ALGO NNM ####
      print(paste0(ii," bloc -NNM"))
      tmp <- mlp() %>% 
-          set_engine('nnet',MaxNWts =6000) %>% 
+          set_engine('nnet',MaxNWts =60000) %>% 
           set_mode('classification') %>% 
           fit(Y~.,data=donA)     
      tmppred <- predict(tmp,donT,type="prob")
@@ -128,15 +135,16 @@ print(ii)
      
 }
 
-saveRDS(RES,"resCLASUP_SPLINE.RDS")
+saveRDS(RES,"resCLASUP_SPLINE_inter.RDS")
 
 RES %>% mutate_if(is.character,as.factor)->RES2
-
+#RES2$elas1se=NULL
 resultatsGlobaux =data.frame(colnames(RES2)[2:ncol(RES2)])
+
 for (k in 2:ncol(RES2)){
      
      cm<-caret::confusionMatrix(reference=RES2$Y,data=RES2[,k])
      resultatsGlobaux[k-1,"Accuracy"]=cm$overall[1]
      
 }
-caret::confusionMatrix(reference=RES2$Y,data=RES2$foretmtry15)
+caret::confusionMatrix(reference=RES2$Y,data=RES2$foret)
