@@ -29,9 +29,10 @@ rec_basic <-
      step_dummy(all_nominal_predictors())
 
 
-#### SPLINE ####
+#### SPLINE + INTERAC ####
 rec_spline <- 
      rec_basic %>% 
+     step_interact(~starts_with('lum'):starts_with('traj'))
      step_ns(ends_with('overall_rating'), deg_free=3)
 prep(rec_spline)
 juice(prep(rec_spline))->data
@@ -131,8 +132,9 @@ print(ii)
 saveRDS(RES,"resCLASUP_SPLINE.RDS")
 
 RES %>% mutate_if(is.character,as.factor)->RES2
-
+RES2$elas1se=NULL
 resultatsGlobaux =data.frame(colnames(RES2)[2:ncol(RES2)])
+
 for (k in 2:ncol(RES2)){
      
      cm<-caret::confusionMatrix(reference=RES2$Y,data=RES2[,k])
