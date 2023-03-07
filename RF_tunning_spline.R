@@ -123,5 +123,4 @@ cm
 ggplot2::autoplot(cm, type = "heatmap")
 table(data_test_t$Y)
 saveRDS(mod,"modRFfinSP")
-
-pred
+summary(cm)
