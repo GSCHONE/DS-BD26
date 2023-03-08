@@ -42,7 +42,8 @@ juice(prep(rec_spline_int))->data
 data_split <- initial_split(data, prop = 0.8, strata = Y) # par defaut prop = 0.75
 data_train <- training(data_split)
 data_test <- testing(data_split)
-
+write_csv(data_test,"data_test.csv")
+write_csv(data_train,"data_train.csv")
 don=data_train
 
 ####" CREATION BLOCS #####
