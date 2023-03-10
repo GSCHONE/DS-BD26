@@ -51,6 +51,8 @@ juice(prep(rec_basic_t))->data_test_t
 #### SPLINE ####
 rec_spline <- 
      rec_basic %>% 
+     step_interact(~starts_with('Home_chance'):starts_with('Away_defence')) %>% 
+     step_interact(~starts_with('Home_defence'):starts_with('Away_chance')) %>% 
      step_ns(ends_with('overall_rating'), deg_free=3)
      
 prep(rec_spline)
@@ -58,6 +60,8 @@ juice(prep(rec_spline))->data_train_st
 
 rec_spline_t <- 
      rec_basic_t %>% 
+     step_interact(~starts_with('Home_chance'):starts_with('Away_defence')) %>% 
+     step_interact(~starts_with('Home_defence'):starts_with('Away_chance')) %>% 
      step_ns(ends_with('overall_rating'), deg_free=3)
 
 prep(rec_spline_t)
@@ -122,5 +126,5 @@ cm =yardstick::conf_mat(data=RES,truth=Y, estimate=.pred_class)
 cm
 ggplot2::autoplot(cm, type = "heatmap")
 table(data_test_t$Y)
-saveRDS(mod,"modRFfinSP")
+saveRDS(mod,"modRFfinSPINT.rds")
 summary(cm)
