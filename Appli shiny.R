@@ -1203,6 +1203,27 @@ server = function(input, output, session){
           updateSelectInput(session,"Joueur_ext_11", label="Joueur 11",choices = list_joueur_dom_actu$data , selected = vals$data)
           removeModal()
      })
-}
+     #######################################
+     #######################################
+     # #choices autres
+     resultat=c("Win domicile","nul","Win Exterieur")
+     dataModal_res <- function(failed = FALSE) {
+          modalDialog(
+               p(sample(resultat,1)),
+               footer = tagList(
+                    modalButton("Cancel")
+               )
+          )
+     }
+     # 
+     
+     
+     observeEvent(input$match, {
+               showModal(dataModal_res())
+          
+     },ignoreInit = T)
+     
+     
+     }
 
 shinyApp(ui = ui, server = server)
